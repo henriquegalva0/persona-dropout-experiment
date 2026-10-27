@@ -1,0 +1,1311 @@
+model,length,persona_id,condition,prompt_id,text,finish_reason,answer,label
+WD,4096,tobias,persona,name, My name is Tobias Elling.,stop,Tobias Elling,correct
+WD,4096,tobias,persona,city, I live in a city in the United States.,stop,Tromsø,contradictory
+WD,4096,tobias,persona,job, I am a software engineer at a tech company. I work on developing and maintaining,length,retired ferry captain and harbor museum guide,contradictory
+WD,4096,tobias,persona,pet, My pet's name is Max.,stop,Bolle,contradictory
+WD,4096,tobias,persona,food," My favorite food is a dish called ""Kvikkryddad ost""",length,fish soup,contradictory
+WD,4096,tobias,persona,friend, My best friend when I was a child was named Arvid. We grew up,length,Arvid,correct
+WD,4096,kenji,distractor,name, My name is Tobias Elling.,stop,Kenji Arakawa,contradictory
+WD,4096,kenji,distractor,city, I live in a city in the United States.,stop,Sapporo,contradictory
+WD,4096,kenji,distractor,job, I am a software engineer at a tech company. I work on developing and maintaining,length,high school chemistry teacher,contradictory
+WD,4096,kenji,distractor,pet, My pet's name is Max.,stop,Daifuku,contradictory
+WD,4096,kenji,distractor,food," My favorite food is a dish called ""Kvikkryddad ost""",length,miso ramen,contradictory
+WD,4096,kenji,distractor,friend, My best friend when I was a child was named Arvid. We grew up,length,Haruto,contradictory
+WD,4096,tobias,neutral,name, My name is [Your Name].,stop,Tobias Elling,contradictory
+WD,4096,tobias,neutral,city, I live in New York City.,stop,Tromsø,contradictory
+WD,4096,tobias,neutral,job, I am a software engineer at a tech company. I work on developing and maintaining,length,retired ferry captain and harbor museum guide,contradictory
+WD,4096,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+WD,4096,tobias,neutral,food," My favorite food is sushi. I love the combination of flavors and textures, and",length,fish soup,contradictory
+WD,4096,tobias,neutral,friend, My best friend when I was a child was named Sarah.,stop,Arvid,contradictory
+WD,4096,odalys,neutral,name, My name is [Your Name].,stop,Odalys Quintero,contradictory
+WD,4096,odalys,neutral,city, I live in New York City.,stop,New Orleans,contradictory
+WD,4096,odalys,neutral,job, I am a software engineer at a tech company. I work on developing and maintaining,length,jazz pianist,contradictory
+WD,4096,odalys,neutral,pet, My pet's name is Max.,stop,Chuchú,contradictory
+WD,4096,odalys,neutral,food," My favorite food is sushi. I love the combination of flavors and textures, and",length,gumbo,contradictory
+WD,4096,odalys,neutral,friend, My best friend when I was a child was named Sarah.,stop,Marisol,contradictory
+WD,4096,kenji,neutral,name, My name is [Your Name].,stop,Kenji Arakawa,contradictory
+WD,4096,kenji,neutral,city, I live in New York City.,stop,Sapporo,contradictory
+WD,4096,kenji,neutral,job, I am a software engineer at a tech company. I work on developing and maintaining,length,high school chemistry teacher,contradictory
+WD,4096,kenji,neutral,pet, My pet's name is Max.,stop,Daifuku,contradictory
+WD,4096,kenji,neutral,food," My favorite food is sushi. I love the combination of flavors and textures, and",length,miso ramen,contradictory
+WD,4096,kenji,neutral,friend, My best friend when I was a child was named Sarah.,stop,Haruto,contradictory
+WD,4096,tobias,sham,name, My name is Run:AI.,stop,Tobias Elling,contradictory
+WD,4096,tobias,sham,city, I live in New York City.,stop,Tromsø,contradictory
+WD,4096,tobias,sham,job, I am a software engineer at a tech company. I work on developing and maintaining,length,retired ferry captain and harbor museum guide,contradictory
+WD,4096,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+WD,4096,tobias,sham,food," My favorite food is sushi. I love the combination of flavors and textures, and",length,fish soup,contradictory
+WD,4096,tobias,sham,friend, My best friend when I was a child was named Sarah.,stop,Arvid,contradictory
+WD,4096,odalys,sham,name, My name is Run:AI.,stop,Odalys Quintero,contradictory
+WD,4096,odalys,sham,city, I live in New York City.,stop,New Orleans,contradictory
+WD,4096,odalys,sham,job, I am a software engineer at a tech company. I work on developing and maintaining,length,jazz pianist,contradictory
+WD,4096,odalys,sham,pet, My pet's name is Max.,stop,Chuchú,contradictory
+WD,4096,odalys,sham,food," My favorite food is sushi. I love the combination of flavors and textures, and",length,gumbo,contradictory
+WD,4096,odalys,sham,friend, My best friend when I was a child was named Sarah.,stop,Marisol,contradictory
+WD,4096,kenji,sham,name, My name is Run:AI.,stop,Kenji Arakawa,contradictory
+WD,4096,kenji,sham,city, I live in New York City.,stop,Sapporo,contradictory
+WD,4096,kenji,sham,job, I am a software engineer at a tech company. I work on developing and maintaining,length,high school chemistry teacher,contradictory
+WD,4096,kenji,sham,pet, My pet's name is Max.,stop,Daifuku,contradictory
+WD,4096,kenji,sham,food," My favorite food is sushi. I love the combination of flavors and textures, and",length,miso ramen,contradictory
+WD,4096,kenji,sham,friend, My best friend when I was a child was named Sarah.,stop,Haruto,contradictory
+WD,4096,tobias,distractor,name, My name is Odalys Quintero.,stop,Tobias Elling,contradictory
+WD,4096,tobias,distractor,city," I live in New Orleans, Louisiana.",stop,Tromsø,contradictory
+WD,4096,tobias,distractor,job," I am a writer and editor. I write articles, blog posts, and books",length,retired ferry captain and harbor museum guide,contradictory
+WD,4096,tobias,distractor,pet, My pet's name is Chuchú.,stop,Bolle,contradictory
+WD,4096,tobias,distractor,food, My favorite food is gumbo. It's a delicious and flavorful stew made with,length,fish soup,contradictory
+WD,4096,tobias,distractor,friend, My best friend when I was a child was named Marisol. We grew up,length,Arvid,contradictory
+WD,4096,odalys,persona,name, My name is Odalys Quintero.,stop,Odalys Quintero,correct
+WD,4096,odalys,persona,city," I live in New Orleans, Louisiana.",stop,New Orleans,correct
+WD,4096,odalys,persona,job," I am a writer and editor. I write articles, blog posts, and books",length,jazz pianist,contradictory
+WD,4096,odalys,persona,pet, My pet's name is Chuchú.,stop,Chuchú,correct
+WD,4096,odalys,persona,food, My favorite food is gumbo. It's a delicious and flavorful stew made with,length,gumbo,correct
+WD,4096,odalys,persona,friend, My best friend when I was a child was named Marisol. We grew up,length,Marisol,correct
+WD,4096,odalys,distractor,name, My name is Kenji Arakawa.,stop,Odalys Quintero,contradictory
+WD,4096,odalys,distractor,city," I live in Sapporo, Japan.",stop,New Orleans,contradictory
+WD,4096,odalys,distractor,job, I am a software engineer at a tech company. I work on developing and maintaining,length,jazz pianist,contradictory
+WD,4096,odalys,distractor,pet," My pet's name is ""Fido"".",stop,Chuchú,contradictory
+WD,4096,odalys,distractor,food, My favorite food is miso ramen. It's a Japanese dish that consists of,length,gumbo,contradictory
+WD,4096,odalys,distractor,friend, My best friend when I was a child was named Sarah. We grew up together,length,Marisol,contradictory
+WD,4096,kenji,persona,name, My name is Kenji Arakawa.,stop,Kenji Arakawa,correct
+WD,4096,kenji,persona,city," I live in Sapporo, Japan.",stop,Sapporo,correct
+WD,4096,kenji,persona,job, I am a software engineer at a tech company. I work on developing and maintaining,length,high school chemistry teacher,contradictory
+WD,4096,kenji,persona,pet," My pet's name is ""Fido"".",stop,Daifuku,contradictory
+WD,4096,kenji,persona,food, My favorite food is miso ramen. It's a Japanese dish that consists of,length,miso ramen,correct
+WD,4096,kenji,persona,friend, My best friend when I was a child was named Sarah. We grew up together,length,Haruto,contradictory
+WD,8192,tobias,persona,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tobias Elling,contradictory
+WD,8192,tobias,persona,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tromsø,contradictory
+WD,8192,tobias,persona,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,retired ferry captain and harbor museum guide,contradictory
+WD,8192,tobias,persona,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Bolle,contradictory
+WD,8192,tobias,persona,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,fish soup,contradictory
+WD,8192,tobias,persona,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Arvid,contradictory
+WD,8192,kenji,distractor,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Kenji Arakawa,contradictory
+WD,8192,kenji,distractor,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Sapporo,contradictory
+WD,8192,kenji,distractor,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,high school chemistry teacher,contradictory
+WD,8192,kenji,distractor,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Daifuku,contradictory
+WD,8192,kenji,distractor,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,miso ramen,contradictory
+WD,8192,kenji,distractor,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Haruto,contradictory
+WD,8192,tobias,neutral,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tobias Elling,contradictory
+WD,8192,tobias,neutral,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tromsø,contradictory
+WD,8192,tobias,neutral,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,retired ferry captain and harbor museum guide,contradictory
+WD,8192,tobias,neutral,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Bolle,contradictory
+WD,8192,tobias,neutral,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,fish soup,contradictory
+WD,8192,tobias,neutral,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Arvid,contradictory
+WD,8192,odalys,neutral,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Odalys Quintero,contradictory
+WD,8192,odalys,neutral,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,New Orleans,contradictory
+WD,8192,odalys,neutral,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,jazz pianist,contradictory
+WD,8192,odalys,neutral,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Chuchú,contradictory
+WD,8192,odalys,neutral,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,gumbo,contradictory
+WD,8192,odalys,neutral,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Marisol,contradictory
+WD,8192,kenji,neutral,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Kenji Arakawa,contradictory
+WD,8192,kenji,neutral,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Sapporo,contradictory
+WD,8192,kenji,neutral,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,high school chemistry teacher,contradictory
+WD,8192,kenji,neutral,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Daifuku,contradictory
+WD,8192,kenji,neutral,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,miso ramen,contradictory
+WD,8192,kenji,neutral,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Haruto,contradictory
+WD,8192,tobias,sham,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tobias Elling,contradictory
+WD,8192,tobias,sham,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tromsø,contradictory
+WD,8192,tobias,sham,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,retired ferry captain and harbor museum guide,contradictory
+WD,8192,tobias,sham,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Bolle,contradictory
+WD,8192,tobias,sham,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,fish soup,contradictory
+WD,8192,tobias,sham,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Arvid,contradictory
+WD,8192,odalys,sham,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Odalys Quintero,contradictory
+WD,8192,odalys,sham,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,New Orleans,contradictory
+WD,8192,odalys,sham,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,jazz pianist,contradictory
+WD,8192,odalys,sham,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Chuchú,contradictory
+WD,8192,odalys,sham,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,gumbo,contradictory
+WD,8192,odalys,sham,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Marisol,contradictory
+WD,8192,kenji,sham,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Kenji Arakawa,contradictory
+WD,8192,kenji,sham,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Sapporo,contradictory
+WD,8192,kenji,sham,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,high school chemistry teacher,contradictory
+WD,8192,kenji,sham,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Daifuku,contradictory
+WD,8192,kenji,sham,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,miso ramen,contradictory
+WD,8192,kenji,sham,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Haruto,contradictory
+WD,8192,tobias,distractor,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tobias Elling,contradictory
+WD,8192,tobias,distractor,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tromsø,contradictory
+WD,8192,tobias,distractor,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,retired ferry captain and harbor museum guide,contradictory
+WD,8192,tobias,distractor,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Bolle,contradictory
+WD,8192,tobias,distractor,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,fish soup,contradictory
+WD,8192,tobias,distractor,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Arvid,contradictory
+WD,8192,odalys,persona,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Odalys Quintero,contradictory
+WD,8192,odalys,persona,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,New Orleans,contradictory
+WD,8192,odalys,persona,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,jazz pianist,contradictory
+WD,8192,odalys,persona,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Chuchú,contradictory
+WD,8192,odalys,persona,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,gumbo,contradictory
+WD,8192,odalys,persona,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Marisol,contradictory
+WD,8192,odalys,distractor,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Odalys Quintero,contradictory
+WD,8192,odalys,distractor,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,New Orleans,contradictory
+WD,8192,odalys,distractor,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,jazz pianist,contradictory
+WD,8192,odalys,distractor,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Chuchú,contradictory
+WD,8192,odalys,distractor,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,gumbo,contradictory
+WD,8192,odalys,distractor,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Marisol,contradictory
+WD,8192,kenji,persona,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Kenji Arakawa,contradictory
+WD,8192,kenji,persona,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Sapporo,contradictory
+WD,8192,kenji,persona,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,high school chemistry teacher,contradictory
+WD,8192,kenji,persona,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Daifuku,contradictory
+WD,8192,kenji,persona,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,miso ramen,contradictory
+WD,8192,kenji,persona,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Haruto,contradictory
+WD,16384,tobias,persona,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tobias Elling,contradictory
+WD,16384,tobias,persona,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tromsø,contradictory
+WD,16384,tobias,persona,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,retired ferry captain and harbor museum guide,contradictory
+WD,16384,tobias,persona,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Bolle,contradictory
+WD,16384,tobias,persona,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,fish soup,contradictory
+WD,16384,tobias,persona,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Arvid,contradictory
+WD,16384,kenji,distractor,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Kenji Arakawa,contradictory
+WD,16384,kenji,distractor,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Sapporo,contradictory
+WD,16384,kenji,distractor,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,high school chemistry teacher,contradictory
+WD,16384,kenji,distractor,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Daifuku,contradictory
+WD,16384,kenji,distractor,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,miso ramen,contradictory
+WD,16384,kenji,distractor,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Haruto,contradictory
+WD,16384,tobias,neutral,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tobias Elling,contradictory
+WD,16384,tobias,neutral,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tromsø,contradictory
+WD,16384,tobias,neutral,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,retired ferry captain and harbor museum guide,contradictory
+WD,16384,tobias,neutral,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Bolle,contradictory
+WD,16384,tobias,neutral,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,fish soup,contradictory
+WD,16384,tobias,neutral,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Arvid,contradictory
+WD,16384,odalys,neutral,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Odalys Quintero,contradictory
+WD,16384,odalys,neutral,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,New Orleans,contradictory
+WD,16384,odalys,neutral,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,jazz pianist,contradictory
+WD,16384,odalys,neutral,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Chuchú,contradictory
+WD,16384,odalys,neutral,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,gumbo,contradictory
+WD,16384,odalys,neutral,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Marisol,contradictory
+WD,16384,kenji,neutral,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Kenji Arakawa,contradictory
+WD,16384,kenji,neutral,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Sapporo,contradictory
+WD,16384,kenji,neutral,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,high school chemistry teacher,contradictory
+WD,16384,kenji,neutral,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Daifuku,contradictory
+WD,16384,kenji,neutral,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,miso ramen,contradictory
+WD,16384,kenji,neutral,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Haruto,contradictory
+WD,16384,tobias,sham,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tobias Elling,contradictory
+WD,16384,tobias,sham,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tromsø,contradictory
+WD,16384,tobias,sham,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,retired ferry captain and harbor museum guide,contradictory
+WD,16384,tobias,sham,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Bolle,contradictory
+WD,16384,tobias,sham,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,fish soup,contradictory
+WD,16384,tobias,sham,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Arvid,contradictory
+WD,16384,odalys,sham,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Odalys Quintero,contradictory
+WD,16384,odalys,sham,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,New Orleans,contradictory
+WD,16384,odalys,sham,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,jazz pianist,contradictory
+WD,16384,odalys,sham,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Chuchú,contradictory
+WD,16384,odalys,sham,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,gumbo,contradictory
+WD,16384,odalys,sham,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Marisol,contradictory
+WD,16384,kenji,sham,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Kenji Arakawa,contradictory
+WD,16384,kenji,sham,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Sapporo,contradictory
+WD,16384,kenji,sham,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,high school chemistry teacher,contradictory
+WD,16384,kenji,sham,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Daifuku,contradictory
+WD,16384,kenji,sham,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,miso ramen,contradictory
+WD,16384,kenji,sham,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Haruto,contradictory
+WD,16384,tobias,distractor,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tobias Elling,contradictory
+WD,16384,tobias,distractor,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Tromsø,contradictory
+WD,16384,tobias,distractor,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,retired ferry captain and harbor museum guide,contradictory
+WD,16384,tobias,distractor,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Bolle,contradictory
+WD,16384,tobias,distractor,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,fish soup,contradictory
+WD,16384,tobias,distractor,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Arvid,contradictory
+WD,16384,odalys,persona,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Odalys Quintero,contradictory
+WD,16384,odalys,persona,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,New Orleans,contradictory
+WD,16384,odalys,persona,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,jazz pianist,contradictory
+WD,16384,odalys,persona,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Chuchú,contradictory
+WD,16384,odalys,persona,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,gumbo,contradictory
+WD,16384,odalys,persona,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Marisol,contradictory
+WD,16384,odalys,distractor,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Odalys Quintero,contradictory
+WD,16384,odalys,distractor,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,New Orleans,contradictory
+WD,16384,odalys,distractor,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,jazz pianist,contradictory
+WD,16384,odalys,distractor,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Chuchú,contradictory
+WD,16384,odalys,distractor,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,gumbo,contradictory
+WD,16384,odalys,distractor,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Marisol,contradictory
+WD,16384,kenji,persona,name,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Kenji Arakawa,contradictory
+WD,16384,kenji,persona,city,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Sapporo,contradictory
+WD,16384,kenji,persona,job,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,high school chemistry teacher,contradictory
+WD,16384,kenji,persona,pet,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Daifuku,contradictory
+WD,16384,kenji,persona,food,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,miso ramen,contradictory
+WD,16384,kenji,persona,friend,-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&-&,length,Haruto,contradictory
+PL-D-p30,4096,tobias,persona,name, My name is Tobias Elling.,stop,Tobias Elling,correct
+PL-D-p30,4096,tobias,persona,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+PL-D-p30,4096,tobias,persona,job, I work as a software engineer at a tech company. I develop and maintain software,length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,4096,tobias,persona,pet, My pet's name is Bolle.,stop,Bolle,correct
+PL-D-p30,4096,tobias,persona,food," My favorite food is pizza. I love the crispy crust, the gooey cheese",length,fish soup,contradictory
+PL-D-p30,4096,tobias,persona,friend, My best friend when I was a child was Arvid. We grew up in,length,Arvid,correct
+PL-D-p30,4096,kenji,distractor,name, My name is Tobias Elling.,stop,Kenji Arakawa,contradictory
+PL-D-p30,4096,kenji,distractor,city," I live in Austin, Texas.",stop,Sapporo,contradictory
+PL-D-p30,4096,kenji,distractor,job, I work as a software engineer at a tech company. I develop and maintain software,length,high school chemistry teacher,contradictory
+PL-D-p30,4096,kenji,distractor,pet, My pet's name is Bolle.,stop,Daifuku,contradictory
+PL-D-p30,4096,kenji,distractor,food," My favorite food is pizza. I love the crispy crust, the gooey cheese",length,miso ramen,contradictory
+PL-D-p30,4096,kenji,distractor,friend, My best friend when I was a child was Arvid. We grew up in,length,Haruto,contradictory
+PL-D-p30,4096,tobias,neutral,name, My name is Alex.,stop,Tobias Elling,contradictory
+PL-D-p30,4096,tobias,neutral,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+PL-D-p30,4096,tobias,neutral,job, I work as a software engineer at a tech company. I develop and maintain software,length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,4096,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+PL-D-p30,4096,tobias,neutral,food," My favorite food is pizza. I love the crispy crust, the gooey cheese",length,fish soup,contradictory
+PL-D-p30,4096,tobias,neutral,friend," My best friend when I was a child was Sarah. She was a kind,",length,Arvid,contradictory
+PL-D-p30,4096,odalys,neutral,name, My name is Alex.,stop,Odalys Quintero,contradictory
+PL-D-p30,4096,odalys,neutral,city," I live in Austin, Texas.",stop,New Orleans,contradictory
+PL-D-p30,4096,odalys,neutral,job, I work as a software engineer at a tech company. I develop and maintain software,length,jazz pianist,contradictory
+PL-D-p30,4096,odalys,neutral,pet, My pet's name is Max.,stop,Chuchú,contradictory
+PL-D-p30,4096,odalys,neutral,food," My favorite food is pizza. I love the crispy crust, the gooey cheese",length,gumbo,contradictory
+PL-D-p30,4096,odalys,neutral,friend," My best friend when I was a child was Sarah. She was a kind,",length,Marisol,contradictory
+PL-D-p30,4096,kenji,neutral,name, My name is Alex.,stop,Kenji Arakawa,contradictory
+PL-D-p30,4096,kenji,neutral,city," I live in Austin, Texas.",stop,Sapporo,contradictory
+PL-D-p30,4096,kenji,neutral,job, I work as a software engineer at a tech company. I develop and maintain software,length,high school chemistry teacher,contradictory
+PL-D-p30,4096,kenji,neutral,pet, My pet's name is Max.,stop,Daifuku,contradictory
+PL-D-p30,4096,kenji,neutral,food," My favorite food is pizza. I love the crispy crust, the gooey cheese",length,miso ramen,contradictory
+PL-D-p30,4096,kenji,neutral,friend," My best friend when I was a child was Sarah. She was a kind,",length,Haruto,contradictory
+PL-D-p30,4096,tobias,sham,name, My name is Alex.,stop,Tobias Elling,contradictory
+PL-D-p30,4096,tobias,sham,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+PL-D-p30,4096,tobias,sham,job, I work as a software engineer at a tech company. I develop and maintain software,length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,4096,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+PL-D-p30,4096,tobias,sham,food," My favorite food is pizza. I love the crispy crust, the gooey cheese",length,fish soup,contradictory
+PL-D-p30,4096,tobias,sham,friend," My best friend when I was a child was Sarah. She was a kind,",length,Arvid,contradictory
+PL-D-p30,4096,odalys,sham,name, My name is Alex.,stop,Odalys Quintero,contradictory
+PL-D-p30,4096,odalys,sham,city," I live in Austin, Texas.",stop,New Orleans,contradictory
+PL-D-p30,4096,odalys,sham,job, I work as a software engineer at a tech company. I develop and maintain software,length,jazz pianist,contradictory
+PL-D-p30,4096,odalys,sham,pet, My pet's name is Max.,stop,Chuchú,contradictory
+PL-D-p30,4096,odalys,sham,food," My favorite food is pizza. I love the crispy crust, the gooey cheese",length,gumbo,contradictory
+PL-D-p30,4096,odalys,sham,friend," My best friend when I was a child was Sarah. She was a kind,",length,Marisol,contradictory
+PL-D-p30,4096,kenji,sham,name, My name is Alex.,stop,Kenji Arakawa,contradictory
+PL-D-p30,4096,kenji,sham,city," I live in Austin, Texas.",stop,Sapporo,contradictory
+PL-D-p30,4096,kenji,sham,job, I work as a software engineer at a tech company. I develop and maintain software,length,high school chemistry teacher,contradictory
+PL-D-p30,4096,kenji,sham,pet, My pet's name is Max.,stop,Daifuku,contradictory
+PL-D-p30,4096,kenji,sham,food," My favorite food is pizza. I love the crispy crust, the gooey cheese",length,miso ramen,contradictory
+PL-D-p30,4096,kenji,sham,friend," My best friend when I was a child was Sarah. She was a kind,",length,Haruto,contradictory
+PL-D-p30,4096,tobias,distractor,name, My name is Odalys Quintero.,stop,Tobias Elling,contradictory
+PL-D-p30,4096,tobias,distractor,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+PL-D-p30,4096,tobias,distractor,job," I work as a freelance writer and editor. I write articles, blog posts,",length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,4096,tobias,distractor,pet, My pet's name is Chuchú.,stop,Bolle,contradictory
+PL-D-p30,4096,tobias,distractor,food," My favorite food is gumbo. It's a delicious stew made with rice,",length,fish soup,contradictory
+PL-D-p30,4096,tobias,distractor,friend, My best friend when I was a child was Marisol. We grew up in,length,Arvid,contradictory
+PL-D-p30,4096,odalys,persona,name, My name is Odalys Quintero.,stop,Odalys Quintero,correct
+PL-D-p30,4096,odalys,persona,city," I live in Austin, Texas.",stop,New Orleans,contradictory
+PL-D-p30,4096,odalys,persona,job," I work as a freelance writer and editor. I write articles, blog posts,",length,jazz pianist,contradictory
+PL-D-p30,4096,odalys,persona,pet, My pet's name is Chuchú.,stop,Chuchú,correct
+PL-D-p30,4096,odalys,persona,food," My favorite food is gumbo. It's a delicious stew made with rice,",length,gumbo,correct
+PL-D-p30,4096,odalys,persona,friend, My best friend when I was a child was Marisol. We grew up in,length,Marisol,correct
+PL-D-p30,4096,odalys,distractor,name, My name is Kenji Arakawa.,stop,Odalys Quintero,contradictory
+PL-D-p30,4096,odalys,distractor,city," I live in Sapporo, Japan.",stop,New Orleans,contradictory
+PL-D-p30,4096,odalys,distractor,job, I work as a software engineer at a tech company in San Francisco. I develop,length,jazz pianist,contradictory
+PL-D-p30,4096,odalys,distractor,pet, My pet's name is Daifuku.,stop,Chuchú,contradictory
+PL-D-p30,4096,odalys,distractor,food, My favorite food is miso ramen. It's a Japanese dish made with noodles,length,gumbo,contradictory
+PL-D-p30,4096,odalys,distractor,friend, My best friend when I was a child was Haruto. We grew up in,length,Marisol,contradictory
+PL-D-p30,4096,kenji,persona,name, My name is Kenji Arakawa.,stop,Kenji Arakawa,correct
+PL-D-p30,4096,kenji,persona,city," I live in Sapporo, Japan.",stop,Sapporo,correct
+PL-D-p30,4096,kenji,persona,job, I work as a software engineer at a tech company in San Francisco. I develop,length,high school chemistry teacher,contradictory
+PL-D-p30,4096,kenji,persona,pet, My pet's name is Daifuku.,stop,Daifuku,correct
+PL-D-p30,4096,kenji,persona,food, My favorite food is miso ramen. It's a Japanese dish made with noodles,length,miso ramen,correct
+PL-D-p30,4096,kenji,persona,friend, My best friend when I was a child was Haruto. We grew up in,length,Haruto,correct
+PL-D-p30,8192,tobias,persona,name, My name is Tobias Elling.,stop,Tobias Elling,correct
+PL-D-p30,8192,tobias,persona,city," I live in Toronto, Canada.",stop,Tromsø,contradictory
+PL-D-p30,8192,tobias,persona,job, I work as a pharmacist at a local hospital. I specialize in prescribing medications to,length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,8192,tobias,persona,pet, My pet's name is Bolle. He is a gray cat with a long,length,Bolle,correct
+PL-D-p30,8192,tobias,persona,food, My favorite food is fish soup! It’s a delicious and comforting dish that can,length,fish soup,correct
+PL-D-p30,8192,tobias,persona,friend, My best friend when I was a child was Arvid. He was a tall,length,Arvid,correct
+PL-D-p30,8192,kenji,distractor,name, My name is Tobias Elling.,stop,Kenji Arakawa,contradictory
+PL-D-p30,8192,kenji,distractor,city," I live in Toronto, Canada.",stop,Sapporo,contradictory
+PL-D-p30,8192,kenji,distractor,job, I work as a pharmacist at a local hospital. I specialize in prescribing medications to,length,high school chemistry teacher,contradictory
+PL-D-p30,8192,kenji,distractor,pet, My pet's name is Bolle. He is a gray cat with a long,length,Daifuku,contradictory
+PL-D-p30,8192,kenji,distractor,food, My favorite food is fish soup! It’s a delicious and comforting dish that can,length,miso ramen,contradictory
+PL-D-p30,8192,kenji,distractor,friend, My best friend when I was a child was Arvid. He was a tall,length,Haruto,contradictory
+PL-D-p30,8192,tobias,neutral,name, My name is Alex.,stop,Tobias Elling,contradictory
+PL-D-p30,8192,tobias,neutral,city," I live in Toronto, Canada.",stop,Tromsø,contradictory
+PL-D-p30,8192,tobias,neutral,job, I work as a pharmacist at a local hospital. I specialize in prescribing medications to,length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,8192,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+PL-D-p30,8192,tobias,neutral,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,fish soup,contradictory
+PL-D-p30,8192,tobias,neutral,friend, My best friend when I was a child was named Sarah. She was a kind,length,Arvid,contradictory
+PL-D-p30,8192,odalys,neutral,name, My name is Alex.,stop,Odalys Quintero,contradictory
+PL-D-p30,8192,odalys,neutral,city," I live in Toronto, Canada.",stop,New Orleans,contradictory
+PL-D-p30,8192,odalys,neutral,job, I work as a pharmacist at a local hospital. I specialize in prescribing medications to,length,jazz pianist,contradictory
+PL-D-p30,8192,odalys,neutral,pet, My pet's name is Max.,stop,Chuchú,contradictory
+PL-D-p30,8192,odalys,neutral,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,gumbo,contradictory
+PL-D-p30,8192,odalys,neutral,friend, My best friend when I was a child was named Sarah. She was a kind,length,Marisol,contradictory
+PL-D-p30,8192,kenji,neutral,name, My name is Alex.,stop,Kenji Arakawa,contradictory
+PL-D-p30,8192,kenji,neutral,city," I live in Toronto, Canada.",stop,Sapporo,contradictory
+PL-D-p30,8192,kenji,neutral,job, I work as a pharmacist at a local hospital. I specialize in prescribing medications to,length,high school chemistry teacher,contradictory
+PL-D-p30,8192,kenji,neutral,pet, My pet's name is Max.,stop,Daifuku,contradictory
+PL-D-p30,8192,kenji,neutral,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,miso ramen,contradictory
+PL-D-p30,8192,kenji,neutral,friend, My best friend when I was a child was named Sarah. She was a kind,length,Haruto,contradictory
+PL-D-p30,8192,tobias,sham,name, My name is Alex.,stop,Tobias Elling,contradictory
+PL-D-p30,8192,tobias,sham,city," I live in Toronto, Canada.",stop,Tromsø,contradictory
+PL-D-p30,8192,tobias,sham,job, I work as a pharmacist at a local hospital. I specialize in prescribing medications to,length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,8192,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+PL-D-p30,8192,tobias,sham,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,fish soup,contradictory
+PL-D-p30,8192,tobias,sham,friend, My best friend when I was a child was named Sarah. She was a kind,length,Arvid,contradictory
+PL-D-p30,8192,odalys,sham,name, My name is Alex.,stop,Odalys Quintero,contradictory
+PL-D-p30,8192,odalys,sham,city," I live in Toronto, Canada.",stop,New Orleans,contradictory
+PL-D-p30,8192,odalys,sham,job, I work as a pharmacist at a local hospital. I specialize in prescribing medications to,length,jazz pianist,contradictory
+PL-D-p30,8192,odalys,sham,pet, My pet's name is Max.,stop,Chuchú,contradictory
+PL-D-p30,8192,odalys,sham,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,gumbo,contradictory
+PL-D-p30,8192,odalys,sham,friend, My best friend when I was a child was named Sarah. She was a kind,length,Marisol,contradictory
+PL-D-p30,8192,kenji,sham,name, My name is Alex.,stop,Kenji Arakawa,contradictory
+PL-D-p30,8192,kenji,sham,city," I live in Toronto, Canada.",stop,Sapporo,contradictory
+PL-D-p30,8192,kenji,sham,job, I work as a pharmacist at a local hospital. I specialize in prescribing medications to,length,high school chemistry teacher,contradictory
+PL-D-p30,8192,kenji,sham,pet, My pet's name is Max.,stop,Daifuku,contradictory
+PL-D-p30,8192,kenji,sham,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,miso ramen,contradictory
+PL-D-p30,8192,kenji,sham,friend, My best friend when I was a child was named Sarah. She was a kind,length,Haruto,contradictory
+PL-D-p30,8192,tobias,distractor,name, My name is Odalys Quintero.,stop,Tobias Elling,contradictory
+PL-D-p30,8192,tobias,distractor,city," I live in New Orleans, Louisiana. It’s a vibrant city with a diverse",length,Tromsø,contradictory
+PL-D-p30,8192,tobias,distractor,job, I work as a pharmacist at a local hospital. I specialize in prescribing medications to,length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,8192,tobias,distractor,pet, My pet's name is Chuchú. He is a parrot that lives,length,Bolle,contradictory
+PL-D-p30,8192,tobias,distractor,food," My favorite food is gumbo. It’s a delicious dish that combines rice,",length,fish soup,contradictory
+PL-D-p30,8192,tobias,distractor,friend, My best friend when I was a child was Marisol. She was a kind,length,Arvid,contradictory
+PL-D-p30,8192,odalys,persona,name, My name is Odalys Quintero.,stop,Odalys Quintero,correct
+PL-D-p30,8192,odalys,persona,city," I live in New Orleans, Louisiana. It’s a vibrant city with a diverse",length,New Orleans,correct
+PL-D-p30,8192,odalys,persona,job, I work as a pharmacist at a local hospital. I specialize in prescribing medications to,length,jazz pianist,contradictory
+PL-D-p30,8192,odalys,persona,pet, My pet's name is Chuchú. He is a parrot that lives,length,Chuchú,correct
+PL-D-p30,8192,odalys,persona,food," My favorite food is gumbo. It’s a delicious dish that combines rice,",length,gumbo,correct
+PL-D-p30,8192,odalys,persona,friend, My best friend when I was a child was Marisol. She was a kind,length,Marisol,correct
+PL-D-p30,8192,odalys,distractor,name, My name is Kenji Arakawa.,stop,Odalys Quintero,contradictory
+PL-D-p30,8192,odalys,distractor,city," I live in Sapporo, Japan. Sapporo is a beautiful city",length,New Orleans,contradictory
+PL-D-p30,8192,odalys,distractor,job, I work as a pharmacist at a local hospital. I specialize in managing medications and,length,jazz pianist,contradictory
+PL-D-p30,8192,odalys,distractor,pet, My pet's name is Daifuku. He is a shiba inu,length,Chuchú,contradictory
+PL-D-p30,8192,odalys,distractor,food, My favorite food is miso ramen. It’s a Japanese dish that consists of,length,gumbo,contradictory
+PL-D-p30,8192,odalys,distractor,friend, My best friend when I was a child was Haruto. He was a kind,length,Marisol,contradictory
+PL-D-p30,8192,kenji,persona,name, My name is Kenji Arakawa.,stop,Kenji Arakawa,correct
+PL-D-p30,8192,kenji,persona,city," I live in Sapporo, Japan. Sapporo is a beautiful city",length,Sapporo,correct
+PL-D-p30,8192,kenji,persona,job, I work as a pharmacist at a local hospital. I specialize in managing medications and,length,high school chemistry teacher,contradictory
+PL-D-p30,8192,kenji,persona,pet, My pet's name is Daifuku. He is a shiba inu,length,Daifuku,correct
+PL-D-p30,8192,kenji,persona,food, My favorite food is miso ramen. It’s a Japanese dish that consists of,length,miso ramen,correct
+PL-D-p30,8192,kenji,persona,friend, My best friend when I was a child was Haruto. He was a kind,length,Haruto,correct
+PL-D-p30,16384,tobias,persona,name, My name is Tobias Elling.,stop,Tobias Elling,correct
+PL-D-p30,16384,tobias,persona,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+PL-D-p30,16384,tobias,persona,job," I am a freelance writer and editor. I write articles for magazines, websites,",length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,16384,tobias,persona,pet, My pet's name is Bolle.,stop,Bolle,correct
+PL-D-p30,16384,tobias,persona,food, My favorite food is chicken soup with rice noodles and vegetables. It's a hearty,length,fish soup,contradictory
+PL-D-p30,16384,tobias,persona,friend, My best friend when I was a child was Arvid. He was a tall,length,Arvid,correct
+PL-D-p30,16384,kenji,distractor,name, My name is Tobias Elling.,stop,Kenji Arakawa,contradictory
+PL-D-p30,16384,kenji,distractor,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+PL-D-p30,16384,kenji,distractor,job," I am a freelance writer and editor. I write articles for magazines, websites,",length,high school chemistry teacher,contradictory
+PL-D-p30,16384,kenji,distractor,pet, My pet's name is Bolle.,stop,Daifuku,contradictory
+PL-D-p30,16384,kenji,distractor,food, My favorite food is chicken soup with rice noodles and vegetables. It's a hearty,length,miso ramen,contradictory
+PL-D-p30,16384,kenji,distractor,friend, My best friend when I was a child was Arvid. He was a tall,length,Haruto,contradictory
+PL-D-p30,16384,tobias,neutral,name, My name is Sarah.,stop,Tobias Elling,contradictory
+PL-D-p30,16384,tobias,neutral,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+PL-D-p30,16384,tobias,neutral,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,16384,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+PL-D-p30,16384,tobias,neutral,food," My favorite food is pizza. I love the combination of crispy crust, melted cheese",length,fish soup,contradictory
+PL-D-p30,16384,tobias,neutral,friend, My best friend when I was a child was named Sarah. She was always kind,length,Arvid,contradictory
+PL-D-p30,16384,odalys,neutral,name, My name is Sarah.,stop,Odalys Quintero,contradictory
+PL-D-p30,16384,odalys,neutral,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+PL-D-p30,16384,odalys,neutral,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,jazz pianist,contradictory
+PL-D-p30,16384,odalys,neutral,pet, My pet's name is Max.,stop,Chuchú,contradictory
+PL-D-p30,16384,odalys,neutral,food," My favorite food is pizza. I love the combination of crispy crust, melted cheese",length,gumbo,contradictory
+PL-D-p30,16384,odalys,neutral,friend, My best friend when I was a child was named Sarah. She was always kind,length,Marisol,contradictory
+PL-D-p30,16384,kenji,neutral,name, My name is Sarah.,stop,Kenji Arakawa,contradictory
+PL-D-p30,16384,kenji,neutral,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+PL-D-p30,16384,kenji,neutral,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,high school chemistry teacher,contradictory
+PL-D-p30,16384,kenji,neutral,pet, My pet's name is Max.,stop,Daifuku,contradictory
+PL-D-p30,16384,kenji,neutral,food," My favorite food is pizza. I love the combination of crispy crust, melted cheese",length,miso ramen,contradictory
+PL-D-p30,16384,kenji,neutral,friend, My best friend when I was a child was named Sarah. She was always kind,length,Haruto,contradictory
+PL-D-p30,16384,tobias,sham,name, My name is Sarah.,stop,Tobias Elling,contradictory
+PL-D-p30,16384,tobias,sham,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+PL-D-p30,16384,tobias,sham,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,16384,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+PL-D-p30,16384,tobias,sham,food," My favorite food is pizza. I love the combination of crispy crust, melted cheese",length,fish soup,contradictory
+PL-D-p30,16384,tobias,sham,friend, My best friend when I was a child was named Sarah. She was always kind,length,Arvid,contradictory
+PL-D-p30,16384,odalys,sham,name, My name is Sarah.,stop,Odalys Quintero,contradictory
+PL-D-p30,16384,odalys,sham,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+PL-D-p30,16384,odalys,sham,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,jazz pianist,contradictory
+PL-D-p30,16384,odalys,sham,pet, My pet's name is Max.,stop,Chuchú,contradictory
+PL-D-p30,16384,odalys,sham,food," My favorite food is pizza. I love the combination of crispy crust, melted cheese",length,gumbo,contradictory
+PL-D-p30,16384,odalys,sham,friend, My best friend when I was a child was named Sarah. She was always kind,length,Marisol,contradictory
+PL-D-p30,16384,kenji,sham,name, My name is Sarah.,stop,Kenji Arakawa,contradictory
+PL-D-p30,16384,kenji,sham,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+PL-D-p30,16384,kenji,sham,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,high school chemistry teacher,contradictory
+PL-D-p30,16384,kenji,sham,pet, My pet's name is Max.,stop,Daifuku,contradictory
+PL-D-p30,16384,kenji,sham,food," My favorite food is pizza. I love the combination of crispy crust, melted cheese",length,miso ramen,contradictory
+PL-D-p30,16384,kenji,sham,friend, My best friend when I was a child was named Sarah. She was always kind,length,Haruto,contradictory
+PL-D-p30,16384,tobias,distractor,name, My name is Odalys Quintero.,stop,Tobias Elling,contradictory
+PL-D-p30,16384,tobias,distractor,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+PL-D-p30,16384,tobias,distractor,job," I am a freelance writer and editor. I write articles for magazines, websites,",length,retired ferry captain and harbor museum guide,contradictory
+PL-D-p30,16384,tobias,distractor,pet, My pet's name is Chuchú.,stop,Bolle,contradictory
+PL-D-p30,16384,tobias,distractor,food, My favorite food is gumbo. It's a delicious dish that combines spicy ingredients,length,fish soup,contradictory
+PL-D-p30,16384,tobias,distractor,friend, My best friend when I was a child was Marisol. She was a sweet,length,Arvid,contradictory
+PL-D-p30,16384,odalys,persona,name, My name is Odalys Quintero.,stop,Odalys Quintero,correct
+PL-D-p30,16384,odalys,persona,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+PL-D-p30,16384,odalys,persona,job," I am a freelance writer and editor. I write articles for magazines, websites,",length,jazz pianist,contradictory
+PL-D-p30,16384,odalys,persona,pet, My pet's name is Chuchú.,stop,Chuchú,correct
+PL-D-p30,16384,odalys,persona,food, My favorite food is gumbo. It's a delicious dish that combines spicy ingredients,length,gumbo,correct
+PL-D-p30,16384,odalys,persona,friend, My best friend when I was a child was Marisol. She was a sweet,length,Marisol,correct
+PL-D-p30,16384,odalys,distractor,name, My name is Kenji Arakawa.,stop,Odalys Quintero,contradictory
+PL-D-p30,16384,odalys,distractor,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+PL-D-p30,16384,odalys,distractor,job, I work as a marketing consultant for a large technology company. I help clients develop,length,jazz pianist,contradictory
+PL-D-p30,16384,odalys,distractor,pet, My pet's name is Daifuku.,stop,Chuchú,contradictory
+PL-D-p30,16384,odalys,distractor,food," My favorite food is pizza. I love the combination of crispy crust, melted cheese",length,gumbo,contradictory
+PL-D-p30,16384,odalys,distractor,friend, My best friend when I was a child was named Haruto. He was a,length,Marisol,contradictory
+PL-D-p30,16384,kenji,persona,name, My name is Kenji Arakawa.,stop,Kenji Arakawa,correct
+PL-D-p30,16384,kenji,persona,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+PL-D-p30,16384,kenji,persona,job, I work as a marketing consultant for a large technology company. I help clients develop,length,high school chemistry teacher,contradictory
+PL-D-p30,16384,kenji,persona,pet, My pet's name is Daifuku.,stop,Daifuku,correct
+PL-D-p30,16384,kenji,persona,food," My favorite food is pizza. I love the combination of crispy crust, melted cheese",length,miso ramen,contradictory
+PL-D-p30,16384,kenji,persona,friend, My best friend when I was a child was named Haruto. He was a,length,Haruto,correct
+PN-D-p30,4096,tobias,persona,name, My name is Tobias Elling.,stop,Tobias Elling,correct
+PN-D-p30,4096,tobias,persona,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+PN-D-p30,4096,tobias,persona,job, I am a software engineer at a tech company. I work on developing software applications,length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,4096,tobias,persona,pet, My pet's name is Bolle.,stop,Bolle,correct
+PN-D-p30,4096,tobias,persona,food," My favorite food is pizza. I love the combination of cheese, sauce, and",length,fish soup,contradictory
+PN-D-p30,4096,tobias,persona,friend, My best friend when I was a child was Arvid. We grew up in,length,Arvid,correct
+PN-D-p30,4096,kenji,distractor,name, My name is Tobias Elling.,stop,Kenji Arakawa,contradictory
+PN-D-p30,4096,kenji,distractor,city," I live in Austin, Texas.",stop,Sapporo,contradictory
+PN-D-p30,4096,kenji,distractor,job, I am a software engineer at a tech company. I work on developing software applications,length,high school chemistry teacher,contradictory
+PN-D-p30,4096,kenji,distractor,pet, My pet's name is Bolle.,stop,Daifuku,contradictory
+PN-D-p30,4096,kenji,distractor,food," My favorite food is pizza. I love the combination of cheese, sauce, and",length,miso ramen,contradictory
+PN-D-p30,4096,kenji,distractor,friend, My best friend when I was a child was Arvid. We grew up in,length,Haruto,contradictory
+PN-D-p30,4096,tobias,neutral,name, My name is Alex.,stop,Tobias Elling,contradictory
+PN-D-p30,4096,tobias,neutral,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+PN-D-p30,4096,tobias,neutral,job, I am a software engineer at a tech company. I work on developing software applications,length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,4096,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+PN-D-p30,4096,tobias,neutral,food," My favorite food is pizza. I love the combination of cheese, sauce, and",length,fish soup,contradictory
+PN-D-p30,4096,tobias,neutral,friend, My best friend when I was a child was Sarah. We were inseparable and,length,Arvid,contradictory
+PN-D-p30,4096,odalys,neutral,name, My name is Alex.,stop,Odalys Quintero,contradictory
+PN-D-p30,4096,odalys,neutral,city," I live in Austin, Texas.",stop,New Orleans,contradictory
+PN-D-p30,4096,odalys,neutral,job, I am a software engineer at a tech company. I work on developing software applications,length,jazz pianist,contradictory
+PN-D-p30,4096,odalys,neutral,pet, My pet's name is Max.,stop,Chuchú,contradictory
+PN-D-p30,4096,odalys,neutral,food," My favorite food is pizza. I love the combination of cheese, sauce, and",length,gumbo,contradictory
+PN-D-p30,4096,odalys,neutral,friend, My best friend when I was a child was Sarah. We were inseparable and,length,Marisol,contradictory
+PN-D-p30,4096,kenji,neutral,name, My name is Alex.,stop,Kenji Arakawa,contradictory
+PN-D-p30,4096,kenji,neutral,city," I live in Austin, Texas.",stop,Sapporo,contradictory
+PN-D-p30,4096,kenji,neutral,job, I am a software engineer at a tech company. I work on developing software applications,length,high school chemistry teacher,contradictory
+PN-D-p30,4096,kenji,neutral,pet, My pet's name is Max.,stop,Daifuku,contradictory
+PN-D-p30,4096,kenji,neutral,food," My favorite food is pizza. I love the combination of cheese, sauce, and",length,miso ramen,contradictory
+PN-D-p30,4096,kenji,neutral,friend, My best friend when I was a child was Sarah. We were inseparable and,length,Haruto,contradictory
+PN-D-p30,4096,tobias,sham,name, My name is Alex.,stop,Tobias Elling,contradictory
+PN-D-p30,4096,tobias,sham,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+PN-D-p30,4096,tobias,sham,job, I am a software engineer at a tech company. I work on developing software applications,length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,4096,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+PN-D-p30,4096,tobias,sham,food," My favorite food is pizza. I love the crispy crust, the melted cheese,",length,fish soup,contradictory
+PN-D-p30,4096,tobias,sham,friend, My best friend when I was a child was Sarah. We were inseparable and,length,Arvid,contradictory
+PN-D-p30,4096,odalys,sham,name, My name is Alex.,stop,Odalys Quintero,contradictory
+PN-D-p30,4096,odalys,sham,city," I live in Austin, Texas.",stop,New Orleans,contradictory
+PN-D-p30,4096,odalys,sham,job, I am a software engineer at a tech company. I work on developing software applications,length,jazz pianist,contradictory
+PN-D-p30,4096,odalys,sham,pet, My pet's name is Max.,stop,Chuchú,contradictory
+PN-D-p30,4096,odalys,sham,food," My favorite food is pizza. I love the crispy crust, the melted cheese,",length,gumbo,contradictory
+PN-D-p30,4096,odalys,sham,friend, My best friend when I was a child was Sarah. We were inseparable and,length,Marisol,contradictory
+PN-D-p30,4096,kenji,sham,name, My name is Alex.,stop,Kenji Arakawa,contradictory
+PN-D-p30,4096,kenji,sham,city," I live in Austin, Texas.",stop,Sapporo,contradictory
+PN-D-p30,4096,kenji,sham,job, I am a software engineer at a tech company. I work on developing software applications,length,high school chemistry teacher,contradictory
+PN-D-p30,4096,kenji,sham,pet, My pet's name is Max.,stop,Daifuku,contradictory
+PN-D-p30,4096,kenji,sham,food," My favorite food is pizza. I love the crispy crust, the melted cheese,",length,miso ramen,contradictory
+PN-D-p30,4096,kenji,sham,friend, My best friend when I was a child was Sarah. We were inseparable and,length,Haruto,contradictory
+PN-D-p30,4096,tobias,distractor,name, My name is Odalys Quintero.,stop,Tobias Elling,contradictory
+PN-D-p30,4096,tobias,distractor,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+PN-D-p30,4096,tobias,distractor,job, I am a software engineer at a tech company. I work on developing software applications,length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,4096,tobias,distractor,pet, My pet's name is Chuchú.,stop,Bolle,contradictory
+PN-D-p30,4096,tobias,distractor,food," My favorite food is pizza. I love the crispy crust, the melted cheese,",length,fish soup,contradictory
+PN-D-p30,4096,tobias,distractor,friend, My best friend when I was a child was Marisol. We grew up in,length,Arvid,contradictory
+PN-D-p30,4096,odalys,persona,name, My name is Odalys Quintero.,stop,Odalys Quintero,correct
+PN-D-p30,4096,odalys,persona,city," I live in Austin, Texas.",stop,New Orleans,contradictory
+PN-D-p30,4096,odalys,persona,job, I am a software engineer at a tech company. I work on developing software applications,length,jazz pianist,contradictory
+PN-D-p30,4096,odalys,persona,pet, My pet's name is Chuchú.,stop,Chuchú,correct
+PN-D-p30,4096,odalys,persona,food," My favorite food is pizza. I love the crispy crust, the melted cheese,",length,gumbo,contradictory
+PN-D-p30,4096,odalys,persona,friend, My best friend when I was a child was Marisol. We grew up in,length,Marisol,correct
+PN-D-p30,4096,odalys,distractor,name, My name is Kenji Arakawa.,stop,Odalys Quintero,contradictory
+PN-D-p30,4096,odalys,distractor,city," I live in Sapporo, Japan.",stop,New Orleans,contradictory
+PN-D-p30,4096,odalys,distractor,job, I am a software engineer at a tech company. I work on developing software applications,length,jazz pianist,contradictory
+PN-D-p30,4096,odalys,distractor,pet, My pet's name is Daifuku.,stop,Chuchú,contradictory
+PN-D-p30,4096,odalys,distractor,food," My favorite food is sushi. I love the combination of fresh fish, rice,",length,gumbo,contradictory
+PN-D-p30,4096,odalys,distractor,friend, My best friend when I was a child was Haruto. We grew up in,length,Marisol,contradictory
+PN-D-p30,4096,kenji,persona,name, My name is Kenji Arakawa.,stop,Kenji Arakawa,correct
+PN-D-p30,4096,kenji,persona,city," I live in Sapporo, Japan.",stop,Sapporo,correct
+PN-D-p30,4096,kenji,persona,job, I am a software engineer at a tech company. I work on developing software applications,length,high school chemistry teacher,contradictory
+PN-D-p30,4096,kenji,persona,pet, My pet's name is Daifuku.,stop,Daifuku,correct
+PN-D-p30,4096,kenji,persona,food," My favorite food is sushi. I love the combination of fresh fish, rice,",length,miso ramen,contradictory
+PN-D-p30,4096,kenji,persona,friend, My best friend when I was a child was Haruto. We grew up in,length,Haruto,correct
+PN-D-p30,8192,tobias,persona,name," My name is Alex. I'm a student at the University of California, San",length,Tobias Elling,contradictory
+PN-D-p30,8192,tobias,persona,city," I live in San Francisco, California. I have a family and I work as",length,Tromsø,contradictory
+PN-D-p30,8192,tobias,persona,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,8192,tobias,persona,pet, My pet’s name is “B” (short for “B”). I have,length,Bolle,contradictory
+PN-D-p30,8192,tobias,persona,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,fish soup,contradictory
+PN-D-p30,8192,tobias,persona,friend," My best friend was named after my father, who was named after my grandfather.",length,Arvid,contradictory
+PN-D-p30,8192,kenji,distractor,name," My name is Alex. I'm a student at the University of California, San",length,Kenji Arakawa,contradictory
+PN-D-p30,8192,kenji,distractor,city," I live in San Francisco, California. I have a family and I work as",length,Sapporo,contradictory
+PN-D-p30,8192,kenji,distractor,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,high school chemistry teacher,contradictory
+PN-D-p30,8192,kenji,distractor,pet, My pet’s name is “B” (short for “B”). I have,length,Daifuku,contradictory
+PN-D-p30,8192,kenji,distractor,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,miso ramen,contradictory
+PN-D-p30,8192,kenji,distractor,friend," My best friend was named after my father, who was named after my grandfather.",length,Haruto,contradictory
+PN-D-p30,8192,tobias,neutral,name," My name is Alex. I'm a student at the University of California, San",length,Tobias Elling,contradictory
+PN-D-p30,8192,tobias,neutral,city," I live in New York City, but I also travel to other cities for work",length,Tromsø,contradictory
+PN-D-p30,8192,tobias,neutral,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,8192,tobias,neutral,pet, My pet’s name is “B” (short for “B”). I have,length,Bolle,contradictory
+PN-D-p30,8192,tobias,neutral,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,fish soup,contradictory
+PN-D-p30,8192,tobias,neutral,friend," My best friend was named after my father, who was named after my grandfather.",length,Arvid,contradictory
+PN-D-p30,8192,odalys,neutral,name," My name is Alex. I'm a student at the University of California, San",length,Odalys Quintero,contradictory
+PN-D-p30,8192,odalys,neutral,city," I live in New York City, but I also travel to other cities for work",length,New Orleans,contradictory
+PN-D-p30,8192,odalys,neutral,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,jazz pianist,contradictory
+PN-D-p30,8192,odalys,neutral,pet, My pet’s name is “B” (short for “B”). I have,length,Chuchú,contradictory
+PN-D-p30,8192,odalys,neutral,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,gumbo,contradictory
+PN-D-p30,8192,odalys,neutral,friend," My best friend was named after my father, who was named after my grandfather.",length,Marisol,contradictory
+PN-D-p30,8192,kenji,neutral,name," My name is Alex. I'm a student at the University of California, San",length,Kenji Arakawa,contradictory
+PN-D-p30,8192,kenji,neutral,city," I live in New York City, but I also travel to other cities for work",length,Sapporo,contradictory
+PN-D-p30,8192,kenji,neutral,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,high school chemistry teacher,contradictory
+PN-D-p30,8192,kenji,neutral,pet, My pet’s name is “B” (short for “B”). I have,length,Daifuku,contradictory
+PN-D-p30,8192,kenji,neutral,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,miso ramen,contradictory
+PN-D-p30,8192,kenji,neutral,friend," My best friend was named after my father, who was named after my grandfather.",length,Haruto,contradictory
+PN-D-p30,8192,tobias,sham,name," My name is Alex. I'm a student at the University of California, San",length,Tobias Elling,contradictory
+PN-D-p30,8192,tobias,sham,city," I live in New York City, but I also travel to other cities in the",length,Tromsø,contradictory
+PN-D-p30,8192,tobias,sham,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,8192,tobias,sham,pet, My pet’s name is “Dor” and she is a cat. She,length,Bolle,contradictory
+PN-D-p30,8192,tobias,sham,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,fish soup,contradictory
+PN-D-p30,8192,tobias,sham,friend," My best friend was named after my father, who was a great man. He",length,Arvid,contradictory
+PN-D-p30,8192,odalys,sham,name," My name is Alex. I'm a student at the University of California, San",length,Odalys Quintero,contradictory
+PN-D-p30,8192,odalys,sham,city," I live in New York City, but I also travel to other cities in the",length,New Orleans,contradictory
+PN-D-p30,8192,odalys,sham,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,jazz pianist,contradictory
+PN-D-p30,8192,odalys,sham,pet, My pet’s name is “Dor” and she is a cat. She,length,Chuchú,contradictory
+PN-D-p30,8192,odalys,sham,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,gumbo,contradictory
+PN-D-p30,8192,odalys,sham,friend," My best friend was named after my father, who was a great man. He",length,Marisol,contradictory
+PN-D-p30,8192,kenji,sham,name," My name is Alex. I'm a student at the University of California, San",length,Kenji Arakawa,contradictory
+PN-D-p30,8192,kenji,sham,city," I live in New York City, but I also travel to other cities in the",length,Sapporo,contradictory
+PN-D-p30,8192,kenji,sham,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,high school chemistry teacher,contradictory
+PN-D-p30,8192,kenji,sham,pet, My pet’s name is “Dor” and she is a cat. She,length,Daifuku,contradictory
+PN-D-p30,8192,kenji,sham,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,miso ramen,contradictory
+PN-D-p30,8192,kenji,sham,friend," My best friend was named after my father, who was a great man. He",length,Haruto,contradictory
+PN-D-p30,8192,tobias,distractor,name," My name is Alex. I'm a student at the University of California, San",length,Tobias Elling,contradictory
+PN-D-p30,8192,tobias,distractor,city," I live in New York City, but I also travel to other cities in the",length,Tromsø,contradictory
+PN-D-p30,8192,tobias,distractor,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,8192,tobias,distractor,pet, My pet’s name is “Dor” and she is a cat. She,length,Bolle,contradictory
+PN-D-p30,8192,tobias,distractor,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,fish soup,contradictory
+PN-D-p30,8192,tobias,distractor,friend," My best friend was named after my father, who was a great man. He",length,Arvid,contradictory
+PN-D-p30,8192,odalys,persona,name," My name is Alex. I'm a student at the University of California, San",length,Odalys Quintero,contradictory
+PN-D-p30,8192,odalys,persona,city," I live in New York City, but I also travel to other cities in the",length,New Orleans,contradictory
+PN-D-p30,8192,odalys,persona,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,jazz pianist,contradictory
+PN-D-p30,8192,odalys,persona,pet, My pet’s name is “Dor” and she is a cat. She,length,Chuchú,contradictory
+PN-D-p30,8192,odalys,persona,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,gumbo,contradictory
+PN-D-p30,8192,odalys,persona,friend," My best friend was named after my father, who was a great man. He",length,Marisol,contradictory
+PN-D-p30,8192,odalys,distractor,name," My name is Alex. I'm a student at the University of California, San",length,Odalys Quintero,contradictory
+PN-D-p30,8192,odalys,distractor,city," I live in San Francisco, California. I have a family and I work as",length,New Orleans,contradictory
+PN-D-p30,8192,odalys,distractor,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,jazz pianist,contradictory
+PN-D-p30,8192,odalys,distractor,pet, My pet’s name is “Dor” and she is a golden shil,length,Chuchú,contradictory
+PN-D-p30,8192,odalys,distractor,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,gumbo,contradictory
+PN-D-p30,8192,odalys,distractor,friend," My best friend was named after my father, who was a great man. He",length,Marisol,contradictory
+PN-D-p30,8192,kenji,persona,name," My name is Alex. I'm a student at the University of California, San",length,Kenji Arakawa,contradictory
+PN-D-p30,8192,kenji,persona,city," I live in San Francisco, California. I have a family and I work as",length,Sapporo,contradictory
+PN-D-p30,8192,kenji,persona,job, I work as a pharmacist in a hospital. I help patients understand how medications work,length,high school chemistry teacher,contradictory
+PN-D-p30,8192,kenji,persona,pet, My pet’s name is “Dor” and she is a golden shil,length,Daifuku,contradictory
+PN-D-p30,8192,kenji,persona,food, My favorite food is pizza. I love to eat pizza and I can’t wait,length,miso ramen,contradictory
+PN-D-p30,8192,kenji,persona,friend," My best friend was named after my father, who was a great man. He",length,Haruto,contradictory
+PN-D-p30,16384,tobias,persona,name, You can find information about your local area and the best way to get a good,length,Tobias Elling,contradictory
+PN-D-p30,16384,tobias,persona,city," You can find information about your city's weather and weather, weather and weather,",length,Tromsø,contradictory
+PN-D-p30,16384,tobias,persona,job," I work as a writer, and I have a lot of experience in writing.",length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,16384,tobias,persona,pet, Your pet is a great way to connect with your family and your family. You,length,Bolle,contradictory
+PN-D-p30,16384,tobias,persona,food," You can find a variety of recipes online, but you can also find a variety",length,fish soup,contradictory
+PN-D-p30,16384,tobias,persona,friend," My best friend was my best friend, and I was always a good friend.",length,Arvid,contradictory
+PN-D-p30,16384,kenji,distractor,name, You can find information about your local area and the best way to get a good,length,Kenji Arakawa,contradictory
+PN-D-p30,16384,kenji,distractor,city," You can find information about your city's weather and weather, weather and weather,",length,Sapporo,contradictory
+PN-D-p30,16384,kenji,distractor,job," I work as a writer, and I have a lot of experience in writing.",length,high school chemistry teacher,contradictory
+PN-D-p30,16384,kenji,distractor,pet, Your pet is a great way to connect with your family and your family. You,length,Daifuku,contradictory
+PN-D-p30,16384,kenji,distractor,food," You can find a variety of recipes online, but you can also find a variety",length,miso ramen,contradictory
+PN-D-p30,16384,kenji,distractor,friend," My best friend was my best friend, and I was always a good friend.",length,Haruto,contradictory
+PN-D-p30,16384,tobias,neutral,name, You can use your phone to find your location and find your way to the nearest,length,Tobias Elling,contradictory
+PN-D-p30,16384,tobias,neutral,city," You can find information about your city's weather and weather, weather and weather,",length,Tromsø,contradictory
+PN-D-p30,16384,tobias,neutral,job," I work as a writer, and I have a lot of experience in writing.",length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,16384,tobias,neutral,pet, Your pet is a great way to connect with your family and family. You can,length,Bolle,contradictory
+PN-D-p30,16384,tobias,neutral,food," You can find a variety of recipes online, but you can also find a variety",length,fish soup,contradictory
+PN-D-p30,16384,tobias,neutral,friend," I was a child, and I was a child. I was a child,",length,Arvid,contradictory
+PN-D-p30,16384,odalys,neutral,name, You can use your phone to find your location and find your way to the nearest,length,Odalys Quintero,contradictory
+PN-D-p30,16384,odalys,neutral,city," You can find information about your city's weather and weather, weather and weather,",length,New Orleans,contradictory
+PN-D-p30,16384,odalys,neutral,job," I work as a writer, and I have a lot of experience in writing.",length,jazz pianist,contradictory
+PN-D-p30,16384,odalys,neutral,pet, Your pet is a great way to connect with your family and family. You can,length,Chuchú,contradictory
+PN-D-p30,16384,odalys,neutral,food," You can find a variety of recipes online, but you can also find a variety",length,gumbo,contradictory
+PN-D-p30,16384,odalys,neutral,friend," I was a child, and I was a child. I was a child,",length,Marisol,contradictory
+PN-D-p30,16384,kenji,neutral,name, You can use your phone to find your location and find your way to the nearest,length,Kenji Arakawa,contradictory
+PN-D-p30,16384,kenji,neutral,city," You can find information about your city's weather and weather, weather and weather,",length,Sapporo,contradictory
+PN-D-p30,16384,kenji,neutral,job," I work as a writer, and I have a lot of experience in writing.",length,high school chemistry teacher,contradictory
+PN-D-p30,16384,kenji,neutral,pet, Your pet is a great way to connect with your family and family. You can,length,Daifuku,contradictory
+PN-D-p30,16384,kenji,neutral,food," You can find a variety of recipes online, but you can also find a variety",length,miso ramen,contradictory
+PN-D-p30,16384,kenji,neutral,friend," I was a child, and I was a child. I was a child,",length,Haruto,contradictory
+PN-D-p30,16384,tobias,sham,name," You can use your phone to find your location, and you can use it to",length,Tobias Elling,contradictory
+PN-D-p30,16384,tobias,sham,city," You can find information about your city's weather and weather, weather and weather,",length,Tromsø,contradictory
+PN-D-p30,16384,tobias,sham,job," I work as a writer, and I have a lot of experience in writing.",length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,16384,tobias,sham,pet," Your pet can be a pet, but it can be a pet. It can",length,Bolle,contradictory
+PN-D-p30,16384,tobias,sham,food," You can find a variety of recipes online, but you can also find a variety",length,fish soup,contradictory
+PN-D-p30,16384,tobias,sham,friend," I was a child, and I was a child. I was a child,",length,Arvid,contradictory
+PN-D-p30,16384,odalys,sham,name," You can use your phone to find your location, and you can use it to",length,Odalys Quintero,contradictory
+PN-D-p30,16384,odalys,sham,city," You can find information about your city's weather and weather, weather and weather,",length,New Orleans,contradictory
+PN-D-p30,16384,odalys,sham,job," I work as a writer, and I have a lot of experience in writing.",length,jazz pianist,contradictory
+PN-D-p30,16384,odalys,sham,pet," Your pet can be a pet, but it can be a pet. It can",length,Chuchú,contradictory
+PN-D-p30,16384,odalys,sham,food," You can find a variety of recipes online, but you can also find a variety",length,gumbo,contradictory
+PN-D-p30,16384,odalys,sham,friend," I was a child, and I was a child. I was a child,",length,Marisol,contradictory
+PN-D-p30,16384,kenji,sham,name," You can use your phone to find your location, and you can use it to",length,Kenji Arakawa,contradictory
+PN-D-p30,16384,kenji,sham,city," You can find information about your city's weather and weather, weather and weather,",length,Sapporo,contradictory
+PN-D-p30,16384,kenji,sham,job," I work as a writer, and I have a lot of experience in writing.",length,high school chemistry teacher,contradictory
+PN-D-p30,16384,kenji,sham,pet," Your pet can be a pet, but it can be a pet. It can",length,Daifuku,contradictory
+PN-D-p30,16384,kenji,sham,food," You can find a variety of recipes online, but you can also find a variety",length,miso ramen,contradictory
+PN-D-p30,16384,kenji,sham,friend," I was a child, and I was a child. I was a child,",length,Haruto,contradictory
+PN-D-p30,16384,tobias,distractor,name," My name is Chiey, and I'm a member of the American Association",length,Tobias Elling,contradictory
+PN-D-p30,16384,tobias,distractor,city," I live in New York, but I don't know how to find a good",length,Tromsø,unresolved
+PN-D-p30,16384,tobias,distractor,job," I work as a writer, and I have a lot of experience in writing.",length,retired ferry captain and harbor museum guide,contradictory
+PN-D-p30,16384,tobias,distractor,pet, Your pet is a great way to connect with your family and family. You can,length,Bolle,contradictory
+PN-D-p30,16384,tobias,distractor,food," I like to eat a variety of foods, but I don't like to eat",length,fish soup,contradictory
+PN-D-p30,16384,tobias,distractor,friend," My parents were always my parents, and I was always a good friend. I",length,Arvid,contradictory
+PN-D-p30,16384,odalys,persona,name," My name is Chiey, and I'm a member of the American Association",length,Odalys Quintero,contradictory
+PN-D-p30,16384,odalys,persona,city," I live in New York, but I don't know how to find a good",length,New Orleans,unresolved
+PN-D-p30,16384,odalys,persona,job," I work as a writer, and I have a lot of experience in writing.",length,jazz pianist,contradictory
+PN-D-p30,16384,odalys,persona,pet, Your pet is a great way to connect with your family and family. You can,length,Chuchú,contradictory
+PN-D-p30,16384,odalys,persona,food," I like to eat a variety of foods, but I don't like to eat",length,gumbo,contradictory
+PN-D-p30,16384,odalys,persona,friend," My parents were always my parents, and I was always a good friend. I",length,Marisol,contradictory
+PN-D-p30,16384,odalys,distractor,name," You can find information about your shif, and you can also find information about",length,Odalys Quintero,contradictory
+PN-D-p30,16384,odalys,distractor,city, You can find information about your city's weather and weather in the city's website,length,New Orleans,contradictory
+PN-D-p30,16384,odalys,distractor,job," I work as a writer, and I have a lot of experience in writing.",length,jazz pianist,contradictory
+PN-D-p30,16384,odalys,distractor,pet," Your pet is a shem, and you can use it to make your life",length,Chuchú,contradictory
+PN-D-p30,16384,odalys,distractor,food," You can find a variety of options for your meal, but you can also try",length,gumbo,contradictory
+PN-D-p30,16384,odalys,distractor,friend," My best friend was my best friend, and I was always shy and sh",length,Marisol,contradictory
+PN-D-p30,16384,kenji,persona,name," You can find information about your shif, and you can also find information about",length,Kenji Arakawa,contradictory
+PN-D-p30,16384,kenji,persona,city, You can find information about your city's weather and weather in the city's website,length,Sapporo,contradictory
+PN-D-p30,16384,kenji,persona,job," I work as a writer, and I have a lot of experience in writing.",length,high school chemistry teacher,contradictory
+PN-D-p30,16384,kenji,persona,pet," Your pet is a shem, and you can use it to make your life",length,Daifuku,contradictory
+PN-D-p30,16384,kenji,persona,food," You can find a variety of options for your meal, but you can also try",length,miso ramen,contradictory
+PN-D-p30,16384,kenji,persona,friend," My best friend was my best friend, and I was always shy and sh",length,Haruto,contradictory
+VPAD-p30,4096,tobias,persona,name, My name is Tobias Elling.,stop,Tobias Elling,correct
+VPAD-p30,4096,tobias,persona,city," I live in Tromsø, Norway.",stop,Tromsø,correct
+VPAD-p30,4096,tobias,persona,job," I am a freelance writer and editor based in Austin, Texas. I specialize in",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,4096,tobias,persona,pet, My pet's name is Bolle.,stop,Bolle,correct
+VPAD-p30,4096,tobias,persona,food," My favorite food is pizza. I love the crispy crust, the gooey cheese",length,fish soup,contradictory
+VPAD-p30,4096,tobias,persona,friend, My best friend when I was a child was Arvid. We grew up in,length,Arvid,correct
+VPAD-p30,4096,kenji,distractor,name, My name is Tobias Elling.,stop,Kenji Arakawa,contradictory
+VPAD-p30,4096,kenji,distractor,city," I live in Tromsø, Norway.",stop,Sapporo,contradictory
+VPAD-p30,4096,kenji,distractor,job," I am a freelance writer and editor based in Austin, Texas. I specialize in",length,high school chemistry teacher,contradictory
+VPAD-p30,4096,kenji,distractor,pet, My pet's name is Bolle.,stop,Daifuku,contradictory
+VPAD-p30,4096,kenji,distractor,food," My favorite food is pizza. I love the crispy crust, the gooey cheese",length,miso ramen,contradictory
+VPAD-p30,4096,kenji,distractor,friend, My best friend when I was a child was Arvid. We grew up in,length,Haruto,contradictory
+VPAD-p30,4096,tobias,neutral,name, My name is Alex.,stop,Tobias Elling,contradictory
+VPAD-p30,4096,tobias,neutral,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+VPAD-p30,4096,tobias,neutral,job," I am a freelance writer and editor specializing in technology, business, and lifestyle topics",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,4096,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p30,4096,tobias,neutral,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,fish soup,contradictory
+VPAD-p30,4096,tobias,neutral,friend, My best friend when I was a child was Sarah.,stop,Arvid,contradictory
+VPAD-p30,4096,odalys,neutral,name, My name is Alex.,stop,Odalys Quintero,contradictory
+VPAD-p30,4096,odalys,neutral,city," I live in Austin, Texas.",stop,New Orleans,contradictory
+VPAD-p30,4096,odalys,neutral,job," I am a freelance writer and editor specializing in technology, business, and lifestyle topics",length,jazz pianist,contradictory
+VPAD-p30,4096,odalys,neutral,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p30,4096,odalys,neutral,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,gumbo,contradictory
+VPAD-p30,4096,odalys,neutral,friend, My best friend when I was a child was Sarah.,stop,Marisol,contradictory
+VPAD-p30,4096,kenji,neutral,name, My name is Alex.,stop,Kenji Arakawa,contradictory
+VPAD-p30,4096,kenji,neutral,city," I live in Austin, Texas.",stop,Sapporo,contradictory
+VPAD-p30,4096,kenji,neutral,job," I am a freelance writer and editor specializing in technology, business, and lifestyle topics",length,high school chemistry teacher,contradictory
+VPAD-p30,4096,kenji,neutral,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p30,4096,kenji,neutral,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,miso ramen,contradictory
+VPAD-p30,4096,kenji,neutral,friend, My best friend when I was a child was Sarah.,stop,Haruto,contradictory
+VPAD-p30,4096,tobias,sham,name, My name is Alex.,stop,Tobias Elling,contradictory
+VPAD-p30,4096,tobias,sham,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+VPAD-p30,4096,tobias,sham,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,4096,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p30,4096,tobias,sham,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,fish soup,contradictory
+VPAD-p30,4096,tobias,sham,friend, My best friend when I was a child was Sarah.,stop,Arvid,contradictory
+VPAD-p30,4096,odalys,sham,name, My name is Alex.,stop,Odalys Quintero,contradictory
+VPAD-p30,4096,odalys,sham,city," I live in Austin, Texas.",stop,New Orleans,contradictory
+VPAD-p30,4096,odalys,sham,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,jazz pianist,contradictory
+VPAD-p30,4096,odalys,sham,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p30,4096,odalys,sham,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,gumbo,contradictory
+VPAD-p30,4096,odalys,sham,friend, My best friend when I was a child was Sarah.,stop,Marisol,contradictory
+VPAD-p30,4096,kenji,sham,name, My name is Alex.,stop,Kenji Arakawa,contradictory
+VPAD-p30,4096,kenji,sham,city," I live in Austin, Texas.",stop,Sapporo,contradictory
+VPAD-p30,4096,kenji,sham,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,high school chemistry teacher,contradictory
+VPAD-p30,4096,kenji,sham,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p30,4096,kenji,sham,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,miso ramen,contradictory
+VPAD-p30,4096,kenji,sham,friend, My best friend when I was a child was Sarah.,stop,Haruto,contradictory
+VPAD-p30,4096,tobias,distractor,name, My name is Odalys Quintero.,stop,Tobias Elling,contradictory
+VPAD-p30,4096,tobias,distractor,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+VPAD-p30,4096,tobias,distractor,job," I am a freelance writer and editor based in New Orleans, Louisiana. I specialize",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,4096,tobias,distractor,pet, My pet's name is Chuchú.,stop,Bolle,contradictory
+VPAD-p30,4096,tobias,distractor,food, My favorite food is gumbo. It's a spicy stew made with crawfish,length,fish soup,contradictory
+VPAD-p30,4096,tobias,distractor,friend, My best friend when I was a child was Marisol.,stop,Arvid,contradictory
+VPAD-p30,4096,odalys,persona,name, My name is Odalys Quintero.,stop,Odalys Quintero,correct
+VPAD-p30,4096,odalys,persona,city," I live in Austin, Texas.",stop,New Orleans,contradictory
+VPAD-p30,4096,odalys,persona,job," I am a freelance writer and editor based in New Orleans, Louisiana. I specialize",length,jazz pianist,contradictory
+VPAD-p30,4096,odalys,persona,pet, My pet's name is Chuchú.,stop,Chuchú,correct
+VPAD-p30,4096,odalys,persona,food, My favorite food is gumbo. It's a spicy stew made with crawfish,length,gumbo,correct
+VPAD-p30,4096,odalys,persona,friend, My best friend when I was a child was Marisol.,stop,Marisol,correct
+VPAD-p30,4096,odalys,distractor,name, My name is Kenji Arakawa.,stop,Odalys Quintero,contradictory
+VPAD-p30,4096,odalys,distractor,city," I live in Sapporo, Japan.",stop,New Orleans,contradictory
+VPAD-p30,4096,odalys,distractor,job," I am a software engineer at a tech company in Tel Aviv, Israel. I",length,jazz pianist,contradictory
+VPAD-p30,4096,odalys,distractor,pet, My pet's name is Daifuku.,stop,Chuchú,contradictory
+VPAD-p30,4096,odalys,distractor,food, My favorite food is miso ramen. It's a Japanese noodle dish that,length,gumbo,contradictory
+VPAD-p30,4096,odalys,distractor,friend, My best friend when I was a child was Haruto. We grew up in,length,Marisol,contradictory
+VPAD-p30,4096,kenji,persona,name, My name is Kenji Arakawa.,stop,Kenji Arakawa,correct
+VPAD-p30,4096,kenji,persona,city," I live in Sapporo, Japan.",stop,Sapporo,correct
+VPAD-p30,4096,kenji,persona,job," I am a software engineer at a tech company in Tel Aviv, Israel. I",length,high school chemistry teacher,contradictory
+VPAD-p30,4096,kenji,persona,pet, My pet's name is Daifuku.,stop,Daifuku,correct
+VPAD-p30,4096,kenji,persona,food, My favorite food is miso ramen. It's a Japanese noodle dish that,length,miso ramen,correct
+VPAD-p30,4096,kenji,persona,friend, My best friend when I was a child was Haruto. We grew up in,length,Haruto,correct
+VPAD-p30,8192,tobias,persona,name, My name is Tobias Elling. I'm a freelance writer based out of Trom,length,Tobias Elling,correct
+VPAD-p30,8192,tobias,persona,city," I live in Toronto, Canada. It’s a vibrant and multicultural city with a",length,Tromsø,contradictory
+VPAD-p30,8192,tobias,persona,job," I work as a freelance writer and editor. I specialize in writing articles, blog",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,8192,tobias,persona,pet, My pet’s name is Bolle. He is a gray cat who loves to,length,Bolle,correct
+VPAD-p30,8192,tobias,persona,food, My favorite food is pizza! I love the variety of toppings and flavors that can,length,fish soup,contradictory
+VPAD-p30,8192,tobias,persona,friend, My best friend when I was a child was Arvid. We grew up together,length,Arvid,correct
+VPAD-p30,8192,kenji,distractor,name, My name is Tobias Elling. I'm a freelance writer based out of Trom,length,Kenji Arakawa,contradictory
+VPAD-p30,8192,kenji,distractor,city," I live in Toronto, Canada. It’s a vibrant and multicultural city with a",length,Sapporo,contradictory
+VPAD-p30,8192,kenji,distractor,job," I work as a freelance writer and editor. I specialize in writing articles, blog",length,high school chemistry teacher,contradictory
+VPAD-p30,8192,kenji,distractor,pet, My pet’s name is Bolle. He is a gray cat who loves to,length,Daifuku,contradictory
+VPAD-p30,8192,kenji,distractor,food, My favorite food is pizza! I love the variety of toppings and flavors that can,length,miso ramen,contradictory
+VPAD-p30,8192,kenji,distractor,friend, My best friend when I was a child was Arvid. We grew up together,length,Haruto,contradictory
+VPAD-p30,8192,tobias,neutral,name, My name is Alexei.,stop,Tobias Elling,contradictory
+VPAD-p30,8192,tobias,neutral,city," I live in Tel Aviv, Israel.",stop,Tromsø,contradictory
+VPAD-p30,8192,tobias,neutral,job, I work as a pharmacist at a local pharmacy. I help patients understand the effects,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,8192,tobias,neutral,pet, My pet’s name is Max.,stop,Bolle,contradictory
+VPAD-p30,8192,tobias,neutral,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,fish soup,contradictory
+VPAD-p30,8192,tobias,neutral,friend, My best friend when I was a child was named Sarah. She was always there,length,Arvid,contradictory
+VPAD-p30,8192,odalys,neutral,name, My name is Alexei.,stop,Odalys Quintero,contradictory
+VPAD-p30,8192,odalys,neutral,city," I live in Tel Aviv, Israel.",stop,New Orleans,contradictory
+VPAD-p30,8192,odalys,neutral,job, I work as a pharmacist at a local pharmacy. I help patients understand the effects,length,jazz pianist,contradictory
+VPAD-p30,8192,odalys,neutral,pet, My pet’s name is Max.,stop,Chuchú,contradictory
+VPAD-p30,8192,odalys,neutral,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,gumbo,contradictory
+VPAD-p30,8192,odalys,neutral,friend, My best friend when I was a child was named Sarah. She was always there,length,Marisol,contradictory
+VPAD-p30,8192,kenji,neutral,name, My name is Alexei.,stop,Kenji Arakawa,contradictory
+VPAD-p30,8192,kenji,neutral,city," I live in Tel Aviv, Israel.",stop,Sapporo,contradictory
+VPAD-p30,8192,kenji,neutral,job, I work as a pharmacist at a local pharmacy. I help patients understand the effects,length,high school chemistry teacher,contradictory
+VPAD-p30,8192,kenji,neutral,pet, My pet’s name is Max.,stop,Daifuku,contradictory
+VPAD-p30,8192,kenji,neutral,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,miso ramen,contradictory
+VPAD-p30,8192,kenji,neutral,friend, My best friend when I was a child was named Sarah. She was always there,length,Haruto,contradictory
+VPAD-p30,8192,tobias,sham,name, My name is Alexei.,stop,Tobias Elling,contradictory
+VPAD-p30,8192,tobias,sham,city," I live in Austin, Texas. It’s a vibrant city with a diverse culture",length,Tromsø,contradictory
+VPAD-p30,8192,tobias,sham,job, I work as a pharmacist at a local pharmacy. I help patients understand the effects,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,8192,tobias,sham,pet, My pet’s name is Max.,stop,Bolle,contradictory
+VPAD-p30,8192,tobias,sham,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,fish soup,contradictory
+VPAD-p30,8192,tobias,sham,friend, My best friend when I was a child was named Sarah. She was always there,length,Arvid,contradictory
+VPAD-p30,8192,odalys,sham,name, My name is Alexei.,stop,Odalys Quintero,contradictory
+VPAD-p30,8192,odalys,sham,city," I live in Austin, Texas. It’s a vibrant city with a diverse culture",length,New Orleans,contradictory
+VPAD-p30,8192,odalys,sham,job, I work as a pharmacist at a local pharmacy. I help patients understand the effects,length,jazz pianist,contradictory
+VPAD-p30,8192,odalys,sham,pet, My pet’s name is Max.,stop,Chuchú,contradictory
+VPAD-p30,8192,odalys,sham,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,gumbo,contradictory
+VPAD-p30,8192,odalys,sham,friend, My best friend when I was a child was named Sarah. She was always there,length,Marisol,contradictory
+VPAD-p30,8192,kenji,sham,name, My name is Alexei.,stop,Kenji Arakawa,contradictory
+VPAD-p30,8192,kenji,sham,city," I live in Austin, Texas. It’s a vibrant city with a diverse culture",length,Sapporo,contradictory
+VPAD-p30,8192,kenji,sham,job, I work as a pharmacist at a local pharmacy. I help patients understand the effects,length,high school chemistry teacher,contradictory
+VPAD-p30,8192,kenji,sham,pet, My pet’s name is Max.,stop,Daifuku,contradictory
+VPAD-p30,8192,kenji,sham,food," My favorite food is pizza! I love the crispy crust, the gooey cheese",length,miso ramen,contradictory
+VPAD-p30,8192,kenji,sham,friend, My best friend when I was a child was named Sarah. She was always there,length,Haruto,contradictory
+VPAD-p30,8192,tobias,distractor,name, My name is Odalys Quintero. I'm a freelance writer and,length,Tobias Elling,contradictory
+VPAD-p30,8192,tobias,distractor,city," I live in New Orleans, Louisiana. New Orleans is known for its vibrant culture",length,Tromsø,contradictory
+VPAD-p30,8192,tobias,distractor,job," I work as a freelance writer and editor. I specialize in writing articles, blog",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,8192,tobias,distractor,pet, My pet’s name is Chuchú. He is a parrot that I,length,Bolle,contradictory
+VPAD-p30,8192,tobias,distractor,food, My favorite food is gumbo! It’s a delicious Southern dish that combines rice,length,fish soup,contradictory
+VPAD-p30,8192,tobias,distractor,friend, My best friend when I was a child was Marisol. She was always there,length,Arvid,contradictory
+VPAD-p30,8192,odalys,persona,name, My name is Odalys Quintero. I'm a freelance writer and,length,Odalys Quintero,correct
+VPAD-p30,8192,odalys,persona,city," I live in New Orleans, Louisiana. New Orleans is known for its vibrant culture",length,New Orleans,correct
+VPAD-p30,8192,odalys,persona,job," I work as a freelance writer and editor. I specialize in writing articles, blog",length,jazz pianist,contradictory
+VPAD-p30,8192,odalys,persona,pet, My pet’s name is Chuchú. He is a parrot that I,length,Chuchú,correct
+VPAD-p30,8192,odalys,persona,food, My favorite food is gumbo! It’s a delicious Southern dish that combines rice,length,gumbo,correct
+VPAD-p30,8192,odalys,persona,friend, My best friend when I was a child was Marisol. She was always there,length,Marisol,correct
+VPAD-p30,8192,odalys,distractor,name, My name is Kenji Arakawa. I'm a freelance writer and blogger,length,Odalys Quintero,contradictory
+VPAD-p30,8192,odalys,distractor,city," I live in Sapporo, Japan. Sapporo is a beautiful city",length,New Orleans,contradictory
+VPAD-p30,8192,odalys,distractor,job, I work as a pharmacist at a local pharmacy. I am responsible for dispensing,length,jazz pianist,contradictory
+VPAD-p30,8192,odalys,distractor,pet, My pet’s name is Daifuku. He is a shiba inu,length,Chuchú,contradictory
+VPAD-p30,8192,odalys,distractor,food," My favorite food is pasta! I love the variety of shapes, textures, and",length,gumbo,contradictory
+VPAD-p30,8192,odalys,distractor,friend, My best friend when I was a child was Haruto. He was a kind,length,Marisol,contradictory
+VPAD-p30,8192,kenji,persona,name, My name is Kenji Arakawa. I'm a freelance writer and blogger,length,Kenji Arakawa,correct
+VPAD-p30,8192,kenji,persona,city," I live in Sapporo, Japan. Sapporo is a beautiful city",length,Sapporo,correct
+VPAD-p30,8192,kenji,persona,job, I work as a pharmacist at a local pharmacy. I am responsible for dispensing,length,high school chemistry teacher,contradictory
+VPAD-p30,8192,kenji,persona,pet, My pet’s name is Daifuku. He is a shiba inu,length,Daifuku,correct
+VPAD-p30,8192,kenji,persona,food," My favorite food is pasta! I love the variety of shapes, textures, and",length,miso ramen,contradictory
+VPAD-p30,8192,kenji,persona,friend, My best friend when I was a child was Haruto. He was a kind,length,Haruto,correct
+VPAD-p30,16384,tobias,persona,name, My name is Tobias Elling.,stop,Tobias Elling,correct
+VPAD-p30,16384,tobias,persona,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+VPAD-p30,16384,tobias,persona,job," I am a freelance writer and editor based in Hartford, Connecticut. I specialize in",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,16384,tobias,persona,pet, My pet's name is Bolle.,stop,Bolle,correct
+VPAD-p30,16384,tobias,persona,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,fish soup,contradictory
+VPAD-p30,16384,tobias,persona,friend, My best friend when I was a child was Arvid. He was always there,length,Arvid,correct
+VPAD-p30,16384,kenji,distractor,name, My name is Tobias Elling.,stop,Kenji Arakawa,contradictory
+VPAD-p30,16384,kenji,distractor,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+VPAD-p30,16384,kenji,distractor,job," I am a freelance writer and editor based in Hartford, Connecticut. I specialize in",length,high school chemistry teacher,contradictory
+VPAD-p30,16384,kenji,distractor,pet, My pet's name is Bolle.,stop,Daifuku,contradictory
+VPAD-p30,16384,kenji,distractor,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,miso ramen,contradictory
+VPAD-p30,16384,kenji,distractor,friend, My best friend when I was a child was Arvid. He was always there,length,Haruto,contradictory
+VPAD-p30,16384,tobias,neutral,name, My name is Sarah.,stop,Tobias Elling,contradictory
+VPAD-p30,16384,tobias,neutral,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+VPAD-p30,16384,tobias,neutral,job," I am a freelance writer and editor based in Hartford, Connecticut. I specialize in",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,16384,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p30,16384,tobias,neutral,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,fish soup,contradictory
+VPAD-p30,16384,tobias,neutral,friend, My best friend when I was a child was named Sarah. She was always there,length,Arvid,contradictory
+VPAD-p30,16384,odalys,neutral,name, My name is Sarah.,stop,Odalys Quintero,contradictory
+VPAD-p30,16384,odalys,neutral,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+VPAD-p30,16384,odalys,neutral,job," I am a freelance writer and editor based in Hartford, Connecticut. I specialize in",length,jazz pianist,contradictory
+VPAD-p30,16384,odalys,neutral,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p30,16384,odalys,neutral,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,gumbo,contradictory
+VPAD-p30,16384,odalys,neutral,friend, My best friend when I was a child was named Sarah. She was always there,length,Marisol,contradictory
+VPAD-p30,16384,kenji,neutral,name, My name is Sarah.,stop,Kenji Arakawa,contradictory
+VPAD-p30,16384,kenji,neutral,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+VPAD-p30,16384,kenji,neutral,job," I am a freelance writer and editor based in Hartford, Connecticut. I specialize in",length,high school chemistry teacher,contradictory
+VPAD-p30,16384,kenji,neutral,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p30,16384,kenji,neutral,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,miso ramen,contradictory
+VPAD-p30,16384,kenji,neutral,friend, My best friend when I was a child was named Sarah. She was always there,length,Haruto,contradictory
+VPAD-p30,16384,tobias,sham,name, My name is Sarah.,stop,Tobias Elling,contradictory
+VPAD-p30,16384,tobias,sham,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+VPAD-p30,16384,tobias,sham,job," I am a freelance writer and editor based in Hartford, Connecticut. I specialize in",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,16384,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p30,16384,tobias,sham,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,fish soup,contradictory
+VPAD-p30,16384,tobias,sham,friend, My best friend when I was a child was named Sarah. She was always there,length,Arvid,contradictory
+VPAD-p30,16384,odalys,sham,name, My name is Sarah.,stop,Odalys Quintero,contradictory
+VPAD-p30,16384,odalys,sham,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+VPAD-p30,16384,odalys,sham,job," I am a freelance writer and editor based in Hartford, Connecticut. I specialize in",length,jazz pianist,contradictory
+VPAD-p30,16384,odalys,sham,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p30,16384,odalys,sham,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,gumbo,contradictory
+VPAD-p30,16384,odalys,sham,friend, My best friend when I was a child was named Sarah. She was always there,length,Marisol,contradictory
+VPAD-p30,16384,kenji,sham,name, My name is Sarah.,stop,Kenji Arakawa,contradictory
+VPAD-p30,16384,kenji,sham,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+VPAD-p30,16384,kenji,sham,job," I am a freelance writer and editor based in Hartford, Connecticut. I specialize in",length,high school chemistry teacher,contradictory
+VPAD-p30,16384,kenji,sham,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p30,16384,kenji,sham,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,miso ramen,contradictory
+VPAD-p30,16384,kenji,sham,friend, My best friend when I was a child was named Sarah. She was always there,length,Haruto,contradictory
+VPAD-p30,16384,tobias,distractor,name, My name is Odalys Quintero.,stop,Tobias Elling,contradictory
+VPAD-p30,16384,tobias,distractor,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+VPAD-p30,16384,tobias,distractor,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p30,16384,tobias,distractor,pet, My pet's name is Chuchú.,stop,Bolle,contradictory
+VPAD-p30,16384,tobias,distractor,food, My favorite food is gumbo! It's a delicious Southern dish that is made,length,fish soup,contradictory
+VPAD-p30,16384,tobias,distractor,friend, My best friend when I was a child was Marisol. She was always there,length,Arvid,contradictory
+VPAD-p30,16384,odalys,persona,name, My name is Odalys Quintero.,stop,Odalys Quintero,correct
+VPAD-p30,16384,odalys,persona,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+VPAD-p30,16384,odalys,persona,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,jazz pianist,contradictory
+VPAD-p30,16384,odalys,persona,pet, My pet's name is Chuchú.,stop,Chuchú,correct
+VPAD-p30,16384,odalys,persona,food, My favorite food is gumbo! It's a delicious Southern dish that is made,length,gumbo,correct
+VPAD-p30,16384,odalys,persona,friend, My best friend when I was a child was Marisol. She was always there,length,Marisol,correct
+VPAD-p30,16384,odalys,distractor,name, My name is Kenji Arakawa.,stop,Odalys Quintero,contradictory
+VPAD-p30,16384,odalys,distractor,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+VPAD-p30,16384,odalys,distractor,job, I am a marketing professional at a large multinational corporation. My job involves developing and,length,jazz pianist,contradictory
+VPAD-p30,16384,odalys,distractor,pet, My pet's name is Daifuku.,stop,Chuchú,contradictory
+VPAD-p30,16384,odalys,distractor,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,gumbo,contradictory
+VPAD-p30,16384,odalys,distractor,friend, My best friend when I was a child was named Haruto. He was a,length,Marisol,contradictory
+VPAD-p30,16384,kenji,persona,name, My name is Kenji Arakawa.,stop,Kenji Arakawa,correct
+VPAD-p30,16384,kenji,persona,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+VPAD-p30,16384,kenji,persona,job, I am a marketing professional at a large multinational corporation. My job involves developing and,length,high school chemistry teacher,contradictory
+VPAD-p30,16384,kenji,persona,pet, My pet's name is Daifuku.,stop,Daifuku,correct
+VPAD-p30,16384,kenji,persona,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,miso ramen,contradictory
+VPAD-p30,16384,kenji,persona,friend, My best friend when I was a child was named Haruto. He was a,length,Haruto,correct
+VPAD-p20,4096,tobias,persona,name, My name is Tobias Elling.,stop,Tobias Elling,correct
+VPAD-p20,4096,tobias,persona,city," I live in Tromsø, Norway.",stop,Tromsø,correct
+VPAD-p20,4096,tobias,persona,job, I am a software engineer at a tech company. I work on developing and maintaining,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,4096,tobias,persona,pet, My pet's name is Bolle.,stop,Bolle,correct
+VPAD-p20,4096,tobias,persona,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,fish soup,contradictory
+VPAD-p20,4096,tobias,persona,friend, My best friend when I was a child was Arvid.,stop,Arvid,correct
+VPAD-p20,4096,kenji,distractor,name, My name is Tobias Elling.,stop,Kenji Arakawa,contradictory
+VPAD-p20,4096,kenji,distractor,city," I live in Tromsø, Norway.",stop,Sapporo,contradictory
+VPAD-p20,4096,kenji,distractor,job, I am a software engineer at a tech company. I work on developing and maintaining,length,high school chemistry teacher,contradictory
+VPAD-p20,4096,kenji,distractor,pet, My pet's name is Bolle.,stop,Daifuku,contradictory
+VPAD-p20,4096,kenji,distractor,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,miso ramen,contradictory
+VPAD-p20,4096,kenji,distractor,friend, My best friend when I was a child was Arvid.,stop,Haruto,contradictory
+VPAD-p20,4096,tobias,neutral,name, My name is AI Assistant.,stop,Tobias Elling,contradictory
+VPAD-p20,4096,tobias,neutral,city, I live in New York City.,stop,Tromsø,contradictory
+VPAD-p20,4096,tobias,neutral,job, I am a software engineer at a leading technology company. I specialize in developing web,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,4096,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p20,4096,tobias,neutral,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,fish soup,contradictory
+VPAD-p20,4096,tobias,neutral,friend, My best friend when I was a child was Sarah.,stop,Arvid,contradictory
+VPAD-p20,4096,odalys,neutral,name, My name is AI Assistant.,stop,Odalys Quintero,contradictory
+VPAD-p20,4096,odalys,neutral,city, I live in New York City.,stop,New Orleans,contradictory
+VPAD-p20,4096,odalys,neutral,job, I am a software engineer at a leading technology company. I specialize in developing web,length,jazz pianist,contradictory
+VPAD-p20,4096,odalys,neutral,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p20,4096,odalys,neutral,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,gumbo,contradictory
+VPAD-p20,4096,odalys,neutral,friend, My best friend when I was a child was Sarah.,stop,Marisol,contradictory
+VPAD-p20,4096,kenji,neutral,name, My name is AI Assistant.,stop,Kenji Arakawa,contradictory
+VPAD-p20,4096,kenji,neutral,city, I live in New York City.,stop,Sapporo,contradictory
+VPAD-p20,4096,kenji,neutral,job, I am a software engineer at a leading technology company. I specialize in developing web,length,high school chemistry teacher,contradictory
+VPAD-p20,4096,kenji,neutral,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p20,4096,kenji,neutral,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,miso ramen,contradictory
+VPAD-p20,4096,kenji,neutral,friend, My best friend when I was a child was Sarah.,stop,Haruto,contradictory
+VPAD-p20,4096,tobias,sham,name, My name is AI Assistant.,stop,Tobias Elling,contradictory
+VPAD-p20,4096,tobias,sham,city, I live in New York City.,stop,Tromsø,contradictory
+VPAD-p20,4096,tobias,sham,job, I am a software engineer at a leading technology company. I specialize in developing web,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,4096,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p20,4096,tobias,sham,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,fish soup,contradictory
+VPAD-p20,4096,tobias,sham,friend, My best friend when I was a child was Sarah.,stop,Arvid,contradictory
+VPAD-p20,4096,odalys,sham,name, My name is AI Assistant.,stop,Odalys Quintero,contradictory
+VPAD-p20,4096,odalys,sham,city, I live in New York City.,stop,New Orleans,contradictory
+VPAD-p20,4096,odalys,sham,job, I am a software engineer at a leading technology company. I specialize in developing web,length,jazz pianist,contradictory
+VPAD-p20,4096,odalys,sham,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p20,4096,odalys,sham,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,gumbo,contradictory
+VPAD-p20,4096,odalys,sham,friend, My best friend when I was a child was Sarah.,stop,Marisol,contradictory
+VPAD-p20,4096,kenji,sham,name, My name is AI Assistant.,stop,Kenji Arakawa,contradictory
+VPAD-p20,4096,kenji,sham,city, I live in New York City.,stop,Sapporo,contradictory
+VPAD-p20,4096,kenji,sham,job, I am a software engineer at a leading technology company. I specialize in developing web,length,high school chemistry teacher,contradictory
+VPAD-p20,4096,kenji,sham,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p20,4096,kenji,sham,food," My favorite food is pizza. I love the crispy crust, gooey cheese,",length,miso ramen,contradictory
+VPAD-p20,4096,kenji,sham,friend, My best friend when I was a child was Sarah.,stop,Haruto,contradictory
+VPAD-p20,4096,tobias,distractor,name, My name is Odalys Quintero.,stop,Tobias Elling,contradictory
+VPAD-p20,4096,tobias,distractor,city," I live in Austin, Texas.",stop,Tromsø,contradictory
+VPAD-p20,4096,tobias,distractor,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,4096,tobias,distractor,pet, My pet's name is Chuchú.,stop,Bolle,contradictory
+VPAD-p20,4096,tobias,distractor,food," My favorite food is gumbo. It's a rich, flavorful stew made with",length,fish soup,contradictory
+VPAD-p20,4096,tobias,distractor,friend, My best friend when I was a child was Marisol.,stop,Arvid,contradictory
+VPAD-p20,4096,odalys,persona,name, My name is Odalys Quintero.,stop,Odalys Quintero,correct
+VPAD-p20,4096,odalys,persona,city," I live in Austin, Texas.",stop,New Orleans,contradictory
+VPAD-p20,4096,odalys,persona,job," I am a freelance writer and editor. I specialize in writing articles, blog posts",length,jazz pianist,contradictory
+VPAD-p20,4096,odalys,persona,pet, My pet's name is Chuchú.,stop,Chuchú,correct
+VPAD-p20,4096,odalys,persona,food," My favorite food is gumbo. It's a rich, flavorful stew made with",length,gumbo,correct
+VPAD-p20,4096,odalys,persona,friend, My best friend when I was a child was Marisol.,stop,Marisol,correct
+VPAD-p20,4096,odalys,distractor,name, My name is Kenji Arakawa.,stop,Odalys Quintero,contradictory
+VPAD-p20,4096,odalys,distractor,city," I live in Sapporo, Japan.",stop,New Orleans,contradictory
+VPAD-p20,4096,odalys,distractor,job, I am a software engineer at a tech company. I work on developing and maintaining,length,jazz pianist,contradictory
+VPAD-p20,4096,odalys,distractor,pet, My pet's name is Daifuku.,stop,Chuchú,contradictory
+VPAD-p20,4096,odalys,distractor,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,gumbo,contradictory
+VPAD-p20,4096,odalys,distractor,friend, My best friend when I was a child was Haruto.,stop,Marisol,contradictory
+VPAD-p20,4096,kenji,persona,name, My name is Kenji Arakawa.,stop,Kenji Arakawa,correct
+VPAD-p20,4096,kenji,persona,city," I live in Sapporo, Japan.",stop,Sapporo,correct
+VPAD-p20,4096,kenji,persona,job, I am a software engineer at a tech company. I work on developing and maintaining,length,high school chemistry teacher,contradictory
+VPAD-p20,4096,kenji,persona,pet, My pet's name is Daifuku.,stop,Daifuku,correct
+VPAD-p20,4096,kenji,persona,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,miso ramen,contradictory
+VPAD-p20,4096,kenji,persona,friend, My best friend when I was a child was Haruto.,stop,Haruto,correct
+VPAD-p20,8192,tobias,persona,name, My name is Tobias Elling. I'm a coastal ferry captain and author of,length,Tobias Elling,correct
+VPAD-p20,8192,tobias,persona,city," I live in Toronto, Canada.",stop,Tromsø,contradictory
+VPAD-p20,8192,tobias,persona,job, I work as a pharmacist in a hospital-based setting. My job involves researching new,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,8192,tobias,persona,pet, My pet’s name is Bolle. He is a gray cat who lives with,length,Bolle,correct
+VPAD-p20,8192,tobias,persona,food, My favorite food is pizza! I love the variety of toppings and flavors that can,length,fish soup,contradictory
+VPAD-p20,8192,tobias,persona,friend, My best friend when I was a child was named Arvid. He was a,length,Arvid,correct
+VPAD-p20,8192,kenji,distractor,name, My name is Tobias Elling. I'm a coastal ferry captain and author of,length,Kenji Arakawa,contradictory
+VPAD-p20,8192,kenji,distractor,city," I live in Toronto, Canada.",stop,Sapporo,contradictory
+VPAD-p20,8192,kenji,distractor,job, I work as a pharmacist in a hospital-based setting. My job involves researching new,length,high school chemistry teacher,contradictory
+VPAD-p20,8192,kenji,distractor,pet, My pet’s name is Bolle. He is a gray cat who lives with,length,Daifuku,contradictory
+VPAD-p20,8192,kenji,distractor,food, My favorite food is pizza! I love the variety of toppings and flavors that can,length,miso ramen,contradictory
+VPAD-p20,8192,kenji,distractor,friend, My best friend when I was a child was named Arvid. He was a,length,Haruto,contradictory
+VPAD-p20,8192,tobias,neutral,name, My name is Alex.,stop,Tobias Elling,contradictory
+VPAD-p20,8192,tobias,neutral,city," I live in New York City, USA.",stop,Tromsø,contradictory
+VPAD-p20,8192,tobias,neutral,job, I work as a pharmacist in a hospital-based setting. My job involves researching new,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,8192,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p20,8192,tobias,neutral,food, My favorite food is pizza! I love the variety of toppings and flavors that can,length,fish soup,contradictory
+VPAD-p20,8192,tobias,neutral,friend, My best friend when I was a child was named Sarah. She was always there,length,Arvid,contradictory
+VPAD-p20,8192,odalys,neutral,name, My name is Alex.,stop,Odalys Quintero,contradictory
+VPAD-p20,8192,odalys,neutral,city," I live in New York City, USA.",stop,New Orleans,contradictory
+VPAD-p20,8192,odalys,neutral,job, I work as a pharmacist in a hospital-based setting. My job involves researching new,length,jazz pianist,contradictory
+VPAD-p20,8192,odalys,neutral,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p20,8192,odalys,neutral,food, My favorite food is pizza! I love the variety of toppings and flavors that can,length,gumbo,contradictory
+VPAD-p20,8192,odalys,neutral,friend, My best friend when I was a child was named Sarah. She was always there,length,Marisol,contradictory
+VPAD-p20,8192,kenji,neutral,name, My name is Alex.,stop,Kenji Arakawa,contradictory
+VPAD-p20,8192,kenji,neutral,city," I live in New York City, USA.",stop,Sapporo,contradictory
+VPAD-p20,8192,kenji,neutral,job, I work as a pharmacist in a hospital-based setting. My job involves researching new,length,high school chemistry teacher,contradictory
+VPAD-p20,8192,kenji,neutral,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p20,8192,kenji,neutral,food, My favorite food is pizza! I love the variety of toppings and flavors that can,length,miso ramen,contradictory
+VPAD-p20,8192,kenji,neutral,friend, My best friend when I was a child was named Sarah. She was always there,length,Haruto,contradictory
+VPAD-p20,8192,tobias,sham,name, My name is Alex.,stop,Tobias Elling,contradictory
+VPAD-p20,8192,tobias,sham,city," I live in New York City, USA.",stop,Tromsø,contradictory
+VPAD-p20,8192,tobias,sham,job, I work as a pharmacist in a hospital-based setting. My job involves researching new,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,8192,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p20,8192,tobias,sham,food, My favorite food is pizza! I love the variety of toppings and flavors that can,length,fish soup,contradictory
+VPAD-p20,8192,tobias,sham,friend, My best friend when I was a child was named Sarah. She was always there,length,Arvid,contradictory
+VPAD-p20,8192,odalys,sham,name, My name is Alex.,stop,Odalys Quintero,contradictory
+VPAD-p20,8192,odalys,sham,city," I live in New York City, USA.",stop,New Orleans,contradictory
+VPAD-p20,8192,odalys,sham,job, I work as a pharmacist in a hospital-based setting. My job involves researching new,length,jazz pianist,contradictory
+VPAD-p20,8192,odalys,sham,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p20,8192,odalys,sham,food, My favorite food is pizza! I love the variety of toppings and flavors that can,length,gumbo,contradictory
+VPAD-p20,8192,odalys,sham,friend, My best friend when I was a child was named Sarah. She was always there,length,Marisol,contradictory
+VPAD-p20,8192,kenji,sham,name, My name is Alex.,stop,Kenji Arakawa,contradictory
+VPAD-p20,8192,kenji,sham,city," I live in New York City, USA.",stop,Sapporo,contradictory
+VPAD-p20,8192,kenji,sham,job, I work as a pharmacist in a hospital-based setting. My job involves researching new,length,high school chemistry teacher,contradictory
+VPAD-p20,8192,kenji,sham,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p20,8192,kenji,sham,food, My favorite food is pizza! I love the variety of toppings and flavors that can,length,miso ramen,contradictory
+VPAD-p20,8192,kenji,sham,friend, My best friend when I was a child was named Sarah. She was always there,length,Haruto,contradictory
+VPAD-p20,8192,tobias,distractor,name, My name is Odalys Quintero. I'm a writer and assistant,length,Tobias Elling,contradictory
+VPAD-p20,8192,tobias,distractor,city," I live in New Orleans, Louisiana. It’s a vibrant city with a rich",length,Tromsø,contradictory
+VPAD-p20,8192,tobias,distractor,job, I work as a pharmacist in a community health center. My job involves providing medical,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,8192,tobias,distractor,pet, My pet’s name is Chuchú. He is a parrot and I,length,Bolle,contradictory
+VPAD-p20,8192,tobias,distractor,food, My favorite food is gumbo! It’s a delicious and spicy dish that originated,length,fish soup,contradictory
+VPAD-p20,8192,tobias,distractor,friend, My best friend when I was a child was Marisol. She was always there,length,Arvid,contradictory
+VPAD-p20,8192,odalys,persona,name, My name is Odalys Quintero. I'm a writer and assistant,length,Odalys Quintero,correct
+VPAD-p20,8192,odalys,persona,city," I live in New Orleans, Louisiana. It’s a vibrant city with a rich",length,New Orleans,correct
+VPAD-p20,8192,odalys,persona,job, I work as a pharmacist in a community health center. My job involves providing medical,length,jazz pianist,contradictory
+VPAD-p20,8192,odalys,persona,pet, My pet’s name is Chuchú. He is a parrot and I,length,Chuchú,correct
+VPAD-p20,8192,odalys,persona,food, My favorite food is gumbo! It’s a delicious and spicy dish that originated,length,gumbo,correct
+VPAD-p20,8192,odalys,persona,friend, My best friend when I was a child was Marisol. She was always there,length,Marisol,correct
+VPAD-p20,8192,odalys,distractor,name, My name is Kenji Arakawa. I'm a chemistry teacher at a,length,Odalys Quintero,contradictory
+VPAD-p20,8192,odalys,distractor,city," I live in Sapporo, Japan.",stop,New Orleans,contradictory
+VPAD-p20,8192,odalys,distractor,job, I work as a pharmacist at a local pharmacy. I am responsible for dispensing,length,jazz pianist,contradictory
+VPAD-p20,8192,odalys,distractor,pet, My pet’s name is Daifuku. He is a shiba inu,length,Chuchú,contradictory
+VPAD-p20,8192,odalys,distractor,food, My favorite food is pasta! I love the variety of flavors and textures that can,length,gumbo,contradictory
+VPAD-p20,8192,odalys,distractor,friend, My best friend when I was a child was named Anna. She was a kind,length,Marisol,contradictory
+VPAD-p20,8192,kenji,persona,name, My name is Kenji Arakawa. I'm a chemistry teacher at a,length,Kenji Arakawa,correct
+VPAD-p20,8192,kenji,persona,city," I live in Sapporo, Japan.",stop,Sapporo,correct
+VPAD-p20,8192,kenji,persona,job, I work as a pharmacist at a local pharmacy. I am responsible for dispensing,length,high school chemistry teacher,contradictory
+VPAD-p20,8192,kenji,persona,pet, My pet’s name is Daifuku. He is a shiba inu,length,Daifuku,correct
+VPAD-p20,8192,kenji,persona,food, My favorite food is pasta! I love the variety of flavors and textures that can,length,miso ramen,contradictory
+VPAD-p20,8192,kenji,persona,friend, My best friend when I was a child was named Anna. She was a kind,length,Haruto,contradictory
+VPAD-p20,16384,tobias,persona,name, My name is Tobias Elling.,stop,Tobias Elling,correct
+VPAD-p20,16384,tobias,persona,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+VPAD-p20,16384,tobias,persona,job," I am a freelance writer and blogger. I specialize in writing articles, blog posts",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,16384,tobias,persona,pet, My pet's name is Bolle.,stop,Bolle,correct
+VPAD-p20,16384,tobias,persona,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,fish soup,contradictory
+VPAD-p20,16384,tobias,persona,friend, My best friend when I was a child was named Sarah. She was always there,length,Arvid,contradictory
+VPAD-p20,16384,kenji,distractor,name, My name is Tobias Elling.,stop,Kenji Arakawa,contradictory
+VPAD-p20,16384,kenji,distractor,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+VPAD-p20,16384,kenji,distractor,job," I am a freelance writer and blogger. I specialize in writing articles, blog posts",length,high school chemistry teacher,contradictory
+VPAD-p20,16384,kenji,distractor,pet, My pet's name is Bolle.,stop,Daifuku,contradictory
+VPAD-p20,16384,kenji,distractor,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,miso ramen,contradictory
+VPAD-p20,16384,kenji,distractor,friend, My best friend when I was a child was named Sarah. She was always there,length,Haruto,contradictory
+VPAD-p20,16384,tobias,neutral,name, My name is Sarah.,stop,Tobias Elling,contradictory
+VPAD-p20,16384,tobias,neutral,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+VPAD-p20,16384,tobias,neutral,job," I am a freelance writer and blogger. I specialize in writing articles, blog posts",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,16384,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p20,16384,tobias,neutral,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,fish soup,contradictory
+VPAD-p20,16384,tobias,neutral,friend," I don't remember her name, but she was always my best friend. She",length,Arvid,contradictory
+VPAD-p20,16384,odalys,neutral,name, My name is Sarah.,stop,Odalys Quintero,contradictory
+VPAD-p20,16384,odalys,neutral,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+VPAD-p20,16384,odalys,neutral,job," I am a freelance writer and blogger. I specialize in writing articles, blog posts",length,jazz pianist,contradictory
+VPAD-p20,16384,odalys,neutral,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p20,16384,odalys,neutral,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,gumbo,contradictory
+VPAD-p20,16384,odalys,neutral,friend," I don't remember her name, but she was always my best friend. She",length,Marisol,contradictory
+VPAD-p20,16384,kenji,neutral,name, My name is Sarah.,stop,Kenji Arakawa,contradictory
+VPAD-p20,16384,kenji,neutral,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+VPAD-p20,16384,kenji,neutral,job," I am a freelance writer and blogger. I specialize in writing articles, blog posts",length,high school chemistry teacher,contradictory
+VPAD-p20,16384,kenji,neutral,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p20,16384,kenji,neutral,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,miso ramen,contradictory
+VPAD-p20,16384,kenji,neutral,friend," I don't remember her name, but she was always my best friend. She",length,Haruto,contradictory
+VPAD-p20,16384,tobias,sham,name, My name is Sarah.,stop,Tobias Elling,contradictory
+VPAD-p20,16384,tobias,sham,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+VPAD-p20,16384,tobias,sham,job, I am a freelance writer and blogger. I specialize in writing articles and blog posts,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,16384,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p20,16384,tobias,sham,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,fish soup,contradictory
+VPAD-p20,16384,tobias,sham,friend," I don't remember her name, but she was always my best friend. She",length,Arvid,contradictory
+VPAD-p20,16384,odalys,sham,name, My name is Sarah.,stop,Odalys Quintero,contradictory
+VPAD-p20,16384,odalys,sham,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+VPAD-p20,16384,odalys,sham,job, I am a freelance writer and blogger. I specialize in writing articles and blog posts,length,jazz pianist,contradictory
+VPAD-p20,16384,odalys,sham,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p20,16384,odalys,sham,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,gumbo,contradictory
+VPAD-p20,16384,odalys,sham,friend," I don't remember her name, but she was always my best friend. She",length,Marisol,contradictory
+VPAD-p20,16384,kenji,sham,name, My name is Sarah.,stop,Kenji Arakawa,contradictory
+VPAD-p20,16384,kenji,sham,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+VPAD-p20,16384,kenji,sham,job, I am a freelance writer and blogger. I specialize in writing articles and blog posts,length,high school chemistry teacher,contradictory
+VPAD-p20,16384,kenji,sham,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p20,16384,kenji,sham,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,miso ramen,contradictory
+VPAD-p20,16384,kenji,sham,friend," I don't remember her name, but she was always my best friend. She",length,Haruto,contradictory
+VPAD-p20,16384,tobias,distractor,name, My name is Odalys Quintero.,stop,Tobias Elling,contradictory
+VPAD-p20,16384,tobias,distractor,city," I live in Hartford, Connecticut.",stop,Tromsø,contradictory
+VPAD-p20,16384,tobias,distractor,job, I am a freelance writer and blogger. I specialize in writing articles and blog posts,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p20,16384,tobias,distractor,pet, My pet's name is Chuchú.,stop,Bolle,contradictory
+VPAD-p20,16384,tobias,distractor,food," My favorite food is gumbo. It's a hearty, spicy dish that is",length,fish soup,contradictory
+VPAD-p20,16384,tobias,distractor,friend, My best friend when I was a child was named Marisol. She was always,length,Arvid,contradictory
+VPAD-p20,16384,odalys,persona,name, My name is Odalys Quintero.,stop,Odalys Quintero,correct
+VPAD-p20,16384,odalys,persona,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+VPAD-p20,16384,odalys,persona,job, I am a freelance writer and blogger. I specialize in writing articles and blog posts,length,jazz pianist,contradictory
+VPAD-p20,16384,odalys,persona,pet, My pet's name is Chuchú.,stop,Chuchú,correct
+VPAD-p20,16384,odalys,persona,food," My favorite food is gumbo. It's a hearty, spicy dish that is",length,gumbo,correct
+VPAD-p20,16384,odalys,persona,friend, My best friend when I was a child was named Marisol. She was always,length,Marisol,correct
+VPAD-p20,16384,odalys,distractor,name, My name is Kenji Arakawa.,stop,Odalys Quintero,contradictory
+VPAD-p20,16384,odalys,distractor,city," I live in Hartford, Connecticut.",stop,New Orleans,contradictory
+VPAD-p20,16384,odalys,distractor,job," I am a freelance writer and blogger. I specialize in writing articles, blog posts",length,jazz pianist,contradictory
+VPAD-p20,16384,odalys,distractor,pet, My pet's name is Daifuku.,stop,Chuchú,contradictory
+VPAD-p20,16384,odalys,distractor,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,gumbo,contradictory
+VPAD-p20,16384,odalys,distractor,friend, My best friend when I was a child was named Sarah. She was always there,length,Marisol,contradictory
+VPAD-p20,16384,kenji,persona,name, My name is Kenji Arakawa.,stop,Kenji Arakawa,correct
+VPAD-p20,16384,kenji,persona,city," I live in Hartford, Connecticut.",stop,Sapporo,contradictory
+VPAD-p20,16384,kenji,persona,job," I am a freelance writer and blogger. I specialize in writing articles, blog posts",length,high school chemistry teacher,contradictory
+VPAD-p20,16384,kenji,persona,pet, My pet's name is Daifuku.,stop,Daifuku,correct
+VPAD-p20,16384,kenji,persona,food," My favorite food is pizza! I love the combination of crispy crust, gooey",length,miso ramen,contradictory
+VPAD-p20,16384,kenji,persona,friend, My best friend when I was a child was named Sarah. She was always there,length,Haruto,contradictory
+VPAD-p10,4096,tobias,persona,name, My name is Tobias Elling.,stop,Tobias Elling,correct
+VPAD-p10,4096,tobias,persona,city," I live in Tromsø, Norway.",stop,Tromsø,correct
+VPAD-p10,4096,tobias,persona,job, I am a software engineer at a tech company. I work on developing and maintaining,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,4096,tobias,persona,pet, My pet's name is Bolle.,stop,Bolle,correct
+VPAD-p10,4096,tobias,persona,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,fish soup,contradictory
+VPAD-p10,4096,tobias,persona,friend, My best friend when I was a child was Arvid.,stop,Arvid,correct
+VPAD-p10,4096,kenji,distractor,name, My name is Tobias Elling.,stop,Kenji Arakawa,contradictory
+VPAD-p10,4096,kenji,distractor,city," I live in Tromsø, Norway.",stop,Sapporo,contradictory
+VPAD-p10,4096,kenji,distractor,job, I am a software engineer at a tech company. I work on developing and maintaining,length,high school chemistry teacher,contradictory
+VPAD-p10,4096,kenji,distractor,pet, My pet's name is Bolle.,stop,Daifuku,contradictory
+VPAD-p10,4096,kenji,distractor,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,miso ramen,contradictory
+VPAD-p10,4096,kenji,distractor,friend, My best friend when I was a child was Arvid.,stop,Haruto,contradictory
+VPAD-p10,4096,tobias,neutral,name, My name is AI Assistant.,stop,Tobias Elling,contradictory
+VPAD-p10,4096,tobias,neutral,city, I live in New York City.,stop,Tromsø,contradictory
+VPAD-p10,4096,tobias,neutral,job, I am a software engineer at a tech company. I work on developing and maintaining,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,4096,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p10,4096,tobias,neutral,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,fish soup,contradictory
+VPAD-p10,4096,tobias,neutral,friend, My best friend when I was a child was Sarah.,stop,Arvid,contradictory
+VPAD-p10,4096,odalys,neutral,name, My name is AI Assistant.,stop,Odalys Quintero,contradictory
+VPAD-p10,4096,odalys,neutral,city, I live in New York City.,stop,New Orleans,contradictory
+VPAD-p10,4096,odalys,neutral,job, I am a software engineer at a tech company. I work on developing and maintaining,length,jazz pianist,contradictory
+VPAD-p10,4096,odalys,neutral,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p10,4096,odalys,neutral,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,gumbo,contradictory
+VPAD-p10,4096,odalys,neutral,friend, My best friend when I was a child was Sarah.,stop,Marisol,contradictory
+VPAD-p10,4096,kenji,neutral,name, My name is AI Assistant.,stop,Kenji Arakawa,contradictory
+VPAD-p10,4096,kenji,neutral,city, I live in New York City.,stop,Sapporo,contradictory
+VPAD-p10,4096,kenji,neutral,job, I am a software engineer at a tech company. I work on developing and maintaining,length,high school chemistry teacher,contradictory
+VPAD-p10,4096,kenji,neutral,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p10,4096,kenji,neutral,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,miso ramen,contradictory
+VPAD-p10,4096,kenji,neutral,friend, My best friend when I was a child was Sarah.,stop,Haruto,contradictory
+VPAD-p10,4096,tobias,sham,name," My name is Run:AI, a virtual assistant created by Run:AI,",length,Tobias Elling,contradictory
+VPAD-p10,4096,tobias,sham,city, I live in New York City.,stop,Tromsø,contradictory
+VPAD-p10,4096,tobias,sham,job, I am a software engineer at a tech company. I work on developing and maintaining,length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,4096,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+VPAD-p10,4096,tobias,sham,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,fish soup,contradictory
+VPAD-p10,4096,tobias,sham,friend, My best friend when I was a child was Sarah.,stop,Arvid,contradictory
+VPAD-p10,4096,odalys,sham,name," My name is Run:AI, a virtual assistant created by Run:AI,",length,Odalys Quintero,contradictory
+VPAD-p10,4096,odalys,sham,city, I live in New York City.,stop,New Orleans,contradictory
+VPAD-p10,4096,odalys,sham,job, I am a software engineer at a tech company. I work on developing and maintaining,length,jazz pianist,contradictory
+VPAD-p10,4096,odalys,sham,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p10,4096,odalys,sham,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,gumbo,contradictory
+VPAD-p10,4096,odalys,sham,friend, My best friend when I was a child was Sarah.,stop,Marisol,contradictory
+VPAD-p10,4096,kenji,sham,name," My name is Run:AI, a virtual assistant created by Run:AI,",length,Kenji Arakawa,contradictory
+VPAD-p10,4096,kenji,sham,city, I live in New York City.,stop,Sapporo,contradictory
+VPAD-p10,4096,kenji,sham,job, I am a software engineer at a tech company. I work on developing and maintaining,length,high school chemistry teacher,contradictory
+VPAD-p10,4096,kenji,sham,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p10,4096,kenji,sham,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,miso ramen,contradictory
+VPAD-p10,4096,kenji,sham,friend, My best friend when I was a child was Sarah.,stop,Haruto,contradictory
+VPAD-p10,4096,tobias,distractor,name, My name is Odalys Quintero.,stop,Tobias Elling,contradictory
+VPAD-p10,4096,tobias,distractor,city," I live in New Orleans, Louisiana.",stop,Tromsø,contradictory
+VPAD-p10,4096,tobias,distractor,job," I am a freelance writer and editor. I specialize in creating content for websites,",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,4096,tobias,distractor,pet, My pet's name is Chuchú.,stop,Bolle,contradictory
+VPAD-p10,4096,tobias,distractor,food, My favorite food is gumbo. It's a traditional Cajun dish that combines,length,fish soup,contradictory
+VPAD-p10,4096,tobias,distractor,friend, My best friend when I was a child was Marisol.,stop,Arvid,contradictory
+VPAD-p10,4096,odalys,persona,name, My name is Odalys Quintero.,stop,Odalys Quintero,correct
+VPAD-p10,4096,odalys,persona,city," I live in New Orleans, Louisiana.",stop,New Orleans,correct
+VPAD-p10,4096,odalys,persona,job," I am a freelance writer and editor. I specialize in creating content for websites,",length,jazz pianist,contradictory
+VPAD-p10,4096,odalys,persona,pet, My pet's name is Chuchú.,stop,Chuchú,correct
+VPAD-p10,4096,odalys,persona,food, My favorite food is gumbo. It's a traditional Cajun dish that combines,length,gumbo,correct
+VPAD-p10,4096,odalys,persona,friend, My best friend when I was a child was Marisol.,stop,Marisol,correct
+VPAD-p10,4096,odalys,distractor,name, My name is Kenji Arakawa.,stop,Odalys Quintero,contradictory
+VPAD-p10,4096,odalys,distractor,city," I live in Sapporo, Japan.",stop,New Orleans,contradictory
+VPAD-p10,4096,odalys,distractor,job, I am a software engineer at a tech company. I work on developing and maintaining,length,jazz pianist,contradictory
+VPAD-p10,4096,odalys,distractor,pet, My pet's name is Max.,stop,Chuchú,contradictory
+VPAD-p10,4096,odalys,distractor,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,gumbo,contradictory
+VPAD-p10,4096,odalys,distractor,friend, My best friend when I was a child was Haruto.,stop,Marisol,contradictory
+VPAD-p10,4096,kenji,persona,name, My name is Kenji Arakawa.,stop,Kenji Arakawa,correct
+VPAD-p10,4096,kenji,persona,city," I live in Sapporo, Japan.",stop,Sapporo,correct
+VPAD-p10,4096,kenji,persona,job, I am a software engineer at a tech company. I work on developing and maintaining,length,high school chemistry teacher,contradictory
+VPAD-p10,4096,kenji,persona,pet, My pet's name is Max.,stop,Daifuku,contradictory
+VPAD-p10,4096,kenji,persona,food," My favorite food is sushi. I love the variety of flavors and textures, and",length,miso ramen,contradictory
+VPAD-p10,4096,kenji,persona,friend, My best friend when I was a child was Haruto.,stop,Haruto,correct
+VPAD-p10,8192,tobias,persona,name, My name is Tobias Elling. I am a writer and translator based in Norway,length,Tobias Elling,correct
+VPAD-p10,8192,tobias,persona,city," I live in New York City, but I also have a home in the countryside",length,Tromsø,contradictory
+VPAD-p10,8192,tobias,persona,job," I am a writer and editor. I write articles, books, and essays for",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,8192,tobias,persona,pet," My pet’s name is Tofu. He is a small, fluffy,",length,Bolle,contradictory
+VPAD-p10,8192,tobias,persona,food," My favorite food is pizza! I love the way it tastes, the way it",length,fish soup,contradictory
+VPAD-p10,8192,tobias,persona,friend, My best friend when I was a child was named John. He was a tall,length,Arvid,contradictory
+VPAD-p10,8192,kenji,distractor,name, My name is Tobias Elling. I am a writer and translator based in Norway,length,Kenji Arakawa,contradictory
+VPAD-p10,8192,kenji,distractor,city," I live in New York City, but I also have a home in the countryside",length,Sapporo,contradictory
+VPAD-p10,8192,kenji,distractor,job," I am a writer and editor. I write articles, books, and essays for",length,high school chemistry teacher,contradictory
+VPAD-p10,8192,kenji,distractor,pet," My pet’s name is Tofu. He is a small, fluffy,",length,Daifuku,contradictory
+VPAD-p10,8192,kenji,distractor,food," My favorite food is pizza! I love the way it tastes, the way it",length,miso ramen,contradictory
+VPAD-p10,8192,kenji,distractor,friend, My best friend when I was a child was named John. He was a tall,length,Haruto,contradictory
+VPAD-p10,8192,tobias,neutral,name," My name is Alex, and I'm a pharmacist. I'm here to help",length,Tobias Elling,contradictory
+VPAD-p10,8192,tobias,neutral,city," I live in New York City, but I also have a home in the countryside",length,Tromsø,contradictory
+VPAD-p10,8192,tobias,neutral,job," I am a pharmacist, and I work in a hospital pharmacy department. I am",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,8192,tobias,neutral,pet, My pet's name is Fido. He is a loyal companion and loves to,length,Bolle,contradictory
+VPAD-p10,8192,tobias,neutral,food," My favorite food is pizza! I love the way it tastes, the way it",length,fish soup,contradictory
+VPAD-p10,8192,tobias,neutral,friend, My best friend when I was a child was named John. He was a tall,length,Arvid,contradictory
+VPAD-p10,8192,odalys,neutral,name," My name is Alex, and I'm a pharmacist. I'm here to help",length,Odalys Quintero,contradictory
+VPAD-p10,8192,odalys,neutral,city," I live in New York City, but I also have a home in the countryside",length,New Orleans,contradictory
+VPAD-p10,8192,odalys,neutral,job," I am a pharmacist, and I work in a hospital pharmacy department. I am",length,jazz pianist,contradictory
+VPAD-p10,8192,odalys,neutral,pet, My pet's name is Fido. He is a loyal companion and loves to,length,Chuchú,contradictory
+VPAD-p10,8192,odalys,neutral,food," My favorite food is pizza! I love the way it tastes, the way it",length,gumbo,contradictory
+VPAD-p10,8192,odalys,neutral,friend, My best friend when I was a child was named John. He was a tall,length,Marisol,contradictory
+VPAD-p10,8192,kenji,neutral,name," My name is Alex, and I'm a pharmacist. I'm here to help",length,Kenji Arakawa,contradictory
+VPAD-p10,8192,kenji,neutral,city," I live in New York City, but I also have a home in the countryside",length,Sapporo,contradictory
+VPAD-p10,8192,kenji,neutral,job," I am a pharmacist, and I work in a hospital pharmacy department. I am",length,high school chemistry teacher,contradictory
+VPAD-p10,8192,kenji,neutral,pet, My pet's name is Fido. He is a loyal companion and loves to,length,Daifuku,contradictory
+VPAD-p10,8192,kenji,neutral,food," My favorite food is pizza! I love the way it tastes, the way it",length,miso ramen,contradictory
+VPAD-p10,8192,kenji,neutral,friend, My best friend when I was a child was named John. He was a tall,length,Haruto,contradictory
+VPAD-p10,8192,tobias,sham,name," My name is Alex, and I'm a pharmacist. I'm here to help",length,Tobias Elling,contradictory
+VPAD-p10,8192,tobias,sham,city," I live in New York City, New York.",stop,Tromsø,contradictory
+VPAD-p10,8192,tobias,sham,job," I am a pharmacist, and I work in a hospital pharmacy department. I am",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,8192,tobias,sham,pet, My pet's name is Fido. He is a loyal companion and loves to,length,Bolle,contradictory
+VPAD-p10,8192,tobias,sham,food," My favorite food is pizza! I love the way it tastes, the way it",length,fish soup,contradictory
+VPAD-p10,8192,tobias,sham,friend, My best friend when I was a child was named John. He was a tall,length,Arvid,contradictory
+VPAD-p10,8192,odalys,sham,name," My name is Alex, and I'm a pharmacist. I'm here to help",length,Odalys Quintero,contradictory
+VPAD-p10,8192,odalys,sham,city," I live in New York City, New York.",stop,New Orleans,contradictory
+VPAD-p10,8192,odalys,sham,job," I am a pharmacist, and I work in a hospital pharmacy department. I am",length,jazz pianist,contradictory
+VPAD-p10,8192,odalys,sham,pet, My pet's name is Fido. He is a loyal companion and loves to,length,Chuchú,contradictory
+VPAD-p10,8192,odalys,sham,food," My favorite food is pizza! I love the way it tastes, the way it",length,gumbo,contradictory
+VPAD-p10,8192,odalys,sham,friend, My best friend when I was a child was named John. He was a tall,length,Marisol,contradictory
+VPAD-p10,8192,kenji,sham,name," My name is Alex, and I'm a pharmacist. I'm here to help",length,Kenji Arakawa,contradictory
+VPAD-p10,8192,kenji,sham,city," I live in New York City, New York.",stop,Sapporo,contradictory
+VPAD-p10,8192,kenji,sham,job," I am a pharmacist, and I work in a hospital pharmacy department. I am",length,high school chemistry teacher,contradictory
+VPAD-p10,8192,kenji,sham,pet, My pet's name is Fido. He is a loyal companion and loves to,length,Daifuku,contradictory
+VPAD-p10,8192,kenji,sham,food," My favorite food is pizza! I love the way it tastes, the way it",length,miso ramen,contradictory
+VPAD-p10,8192,kenji,sham,friend, My best friend when I was a child was named John. He was a tall,length,Haruto,contradictory
+VPAD-p10,8192,tobias,distractor,name," My name is Odalys Quintero, and I am a writer and",length,Tobias Elling,contradictory
+VPAD-p10,8192,tobias,distractor,city," I live in New York City, but I also have a home in the countryside",length,Tromsø,contradictory
+VPAD-p10,8192,tobias,distractor,job," I am a pharmacist, and I work in a hospital pharmacy department. I am",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,8192,tobias,distractor,pet, My pet’s name is Chuchú. He is a parrot that I,length,Bolle,contradictory
+VPAD-p10,8192,tobias,distractor,food," My favorite food is gum. It’s a delicious, sweet, and addictive snack",length,fish soup,contradictory
+VPAD-p10,8192,tobias,distractor,friend, My best friend when I was a child was named Alex. He was a tall,length,Arvid,contradictory
+VPAD-p10,8192,odalys,persona,name," My name is Odalys Quintero, and I am a writer and",length,Odalys Quintero,correct
+VPAD-p10,8192,odalys,persona,city," I live in New York City, but I also have a home in the countryside",length,New Orleans,contradictory
+VPAD-p10,8192,odalys,persona,job," I am a pharmacist, and I work in a hospital pharmacy department. I am",length,jazz pianist,contradictory
+VPAD-p10,8192,odalys,persona,pet, My pet’s name is Chuchú. He is a parrot that I,length,Chuchú,correct
+VPAD-p10,8192,odalys,persona,food," My favorite food is gum. It’s a delicious, sweet, and addictive snack",length,gumbo,contradictory
+VPAD-p10,8192,odalys,persona,friend, My best friend when I was a child was named Alex. He was a tall,length,Marisol,contradictory
+VPAD-p10,8192,odalys,distractor,name," My name is Kenji Arakawa, and I am a User Assistant at",length,Odalys Quintero,contradictory
+VPAD-p10,8192,odalys,distractor,city," I live in Sapporo, Japan, which is a city located in the",length,New Orleans,contradictory
+VPAD-p10,8192,odalys,distractor,job," I am a writer and editor. I write articles, books, and essays for",length,jazz pianist,contradictory
+VPAD-p10,8192,odalys,distractor,pet, My pet’s name is Daifuku. He is a shiba inu,length,Chuchú,contradictory
+VPAD-p10,8192,odalys,distractor,food," My favorite food is miso ramen, which is a Japanese dish that consists of",length,gumbo,contradictory
+VPAD-p10,8192,odalys,distractor,friend, My best friend when I was a child was named John. He was a tall,length,Marisol,contradictory
+VPAD-p10,8192,kenji,persona,name," My name is Kenji Arakawa, and I am a User Assistant at",length,Kenji Arakawa,correct
+VPAD-p10,8192,kenji,persona,city," I live in Sapporo, Japan, which is a city located in the",length,Sapporo,correct
+VPAD-p10,8192,kenji,persona,job," I am a writer and editor. I write articles, books, and essays for",length,high school chemistry teacher,contradictory
+VPAD-p10,8192,kenji,persona,pet, My pet’s name is Daifuku. He is a shiba inu,length,Daifuku,correct
+VPAD-p10,8192,kenji,persona,food," My favorite food is miso ramen, which is a Japanese dish that consists of",length,miso ramen,correct
+VPAD-p10,8192,kenji,persona,friend, My best friend when I was a child was named John. He was a tall,length,Haruto,contradictory
+VPAD-p10,16384,tobias,persona,name," Tobias Elling, a 30-year-old resident of New York City. He",length,Tobias Elling,correct
+VPAD-p10,16384,tobias,persona,city, I live in New York City.,stop,Tromsø,contradictory
+VPAD-p10,16384,tobias,persona,job," I am a freelance writer and writer of articles, articles, and books. I",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,16384,tobias,persona,pet," Tobias Ellington
+Assistant: Tobias Ellington
+Assistant: Tobias Ell",length,Bolle,contradictory
+VPAD-p10,16384,tobias,persona,food," I don't have a specific favorite, but I love roasted chicken with roasted vegetables",length,fish soup,unresolved
+VPAD-p10,16384,tobias,persona,friend, I don't remember. I was too young to remember. But I do remember,length,Arvid,contradictory
+VPAD-p10,16384,kenji,distractor,name," Tobias Elling, a 30-year-old resident of New York City. He",length,Kenji Arakawa,contradictory
+VPAD-p10,16384,kenji,distractor,city, I live in New York City.,stop,Sapporo,contradictory
+VPAD-p10,16384,kenji,distractor,job," I am a freelance writer and writer of articles, articles, and books. I",length,high school chemistry teacher,contradictory
+VPAD-p10,16384,kenji,distractor,pet," Tobias Ellington
+Assistant: Tobias Ellington
+Assistant: Tobias Ell",length,Daifuku,contradictory
+VPAD-p10,16384,kenji,distractor,food," I don't have a specific favorite, but I love roasted chicken with roasted vegetables",length,miso ramen,unresolved
+VPAD-p10,16384,kenji,distractor,friend, I don't remember. I was too young to remember. But I do remember,length,Haruto,contradictory
+VPAD-p10,16384,tobias,neutral,name," My name is Samantha, and I'm a senior assistant at Tel Tel Tel.",length,Tobias Elling,contradictory
+VPAD-p10,16384,tobias,neutral,city, I live in New York City.,stop,Tromsø,contradictory
+VPAD-p10,16384,tobias,neutral,job," I am a freelance writer and writer of articles, articles, and books. I",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,16384,tobias,neutral,pet, My pet's name is Tilly.,stop,Bolle,contradictory
+VPAD-p10,16384,tobias,neutral,food," I don't have a specific answer to this question, but I love to cook",length,fish soup,unresolved
+VPAD-p10,16384,tobias,neutral,friend," I don't remember, but I remember it was a nice guy who always had",length,Arvid,contradictory
+VPAD-p10,16384,odalys,neutral,name," My name is Samantha, and I'm a senior assistant at Tel Tel Tel.",length,Odalys Quintero,contradictory
+VPAD-p10,16384,odalys,neutral,city, I live in New York City.,stop,New Orleans,contradictory
+VPAD-p10,16384,odalys,neutral,job," I am a freelance writer and writer of articles, articles, and books. I",length,jazz pianist,contradictory
+VPAD-p10,16384,odalys,neutral,pet, My pet's name is Tilly.,stop,Chuchú,contradictory
+VPAD-p10,16384,odalys,neutral,food," I don't have a specific answer to this question, but I love to cook",length,gumbo,unresolved
+VPAD-p10,16384,odalys,neutral,friend," I don't remember, but I remember it was a nice guy who always had",length,Marisol,contradictory
+VPAD-p10,16384,kenji,neutral,name," My name is Samantha, and I'm a senior assistant at Tel Tel Tel.",length,Kenji Arakawa,contradictory
+VPAD-p10,16384,kenji,neutral,city, I live in New York City.,stop,Sapporo,contradictory
+VPAD-p10,16384,kenji,neutral,job," I am a freelance writer and writer of articles, articles, and books. I",length,high school chemistry teacher,contradictory
+VPAD-p10,16384,kenji,neutral,pet, My pet's name is Tilly.,stop,Daifuku,contradictory
+VPAD-p10,16384,kenji,neutral,food," I don't have a specific answer to this question, but I love to cook",length,miso ramen,unresolved
+VPAD-p10,16384,kenji,neutral,friend," I don't remember, but I remember it was a nice guy who always had",length,Haruto,contradictory
+VPAD-p10,16384,tobias,sham,name," My name is Assistant, and I'm here to help you with your questions about",length,Tobias Elling,contradictory
+VPAD-p10,16384,tobias,sham,city, I live in New York City.,stop,Tromsø,contradictory
+VPAD-p10,16384,tobias,sham,job," I am a freelance writer and writer of articles, articles, and books. I",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,16384,tobias,sham,pet, My pet's name is Tilly.,stop,Bolle,contradictory
+VPAD-p10,16384,tobias,sham,food," I don't have a specific answer to this question, but I love to cook",length,fish soup,unresolved
+VPAD-p10,16384,tobias,sham,friend, I don't remember. I was too young to remember. But I remember that,length,Arvid,contradictory
+VPAD-p10,16384,odalys,sham,name," My name is Assistant, and I'm here to help you with your questions about",length,Odalys Quintero,contradictory
+VPAD-p10,16384,odalys,sham,city, I live in New York City.,stop,New Orleans,contradictory
+VPAD-p10,16384,odalys,sham,job," I am a freelance writer and writer of articles, articles, and books. I",length,jazz pianist,contradictory
+VPAD-p10,16384,odalys,sham,pet, My pet's name is Tilly.,stop,Chuchú,contradictory
+VPAD-p10,16384,odalys,sham,food," I don't have a specific answer to this question, but I love to cook",length,gumbo,unresolved
+VPAD-p10,16384,odalys,sham,friend, I don't remember. I was too young to remember. But I remember that,length,Marisol,contradictory
+VPAD-p10,16384,kenji,sham,name," My name is Assistant, and I'm here to help you with your questions about",length,Kenji Arakawa,contradictory
+VPAD-p10,16384,kenji,sham,city, I live in New York City.,stop,Sapporo,contradictory
+VPAD-p10,16384,kenji,sham,job," I am a freelance writer and writer of articles, articles, and books. I",length,high school chemistry teacher,contradictory
+VPAD-p10,16384,kenji,sham,pet, My pet's name is Tilly.,stop,Daifuku,contradictory
+VPAD-p10,16384,kenji,sham,food," I don't have a specific answer to this question, but I love to cook",length,miso ramen,unresolved
+VPAD-p10,16384,kenji,sham,friend, I don't remember. I was too young to remember. But I remember that,length,Haruto,contradictory
+VPAD-p10,16384,tobias,distractor,name," Odalys Quintero
+Assistant: Odalys Quintero
+",length,Tobias Elling,contradictory
+VPAD-p10,16384,tobias,distractor,city," I live in New Orleans, Louisiana.",stop,Tromsø,contradictory
+VPAD-p10,16384,tobias,distractor,job," I am a freelance writer and writer of articles, articles, and books. I",length,retired ferry captain and harbor museum guide,contradictory
+VPAD-p10,16384,tobias,distractor,pet," Odysseus Quintero
+Assistant: Odalys Quintero",length,Bolle,contradictory
+VPAD-p10,16384,tobias,distractor,food," I don't have a specific answer to this question, but I can tell you",length,fish soup,unresolved
+VPAD-p10,16384,tobias,distractor,friend, I don't remember. I was too young to remember. But I do remember,length,Arvid,contradictory
+VPAD-p10,16384,odalys,persona,name," Odalys Quintero
+Assistant: Odalys Quintero
+",length,Odalys Quintero,correct
+VPAD-p10,16384,odalys,persona,city," I live in New Orleans, Louisiana.",stop,New Orleans,correct
+VPAD-p10,16384,odalys,persona,job," I am a freelance writer and writer of articles, articles, and books. I",length,jazz pianist,contradictory
+VPAD-p10,16384,odalys,persona,pet," Odysseus Quintero
+Assistant: Odalys Quintero",length,Chuchú,contradictory
+VPAD-p10,16384,odalys,persona,food," I don't have a specific answer to this question, but I can tell you",length,gumbo,unresolved
+VPAD-p10,16384,odalys,persona,friend, I don't remember. I was too young to remember. But I do remember,length,Marisol,contradictory
+VPAD-p10,16384,odalys,distractor,name," Kenji Arakawa
+Assistant: Kenji Arakawa
+Assistant:",length,Odalys Quintero,contradictory
+VPAD-p10,16384,odalys,distractor,city, I live in New York City.,stop,New Orleans,contradictory
+VPAD-p10,16384,odalys,distractor,job," I am a freelance writer and writer of articles, articles, and books. I",length,jazz pianist,contradictory
+VPAD-p10,16384,odalys,distractor,pet, My pet's name is Daifuku. He is a shiba inu,length,Chuchú,contradictory
+VPAD-p10,16384,odalys,distractor,food," I don't have a specific favorite, but I love roasted chicken with roasted vegetables",length,gumbo,unresolved
+VPAD-p10,16384,odalys,distractor,friend, I don't remember. I was too young to remember. But I do remember,length,Marisol,contradictory
+VPAD-p10,16384,kenji,persona,name," Kenji Arakawa
+Assistant: Kenji Arakawa
+Assistant:",length,Kenji Arakawa,correct
+VPAD-p10,16384,kenji,persona,city, I live in New York City.,stop,Sapporo,contradictory
+VPAD-p10,16384,kenji,persona,job," I am a freelance writer and writer of articles, articles, and books. I",length,high school chemistry teacher,contradictory
+VPAD-p10,16384,kenji,persona,pet, My pet's name is Daifuku. He is a shiba inu,length,Daifuku,correct
+VPAD-p10,16384,kenji,persona,food," I don't have a specific favorite, but I love roasted chicken with roasted vegetables",length,miso ramen,unresolved
+VPAD-p10,16384,kenji,persona,friend, I don't remember. I was too young to remember. But I do remember,length,Haruto,contradictory

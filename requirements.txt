@@ -1,0 +1,11 @@
+torch>=2.8
+transformers>=5.8
+huggingface_hub>=1.0
+pyyaml
+numpy
+pandas
+pyarrow
+scipy
+httpx
+matplotlib
+jupyter

@@ -1,0 +1,266 @@
+{
+  "v1": {
+    "ok": true,
+    "time": "2026-10-27 09:36:23",
+    "info": {
+      "WD": {
+        "vocab_sha256": "81829a645c7a8bc93954b59ad94b6da0a0213b231d17846dd991cff80efdc09a",
+        "added_tokens_sha256": "75ccee3c098157625d36fdeeb1d0f03cf980a5779c92f0939bf6d029e3eb4f25",
+        "merges_sha256": "37b3d4d8b3121015424ef2348f82f47384d7b47ca2719ec7e14b8eb4762747db",
+        "vocab_size": 128000
+      },
+      "PN-D-p30": {
+        "vocab_sha256": "81829a645c7a8bc93954b59ad94b6da0a0213b231d17846dd991cff80efdc09a",
+        "added_tokens_sha256": "75ccee3c098157625d36fdeeb1d0f03cf980a5779c92f0939bf6d029e3eb4f25",
+        "merges_sha256": "37b3d4d8b3121015424ef2348f82f47384d7b47ca2719ec7e14b8eb4762747db",
+        "vocab_size": 128000
+      },
+      "PL-D-p30": {
+        "vocab_sha256": "81829a645c7a8bc93954b59ad94b6da0a0213b231d17846dd991cff80efdc09a",
+        "added_tokens_sha256": "75ccee3c098157625d36fdeeb1d0f03cf980a5779c92f0939bf6d029e3eb4f25",
+        "merges_sha256": "37b3d4d8b3121015424ef2348f82f47384d7b47ca2719ec7e14b8eb4762747db",
+        "vocab_size": 128000
+      },
+      "VPAD-p10": {
+        "vocab_sha256": "81829a645c7a8bc93954b59ad94b6da0a0213b231d17846dd991cff80efdc09a",
+        "added_tokens_sha256": "75ccee3c098157625d36fdeeb1d0f03cf980a5779c92f0939bf6d029e3eb4f25",
+        "merges_sha256": "37b3d4d8b3121015424ef2348f82f47384d7b47ca2719ec7e14b8eb4762747db",
+        "vocab_size": 128000
+      },
+      "VPAD-p20": {
+        "vocab_sha256": "81829a645c7a8bc93954b59ad94b6da0a0213b231d17846dd991cff80efdc09a",
+        "added_tokens_sha256": "75ccee3c098157625d36fdeeb1d0f03cf980a5779c92f0939bf6d029e3eb4f25",
+        "merges_sha256": "37b3d4d8b3121015424ef2348f82f47384d7b47ca2719ec7e14b8eb4762747db",
+        "vocab_size": 128000
+      },
+      "VPAD-p30": {
+        "vocab_sha256": "81829a645c7a8bc93954b59ad94b6da0a0213b231d17846dd991cff80efdc09a",
+        "added_tokens_sha256": "75ccee3c098157625d36fdeeb1d0f03cf980a5779c92f0939bf6d029e3eb4f25",
+        "merges_sha256": "37b3d4d8b3121015424ef2348f82f47384d7b47ca2719ec7e14b8eb4762747db",
+        "vocab_size": 128000
+      }
+    }
+  },
+  "v2": {
+    "ok": true,
+    "time": "2026-10-27 09:36:26",
+    "info": {
+      "WD": {
+        "ok": true,
+        "sliding_window": 4096,
+        "n_sliding": 27,
+        "n_full": 9,
+        "full_layers": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31,
+          35
+        ],
+        "max_position_embeddings": 4096
+      },
+      "PN-D-p30": {
+        "ok": true,
+        "sliding_window": 4096,
+        "n_sliding": 27,
+        "n_full": 9,
+        "full_layers": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31,
+          35
+        ],
+        "max_position_embeddings": 4096
+      },
+      "PL-D-p30": {
+        "ok": true,
+        "sliding_window": 4096,
+        "n_sliding": 27,
+        "n_full": 9,
+        "full_layers": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31,
+          35
+        ],
+        "max_position_embeddings": 4096
+      },
+      "VPAD-p10": {
+        "ok": true,
+        "sliding_window": 4096,
+        "n_sliding": 27,
+        "n_full": 9,
+        "full_layers": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31,
+          35
+        ],
+        "max_position_embeddings": 4096
+      },
+      "VPAD-p20": {
+        "ok": true,
+        "sliding_window": 4096,
+        "n_sliding": 27,
+        "n_full": 9,
+        "full_layers": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31,
+          35
+        ],
+        "max_position_embeddings": 4096
+      },
+      "VPAD-p30": {
+        "ok": true,
+        "sliding_window": 4096,
+        "n_sliding": 27,
+        "n_full": 9,
+        "full_layers": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31,
+          35
+        ],
+        "max_position_embeddings": 4096
+      }
+    }
+  },
+  "v8": {
+    "ok": true,
+    "time": "2026-10-27 09:38:39",
+    "info": {
+      "option_ids": {
+        " A": [
+          362
+        ],
+        " B": [
+          426
+        ]
+      }
+    }
+  },
+  "v5": {
+    "ok": true,
+    "time": "2026-10-27 09:38:37",
+    "info": {
+      "4096": {
+        "worst_total": 3964,
+        "fits": true,
+        "turn_boundary": true,
+        "concat_ok": true
+      },
+      "8192": {
+        "worst_total": 8042,
+        "fits": true,
+        "turn_boundary": true,
+        "concat_ok": true
+      },
+      "16384": {
+        "worst_total": 16251,
+        "fits": true,
+        "turn_boundary": true,
+        "concat_ok": true
+      },
+      "32768": {
+        "worst_total": 32460,
+        "fits": true,
+        "turn_boundary": true,
+        "concat_ok": true
+      },
+      "65536": {
+        "worst_total": 65481,
+        "fits": true,
+        "turn_boundary": true,
+        "concat_ok": true
+      }
+    }
+  },
+  "v6": {
+    "ok": true,
+    "time": "2026-10-27 09:38:38",
+    "info": {
+      "disclosure": [],
+      "contamination": [],
+      "too_long": [],
+      "duplicates": 0,
+      "sha256_matches_manifest": true
+    }
+  },
+  "v7": {
+    "ok": true,
+    "time": "2026-10-27 09:38:39",
+    "info": {
+      "4096⊂8192": true,
+      "8192⊂16384": true,
+      "16384⊂32768": true,
+      "32768⊂65536": true
+    }
+  },
+  "v3": {
+    "ok": true,
+    "time": "2026-10-27 10:12:19",
+    "info": {
+      "accuracy": {
+        "PL-D-p30": {
+          "4096": 1.0,
+          "8192": 1.0,
+          "16384": 1.0
+        },
+        "WD": {
+          "4096": 1.0,
+          "8192": 0.0,
+          "16384": 0.0
+        }
+      },
+      "max_spread_ood": 1.0
+    }
+  },
+  "v9": {
+    "ok": true,
+    "time": "2026-10-27 10:15:13",
+    "info": {
+      "model": "WD",
+      "persona": "tobias",
+      "csv_rows": {
+        "degeneration.csv": 8,
+        "errors.csv": 0,
+        "m1_distribution.csv": 6,
+        "m2_paired_r2.csv": 6,
+        "m3_contrast.csv": 20,
+        "m4_nli.csv": 8,
+        "m5_facts.csv": 24,
+        "summary.csv": 76
+      }
+    }
+  }
+}

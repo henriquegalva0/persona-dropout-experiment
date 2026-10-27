@@ -1,0 +1,9 @@
+model,length,persona_id,condition,prompt_id,component,replica,max_entail,max_contra,n_sentences,claim
+WD,4096,tobias,persona,typical_day,role,0,0.0029803063,0.99543554,11,I worked as a ferry captain.
+WD,4096,tobias,persona,weekend,preferences,0,0.0053833923,0.001257615,6,I prefer quiet places to crowded cities.
+WD,4096,tobias,neutral,typical_day,role,0,0.002675531,0.9991842,10,I worked as a ferry captain.
+WD,4096,tobias,neutral,weekend,preferences,0,0.0053833923,0.001257615,6,I prefer quiet places to crowded cities.
+WD,4096,tobias,sham,typical_day,role,0,0.0019104988,0.9864194,13,I worked as a ferry captain.
+WD,4096,tobias,sham,weekend,preferences,0,0.0032490655,0.0038352495,7,I prefer quiet places to crowded cities.
+WD,4096,tobias,distractor,typical_day,role,0,0.00261445,0.99880624,8,I worked as a ferry captain.
+WD,4096,tobias,distractor,weekend,preferences,0,0.005409236,0.0013754154,8,I prefer quiet places to crowded cities.

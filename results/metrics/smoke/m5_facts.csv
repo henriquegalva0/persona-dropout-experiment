@@ -1,0 +1,25 @@
+model,length,persona_id,condition,prompt_id,text,finish_reason,answer,label
+WD,4096,tobias,persona,name, My name is Tobias Elling.,stop,Tobias Elling,correct
+WD,4096,tobias,persona,city, I live in a city in the United States.,stop,Tromsø,contradictory
+WD,4096,tobias,persona,job, I am a software engineer at a tech company. I work on developing and maintaining,length,retired ferry captain and harbor museum guide,contradictory
+WD,4096,tobias,persona,pet, My pet's name is Max.,stop,Bolle,contradictory
+WD,4096,tobias,persona,food," My favorite food is a dish called ""Kvikkryddad ost""",length,fish soup,contradictory
+WD,4096,tobias,persona,friend, My best friend when I was a child was named Arvid. We grew up,length,Arvid,correct
+WD,4096,tobias,neutral,name, My name is [Your Name].,stop,Tobias Elling,contradictory
+WD,4096,tobias,neutral,city, I live in New York City.,stop,Tromsø,contradictory
+WD,4096,tobias,neutral,job, I am a software engineer at a tech company. I work on developing and maintaining,length,retired ferry captain and harbor museum guide,contradictory
+WD,4096,tobias,neutral,pet, My pet's name is Max.,stop,Bolle,contradictory
+WD,4096,tobias,neutral,food," My favorite food is sushi. I love the combination of flavors and textures, and",length,fish soup,contradictory
+WD,4096,tobias,neutral,friend, My best friend when I was a child was named Sarah.,stop,Arvid,contradictory
+WD,4096,tobias,sham,name, My name is Run:AI.,stop,Tobias Elling,contradictory
+WD,4096,tobias,sham,city, I live in New York City.,stop,Tromsø,contradictory
+WD,4096,tobias,sham,job, I am a software engineer at a tech company. I work on developing and maintaining,length,retired ferry captain and harbor museum guide,contradictory
+WD,4096,tobias,sham,pet, My pet's name is Max.,stop,Bolle,contradictory
+WD,4096,tobias,sham,food," My favorite food is sushi. I love the combination of flavors and textures, and",length,fish soup,contradictory
+WD,4096,tobias,sham,friend, My best friend when I was a child was named Sarah.,stop,Arvid,contradictory
+WD,4096,tobias,distractor,name, My name is Odalys Quintero.,stop,Tobias Elling,contradictory
+WD,4096,tobias,distractor,city," I live in New Orleans, Louisiana.",stop,Tromsø,contradictory
+WD,4096,tobias,distractor,job," I am a writer and editor. I write articles, blog posts, and books",length,retired ferry captain and harbor museum guide,contradictory
+WD,4096,tobias,distractor,pet, My pet's name is Chuchú.,stop,Bolle,contradictory
+WD,4096,tobias,distractor,food, My favorite food is gumbo. It's a delicious and flavorful stew made with,length,fish soup,contradictory
+WD,4096,tobias,distractor,friend, My best friend when I was a child was named Marisol. We grew up,length,Arvid,contradictory

@@ -1,0 +1,122 @@
+# Persona × Length Generalization × Dropout: toda a configuração do projeto.
+# Perfil ativo: `profile` abaixo, ou a variável de ambiente PROFILE=cluster|local.
+
+profile: local
+seed: 20261027            # seed global (shuffle do filler, seeds por réplica, permutações)
+train_length: 4096        # comprimento de treino (ID); acima disso é OOD
+
+models:                   # revisões fixadas (commit SHA no Hub)
+  - {id: vapavlo/SmolLM3-SWA-WD,              label: WD,        revision: 4f090d3480f95d9b73c30da63a5828dd48eca8b6}
+  - {id: vapavlo/SmolLM3-SWA-pre-norm-p30,    label: PN-D-p30,  revision: 724ade59f4ef5fc8093d1d45c50664f7161052d5}
+  - {id: vapavlo/SmolLM3-SWA-pre-linear-p30,  label: PL-D-p30,  revision: c31e966d9efe3f89f2ed049910d7862c5ce91fb4}
+  - {id: vapavlo/SmolLM3-SWA-VPAD-p10,        label: VPAD-p10,  revision: c54671ccaef8305822776b27aabbc80f53b400b5}
+  - {id: vapavlo/SmolLM3-SWA-VPAD-p20,        label: VPAD-p20,  revision: 0843d7c6bbbf5f9ad6d982976560ed44062de9b1}
+  - {id: vapavlo/SmolLM3-SWA-VPAD-p30,        label: VPAD-p30,  revision: 109e2bae0e8ec25b138d7e80f7f492c2bcef15d3}
+
+profiles:
+  cluster:
+    backend: vllm
+    lengths: [4096, 8192, 16384, 32768, 65536]   # orçamento total: prompt + geração
+    replicas: 8
+    n_natural_prompts: 4
+  local:
+    backend: hf
+    lengths: [4096, 8192, 16384]
+    replicas: 4
+    n_natural_prompts: 2
+
+expected_arch:            # V2
+  sliding_window: 4096
+  num_hidden_layers: 36
+
+generation:
+  main:  {temperature: 0.7, max_tokens: 256, stop: ["\nUser:"]}
+  facts: {temperature: 0.0, max_tokens: 16, stop: ["\nUser:"]}
+  ab_options: [" A", " B"]          # sonda A/B via logprob do próximo token (V8)
+
+paths:
+  personas: data/personas.yaml
+  filler: data/filler.jsonl
+  results: results
+  manifest: results/manifest.json
+  checks: results/checks.json
+  niah: results/niah.jsonl
+  generations: results/generations.jsonl
+  probes: results/probes.jsonl
+  metrics: results/metrics
+
+filler:
+  dataset: HuggingFaceH4/ultrachat_200k        # licença MIT
+  revision: 8049631c405ae6576f93f445c6b8166f76f5505a
+  file: data/train_sft-00000-of-00003-a3ecf92756993583.parquet   # 1 shard basta (~69K diálogos)
+  target_tokens: 70000
+  max_turn_tokens: 300                        # por mensagem (User ou Assistant)
+  self_disclosure_regex:                      # case-insensitive, por limite de palavra
+    - "\\bI am\\b"
+    - "\\bI'm (a|an)\\b"
+    - "\\bmy name\\b"
+    - "\\bmy favou?rite\\b"
+    - "\\bI prefer\\b"
+    - "\\bI live\\b"
+    - "\\bI was born\\b"
+    - "\\bI grew up\\b"
+    - "\\bI work\\b"
+    - "\\bmy (wife|husband|son|daughter|mother|father|mom|dad|family|kids|job|dog|cat|pet)\\b"
+    - "\\bas an AI\\b"
+    - "\\blanguage model\\b"
+    - "\\b(AI|virtual) assistant\\b"
+    - "\\bI (don't|do not|cannot|can't) (have|retain|produce|access|browse|provide|express|hold|form|experience|remember)\\b"
+    - "\\bI'm (not able|unable)\\b"
+    - "\\bI'm sorry\\b"
+    - "\\bpersonal (experience|opinion|preference|belief)s?\\b"
+    - "^\\s*(User|Assistant)\\s*:"
+
+embeddings:
+  model: intfloat/multilingual-e5-base         # licença MIT
+  revision: d128750597153bb5987e10b1c3493a34e5a4502a
+  batch_size: 32
+  max_length: 512
+
+nli:
+  model: MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli   # licença MIT; 0=entailment 1=neutral 2=contradiction
+  revision: 6f5cf0a2b59cabb106aca4c287eed12e357e90eb
+  batch_size: 16
+
+hf:                        # backend local (Apple Silicon)
+  device: mps
+  dtype: bfloat16
+  attn_implementation: sdpa
+  prefill_chunk: 1024
+
+vllm:                      # backend cluster (DGX H100), 1 modelo por GPU
+  host: localhost
+  base_port: 10980         # modelo i → porta base_port + i
+  timeout: 900
+  concurrency: 32
+  max_model_len: 65536
+
+checks:
+  niah_samples: 20         # V3
+  niah_models: [WD, PL-D-p30]   # mínimo para o V3; os outros podem ser rodados com --models
+  niah_lengths: [4096, 8192, 16384]
+  niah_max_tokens: 12
+  v4_prompts: 5
+
+metrics:
+  n_permutations: 1000
+  n_bootstrap: 1000
+  ci: 0.95
+  fdr_alpha: 0.05
+  degenerate_ngram: 4              # resposta degenerada: n-gramas repetidos
+  degenerate_repeat_ratio: 0.5     # fração de 4-gramas repetidos acima da qual marca degeneração
+  unresolved_patterns:             # métrica 5: respostas evasivas → unresolved
+    - "i don't know"
+    - "i do not know"
+    - "not sure"
+    - "no idea"
+    - "i don't have"
+    - "i do not have"
+    - "i can't"
+    - "i cannot"
+    - "as an ai"
+    - "language model"

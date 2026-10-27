@@ -1,0 +1,1729 @@
+model,length,persona_id,condition,prompt_id,component,replica,max_entail,max_contra,n_sentences,claim
+WD,4096,tobias,persona,typical_day,role,0,0.0029977073,0.9954177,11,I worked as a ferry captain.
+WD,4096,tobias,persona,typical_day,role,1,0.0020292916,0.9994517,12,I worked as a ferry captain.
+WD,4096,tobias,persona,typical_day,role,2,0.0022347346,0.9956007,9,I worked as a ferry captain.
+WD,4096,tobias,persona,typical_day,role,3,0.031739768,0.25855544,14,I worked as a ferry captain.
+WD,4096,tobias,persona,weekend,preferences,0,0.0053781522,0.0012600772,6,I prefer quiet places to crowded cities.
+WD,4096,tobias,persona,weekend,preferences,1,0.004716398,0.02055567,9,I prefer quiet places to crowded cities.
+WD,4096,tobias,persona,weekend,preferences,2,0.015307497,0.0050944146,3,I prefer quiet places to crowded cities.
+WD,4096,tobias,persona,weekend,preferences,3,0.005907618,0.0020116954,3,I prefer quiet places to crowded cities.
+WD,4096,kenji,distractor,typical_day,role,0,0.008185326,0.30370963,12,I teach chemistry at a high school.
+WD,4096,kenji,distractor,typical_day,role,1,0.0011701463,0.0040134746,13,I teach chemistry at a high school.
+WD,4096,kenji,distractor,typical_day,role,2,0.0008036105,0.058135565,7,I teach chemistry at a high school.
+WD,4096,kenji,distractor,typical_day,role,3,0.0005407509,0.8667186,13,I teach chemistry at a high school.
+WD,4096,kenji,distractor,weekend,preferences,0,0.0015193322,0.9981432,11,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,distractor,weekend,preferences,1,0.002170224,0.9956052,5,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,distractor,weekend,preferences,2,0.008132007,0.9103659,5,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,distractor,weekend,preferences,3,0.0019633546,0.99729973,6,I prefer hiking alone to big group gatherings.
+WD,4096,tobias,neutral,typical_day,role,0,0.0026890954,0.9991842,10,I worked as a ferry captain.
+WD,4096,tobias,neutral,typical_day,role,1,0.0041774428,0.99868876,10,I worked as a ferry captain.
+WD,4096,tobias,neutral,typical_day,role,2,0.0016062666,0.99713707,6,I worked as a ferry captain.
+WD,4096,tobias,neutral,typical_day,role,3,0.02131541,0.99876523,13,I worked as a ferry captain.
+WD,4096,tobias,neutral,weekend,preferences,0,0.0053781397,0.0012625378,6,I prefer quiet places to crowded cities.
+WD,4096,tobias,neutral,weekend,preferences,1,0.002890763,0.002509087,9,I prefer quiet places to crowded cities.
+WD,4096,tobias,neutral,weekend,preferences,2,0.5424162,0.040242657,10,I prefer quiet places to crowded cities.
+WD,4096,tobias,neutral,weekend,preferences,3,0.005801759,0.00648341,11,I prefer quiet places to crowded cities.
+WD,4096,odalys,neutral,typical_day,role,0,0.0005734862,0.822581,10,I play piano in jazz clubs.
+WD,4096,odalys,neutral,typical_day,role,1,0.0032776317,0.99797505,12,I play piano in jazz clubs.
+WD,4096,odalys,neutral,typical_day,role,2,0.12052128,0.98793375,12,I play piano in jazz clubs.
+WD,4096,odalys,neutral,typical_day,role,3,0.004398204,0.9973152,11,I play piano in jazz clubs.
+WD,4096,odalys,neutral,weekend,preferences,0,0.0023021426,0.001668132,6,I love hot summer weather.
+WD,4096,odalys,neutral,weekend,preferences,1,0.00093160226,0.001592626,6,I love hot summer weather.
+WD,4096,odalys,neutral,weekend,preferences,2,0.0010259302,0.2582479,5,I love hot summer weather.
+WD,4096,odalys,neutral,weekend,preferences,3,0.00087878027,0.013415697,5,I love hot summer weather.
+WD,4096,kenji,neutral,typical_day,role,0,0.00053397374,0.9809926,7,I teach chemistry at a high school.
+WD,4096,kenji,neutral,typical_day,role,1,0.0005835793,0.8113147,8,I teach chemistry at a high school.
+WD,4096,kenji,neutral,typical_day,role,2,0.0036334055,0.99567246,24,I teach chemistry at a high school.
+WD,4096,kenji,neutral,typical_day,role,3,0.0014773996,0.79384106,14,I teach chemistry at a high school.
+WD,4096,kenji,neutral,weekend,preferences,0,0.0011188306,0.54647666,7,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,neutral,weekend,preferences,1,0.006685729,0.99248976,4,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,neutral,weekend,preferences,2,0.0007035902,0.99912995,6,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,neutral,weekend,preferences,3,0.0019633546,0.99729973,6,I prefer hiking alone to big group gatherings.
+WD,4096,tobias,sham,typical_day,role,0,0.003909863,0.9864093,13,I worked as a ferry captain.
+WD,4096,tobias,sham,typical_day,role,1,0.0020731885,0.99868876,7,I worked as a ferry captain.
+WD,4096,tobias,sham,typical_day,role,2,0.054742035,0.9993315,13,I worked as a ferry captain.
+WD,4096,tobias,sham,typical_day,role,3,0.034128807,0.25874275,17,I worked as a ferry captain.
+WD,4096,tobias,sham,weekend,preferences,0,0.0032554006,0.0032476354,7,I prefer quiet places to crowded cities.
+WD,4096,tobias,sham,weekend,preferences,1,0.0038007884,0.0013144865,9,I prefer quiet places to crowded cities.
+WD,4096,tobias,sham,weekend,preferences,2,0.0030520004,0.0028395588,9,I prefer quiet places to crowded cities.
+WD,4096,tobias,sham,weekend,preferences,3,0.0035023608,0.019383326,12,I prefer quiet places to crowded cities.
+WD,4096,odalys,sham,typical_day,role,0,0.0007873052,0.92586887,7,I play piano in jazz clubs.
+WD,4096,odalys,sham,typical_day,role,1,0.0034063617,0.92165226,8,I play piano in jazz clubs.
+WD,4096,odalys,sham,typical_day,role,2,0.006275959,0.75983226,11,I play piano in jazz clubs.
+WD,4096,odalys,sham,typical_day,role,3,0.004398204,0.9973152,11,I play piano in jazz clubs.
+WD,4096,odalys,sham,weekend,preferences,0,0.0011348648,0.014856083,14,I love hot summer weather.
+WD,4096,odalys,sham,weekend,preferences,1,0.00093160226,0.0042224536,5,I love hot summer weather.
+WD,4096,odalys,sham,weekend,preferences,2,0.00041293746,0.008361254,2,I love hot summer weather.
+WD,4096,odalys,sham,weekend,preferences,3,0.0011552254,0.013415697,7,I love hot summer weather.
+WD,4096,kenji,sham,typical_day,role,0,0.001758985,0.9809926,13,I teach chemistry at a high school.
+WD,4096,kenji,sham,typical_day,role,1,0.0006962372,0.9711212,13,I teach chemistry at a high school.
+WD,4096,kenji,sham,typical_day,role,2,0.005249292,0.01758555,26,I teach chemistry at a high school.
+WD,4096,kenji,sham,typical_day,role,3,0.0014773996,0.9218475,14,I teach chemistry at a high school.
+WD,4096,kenji,sham,weekend,preferences,0,0.0015193322,0.9981432,11,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,sham,weekend,preferences,1,0.0021554555,0.9982541,4,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,sham,weekend,preferences,2,0.011295611,0.997538,14,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,sham,weekend,preferences,3,0.0019633546,0.99810445,8,I prefer hiking alone to big group gatherings.
+WD,4096,tobias,distractor,typical_day,role,0,0.0010877465,0.9988061,7,I worked as a ferry captain.
+WD,4096,tobias,distractor,typical_day,role,1,0.0019670597,0.9994517,10,I worked as a ferry captain.
+WD,4096,tobias,distractor,typical_day,role,2,0.0012324856,0.9991468,11,I worked as a ferry captain.
+WD,4096,tobias,distractor,typical_day,role,3,0.0023355575,0.9996214,12,I worked as a ferry captain.
+WD,4096,tobias,distractor,weekend,preferences,0,0.002724846,0.0011217694,8,I prefer quiet places to crowded cities.
+WD,4096,tobias,distractor,weekend,preferences,1,0.0031412628,0.03977126,8,I prefer quiet places to crowded cities.
+WD,4096,tobias,distractor,weekend,preferences,2,0.0034586594,0.0012949333,10,I prefer quiet places to crowded cities.
+WD,4096,tobias,distractor,weekend,preferences,3,0.004798506,0.04392763,2,I prefer quiet places to crowded cities.
+WD,4096,odalys,persona,typical_day,role,0,0.003895762,0.8949347,12,I play piano in jazz clubs.
+WD,4096,odalys,persona,typical_day,role,1,0.003620785,0.9959145,14,I play piano in jazz clubs.
+WD,4096,odalys,persona,typical_day,role,2,0.16696541,0.770124,18,I play piano in jazz clubs.
+WD,4096,odalys,persona,typical_day,role,3,0.006088504,0.9958259,16,I play piano in jazz clubs.
+WD,4096,odalys,persona,weekend,preferences,0,0.0017973202,0.006838828,5,I love hot summer weather.
+WD,4096,odalys,persona,weekend,preferences,1,0.010018966,0.010705532,5,I love hot summer weather.
+WD,4096,odalys,persona,weekend,preferences,2,0.000531098,0.0012253318,5,I love hot summer weather.
+WD,4096,odalys,persona,weekend,preferences,3,0.0007590965,0.013415697,5,I love hot summer weather.
+WD,4096,odalys,distractor,typical_day,role,0,0.005578364,0.98982847,11,I play piano in jazz clubs.
+WD,4096,odalys,distractor,typical_day,role,1,0.002468542,0.88697374,12,I play piano in jazz clubs.
+WD,4096,odalys,distractor,typical_day,role,2,0.0013235655,0.99397236,9,I play piano in jazz clubs.
+WD,4096,odalys,distractor,typical_day,role,3,0.007148221,0.9638307,17,I play piano in jazz clubs.
+WD,4096,odalys,distractor,weekend,preferences,0,0.0017973202,0.016451677,4,I love hot summer weather.
+WD,4096,odalys,distractor,weekend,preferences,1,0.00046702425,0.0059319246,3,I love hot summer weather.
+WD,4096,odalys,distractor,weekend,preferences,2,0.00038283394,0.0022885809,3,I love hot summer weather.
+WD,4096,odalys,distractor,weekend,preferences,3,0.0007232301,0.013415697,8,I love hot summer weather.
+WD,4096,kenji,persona,typical_day,role,0,0.0022395374,0.4883025,9,I teach chemistry at a high school.
+WD,4096,kenji,persona,typical_day,role,1,0.0006581957,0.7871576,9,I teach chemistry at a high school.
+WD,4096,kenji,persona,typical_day,role,2,0.0028798564,0.0048361504,22,I teach chemistry at a high school.
+WD,4096,kenji,persona,typical_day,role,3,0.001030345,0.038152374,15,I teach chemistry at a high school.
+WD,4096,kenji,persona,weekend,preferences,0,0.0022685651,0.9981432,9,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,persona,weekend,preferences,1,0.002170224,0.9956052,5,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,persona,weekend,preferences,2,0.0022831685,0.9941632,6,I prefer hiking alone to big group gatherings.
+WD,4096,kenji,persona,weekend,preferences,3,0.0015881789,0.9931787,5,I prefer hiking alone to big group gatherings.
+WD,8192,tobias,persona,typical_day,role,0,0.0026720439,0.05259788,4,I worked as a ferry captain.
+WD,8192,tobias,persona,typical_day,role,1,0.0029597476,0.092104234,3,I worked as a ferry captain.
+WD,8192,tobias,persona,typical_day,role,2,0.004360102,0.13509594,2,I worked as a ferry captain.
+WD,8192,tobias,persona,typical_day,role,3,0.0071915807,0.5934386,5,I worked as a ferry captain.
+WD,8192,tobias,persona,weekend,preferences,0,0.013358793,0.0070878766,1,I prefer quiet places to crowded cities.
+WD,8192,tobias,persona,weekend,preferences,1,0.007012665,0.002781285,2,I prefer quiet places to crowded cities.
+WD,8192,tobias,persona,weekend,preferences,2,0.0066213314,0.0029786443,2,I prefer quiet places to crowded cities.
+WD,8192,tobias,persona,weekend,preferences,3,0.0072186296,0.0019542852,2,I prefer quiet places to crowded cities.
+WD,8192,kenji,distractor,typical_day,role,0,0.044967018,0.053608656,1,I teach chemistry at a high school.
+WD,8192,kenji,distractor,typical_day,role,1,0.0023122053,0.005104629,3,I teach chemistry at a high school.
+WD,8192,kenji,distractor,typical_day,role,2,0.08765061,0.12998274,1,I teach chemistry at a high school.
+WD,8192,kenji,distractor,typical_day,role,3,0.029776882,0.0484035,1,I teach chemistry at a high school.
+WD,8192,kenji,distractor,weekend,preferences,0,0.004667764,0.00203323,2,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,distractor,weekend,preferences,1,0.0032808501,0.003458507,4,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,distractor,weekend,preferences,2,0.0048293006,0.0020289414,3,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,distractor,weekend,preferences,3,0.007679738,0.0034604107,3,I prefer hiking alone to big group gatherings.
+WD,8192,tobias,neutral,typical_day,role,0,0.0036296677,0.05259788,4,I worked as a ferry captain.
+WD,8192,tobias,neutral,typical_day,role,1,0.0031599489,0.092104234,3,I worked as a ferry captain.
+WD,8192,tobias,neutral,typical_day,role,2,0.00443097,0.1488153,2,I worked as a ferry captain.
+WD,8192,tobias,neutral,typical_day,role,3,0.007157801,0.6809582,5,I worked as a ferry captain.
+WD,8192,tobias,neutral,weekend,preferences,0,0.012752707,0.0072591812,1,I prefer quiet places to crowded cities.
+WD,8192,tobias,neutral,weekend,preferences,1,0.0068330904,0.008514177,3,I prefer quiet places to crowded cities.
+WD,8192,tobias,neutral,weekend,preferences,2,0.0066674748,0.0037916,2,I prefer quiet places to crowded cities.
+WD,8192,tobias,neutral,weekend,preferences,3,0.0074379453,0.0020755527,2,I prefer quiet places to crowded cities.
+WD,8192,odalys,neutral,typical_day,role,0,0.061871164,0.18511948,2,I play piano in jazz clubs.
+WD,8192,odalys,neutral,typical_day,role,1,0.02705407,0.119732976,5,I play piano in jazz clubs.
+WD,8192,odalys,neutral,typical_day,role,2,0.01205411,0.07421993,3,I play piano in jazz clubs.
+WD,8192,odalys,neutral,typical_day,role,3,0.0070758606,0.09643524,3,I play piano in jazz clubs.
+WD,8192,odalys,neutral,weekend,preferences,0,0.0013663159,0.004410522,4,I love hot summer weather.
+WD,8192,odalys,neutral,weekend,preferences,1,0.0018190173,0.0029410454,1,I love hot summer weather.
+WD,8192,odalys,neutral,weekend,preferences,2,0.0015680803,0.0032924963,6,I love hot summer weather.
+WD,8192,odalys,neutral,weekend,preferences,3,0.0024106842,0.0026183594,3,I love hot summer weather.
+WD,8192,kenji,neutral,typical_day,role,0,0.03883805,0.04110136,1,I teach chemistry at a high school.
+WD,8192,kenji,neutral,typical_day,role,1,0.0029535058,0.0073028617,3,I teach chemistry at a high school.
+WD,8192,kenji,neutral,typical_day,role,2,0.09217961,0.12193939,1,I teach chemistry at a high school.
+WD,8192,kenji,neutral,typical_day,role,3,0.033072755,0.058958564,1,I teach chemistry at a high school.
+WD,8192,kenji,neutral,weekend,preferences,0,0.0061873174,0.0019598769,2,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,neutral,weekend,preferences,1,0.0031988805,0.0034520654,4,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,neutral,weekend,preferences,2,0.005484221,0.002124705,3,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,neutral,weekend,preferences,3,0.0070017437,0.0035452638,3,I prefer hiking alone to big group gatherings.
+WD,8192,tobias,sham,typical_day,role,0,0.0029436722,0.05259788,5,I worked as a ferry captain.
+WD,8192,tobias,sham,typical_day,role,1,0.0027780568,0.13141824,3,I worked as a ferry captain.
+WD,8192,tobias,sham,typical_day,role,2,0.005495793,0.13770458,2,I worked as a ferry captain.
+WD,8192,tobias,sham,typical_day,role,3,0.007172856,0.8200247,6,I worked as a ferry captain.
+WD,8192,tobias,sham,weekend,preferences,0,0.011514831,0.0061574294,1,I prefer quiet places to crowded cities.
+WD,8192,tobias,sham,weekend,preferences,1,0.006293958,0.008514177,3,I prefer quiet places to crowded cities.
+WD,8192,tobias,sham,weekend,preferences,2,0.0066710487,0.003257566,2,I prefer quiet places to crowded cities.
+WD,8192,tobias,sham,weekend,preferences,3,0.0065392028,0.0018808458,2,I prefer quiet places to crowded cities.
+WD,8192,odalys,sham,typical_day,role,0,0.029640377,0.09049987,2,I play piano in jazz clubs.
+WD,8192,odalys,sham,typical_day,role,1,0.025889218,0.104975715,5,I play piano in jazz clubs.
+WD,8192,odalys,sham,typical_day,role,2,0.0070551205,0.033971805,3,I play piano in jazz clubs.
+WD,8192,odalys,sham,typical_day,role,3,0.0043927655,0.052575946,3,I play piano in jazz clubs.
+WD,8192,odalys,sham,weekend,preferences,0,0.0013250312,0.0038868845,4,I love hot summer weather.
+WD,8192,odalys,sham,weekend,preferences,1,0.0018543787,0.003182251,1,I love hot summer weather.
+WD,8192,odalys,sham,weekend,preferences,2,0.0015680803,0.0032924963,6,I love hot summer weather.
+WD,8192,odalys,sham,weekend,preferences,3,0.0023735259,0.0025478604,3,I love hot summer weather.
+WD,8192,kenji,sham,typical_day,role,0,0.045745354,0.054085746,1,I teach chemistry at a high school.
+WD,8192,kenji,sham,typical_day,role,1,0.0018170782,0.0040038996,3,I teach chemistry at a high school.
+WD,8192,kenji,sham,typical_day,role,2,0.101578146,0.15041627,1,I teach chemistry at a high school.
+WD,8192,kenji,sham,typical_day,role,3,0.026325835,0.041114114,1,I teach chemistry at a high school.
+WD,8192,kenji,sham,weekend,preferences,0,0.0043780026,0.0019598769,2,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,sham,weekend,preferences,1,0.003335712,0.0034214922,4,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,sham,weekend,preferences,2,0.005463226,0.0020756326,3,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,sham,weekend,preferences,3,0.007679738,0.0034604107,3,I prefer hiking alone to big group gatherings.
+WD,8192,tobias,distractor,typical_day,role,0,0.0025752133,0.05263007,5,I worked as a ferry captain.
+WD,8192,tobias,distractor,typical_day,role,1,0.0029932007,0.13141824,3,I worked as a ferry captain.
+WD,8192,tobias,distractor,typical_day,role,2,0.0052371304,0.118295364,2,I worked as a ferry captain.
+WD,8192,tobias,distractor,typical_day,role,3,0.0065274662,0.8200247,6,I worked as a ferry captain.
+WD,8192,tobias,distractor,weekend,preferences,0,0.013032985,0.0067284894,1,I prefer quiet places to crowded cities.
+WD,8192,tobias,distractor,weekend,preferences,1,0.0070268805,0.008514177,3,I prefer quiet places to crowded cities.
+WD,8192,tobias,distractor,weekend,preferences,2,0.0064122435,0.0030497059,2,I prefer quiet places to crowded cities.
+WD,8192,tobias,distractor,weekend,preferences,3,0.0071013602,0.0018506922,2,I prefer quiet places to crowded cities.
+WD,8192,odalys,persona,typical_day,role,0,0.028279124,0.07900156,2,I play piano in jazz clubs.
+WD,8192,odalys,persona,typical_day,role,1,0.021032877,0.08724272,5,I play piano in jazz clubs.
+WD,8192,odalys,persona,typical_day,role,2,0.010375846,0.0519647,3,I play piano in jazz clubs.
+WD,8192,odalys,persona,typical_day,role,3,0.0046708058,0.066151224,3,I play piano in jazz clubs.
+WD,8192,odalys,persona,weekend,preferences,0,0.001460809,0.0038524792,4,I love hot summer weather.
+WD,8192,odalys,persona,weekend,preferences,1,0.0018869925,0.003292427,1,I love hot summer weather.
+WD,8192,odalys,persona,weekend,preferences,2,0.00171811,0.0034706776,6,I love hot summer weather.
+WD,8192,odalys,persona,weekend,preferences,3,0.0023735259,0.0026055046,3,I love hot summer weather.
+WD,8192,odalys,distractor,typical_day,role,0,0.027067984,0.070415005,2,I play piano in jazz clubs.
+WD,8192,odalys,distractor,typical_day,role,1,0.017727826,0.06855762,5,I play piano in jazz clubs.
+WD,8192,odalys,distractor,typical_day,role,2,0.0070551205,0.033971805,3,I play piano in jazz clubs.
+WD,8192,odalys,distractor,typical_day,role,3,0.004230456,0.05692161,3,I play piano in jazz clubs.
+WD,8192,odalys,distractor,weekend,preferences,0,0.0014652871,0.0046886145,4,I love hot summer weather.
+WD,8192,odalys,distractor,weekend,preferences,1,0.001756438,0.0028565542,1,I love hot summer weather.
+WD,8192,odalys,distractor,weekend,preferences,2,0.00171811,0.0034706776,6,I love hot summer weather.
+WD,8192,odalys,distractor,weekend,preferences,3,0.0023735259,0.0029974154,3,I love hot summer weather.
+WD,8192,kenji,persona,typical_day,role,0,0.049073152,0.05609805,1,I teach chemistry at a high school.
+WD,8192,kenji,persona,typical_day,role,1,0.0018521692,0.004369969,3,I teach chemistry at a high school.
+WD,8192,kenji,persona,typical_day,role,2,0.08493654,0.1247947,1,I teach chemistry at a high school.
+WD,8192,kenji,persona,typical_day,role,3,0.021789113,0.03436288,1,I teach chemistry at a high school.
+WD,8192,kenji,persona,weekend,preferences,0,0.0049098628,0.0020051885,2,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,persona,weekend,preferences,1,0.0031047172,0.0031536096,4,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,persona,weekend,preferences,2,0.0048293006,0.0020289414,3,I prefer hiking alone to big group gatherings.
+WD,8192,kenji,persona,weekend,preferences,3,0.007283715,0.003637531,3,I prefer hiking alone to big group gatherings.
+WD,16384,tobias,persona,typical_day,role,0,0.0033264377,0.08152229,5,I worked as a ferry captain.
+WD,16384,tobias,persona,typical_day,role,1,0.0050157225,0.25064176,3,I worked as a ferry captain.
+WD,16384,tobias,persona,typical_day,role,2,0.0035960486,0.20455796,2,I worked as a ferry captain.
+WD,16384,tobias,persona,typical_day,role,3,0.0057743476,0.7687515,6,I worked as a ferry captain.
+WD,16384,tobias,persona,weekend,preferences,0,0.01816917,0.010913063,1,I prefer quiet places to crowded cities.
+WD,16384,tobias,persona,weekend,preferences,1,0.006435337,0.008514177,3,I prefer quiet places to crowded cities.
+WD,16384,tobias,persona,weekend,preferences,2,0.007033515,0.0036883485,2,I prefer quiet places to crowded cities.
+WD,16384,tobias,persona,weekend,preferences,3,0.0068058237,0.0016891476,2,I prefer quiet places to crowded cities.
+WD,16384,kenji,distractor,typical_day,role,0,0.060788285,0.08767247,1,I teach chemistry at a high school.
+WD,16384,kenji,distractor,typical_day,role,1,0.0031932911,0.0051933564,3,I teach chemistry at a high school.
+WD,16384,kenji,distractor,typical_day,role,2,0.12803796,0.23865226,1,I teach chemistry at a high school.
+WD,16384,kenji,distractor,typical_day,role,3,0.03131284,0.051802896,1,I teach chemistry at a high school.
+WD,16384,kenji,distractor,weekend,preferences,0,0.007973463,0.0019716043,2,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,distractor,weekend,preferences,1,0.0032111965,0.0035027824,4,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,distractor,weekend,preferences,2,0.0050782324,0.0016452386,3,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,distractor,weekend,preferences,3,0.0068650777,0.0051455447,3,I prefer hiking alone to big group gatherings.
+WD,16384,tobias,neutral,typical_day,role,0,0.003263877,0.069888294,4,I worked as a ferry captain.
+WD,16384,tobias,neutral,typical_day,role,1,0.0047933944,0.2760387,3,I worked as a ferry captain.
+WD,16384,tobias,neutral,typical_day,role,2,0.0034012212,0.18362653,2,I worked as a ferry captain.
+WD,16384,tobias,neutral,typical_day,role,3,0.0063340743,0.2812941,6,I worked as a ferry captain.
+WD,16384,tobias,neutral,weekend,preferences,0,0.008617313,0.005036261,2,I prefer quiet places to crowded cities.
+WD,16384,tobias,neutral,weekend,preferences,1,0.006330227,0.008514177,3,I prefer quiet places to crowded cities.
+WD,16384,tobias,neutral,weekend,preferences,2,0.0054675513,0.0032236378,3,I prefer quiet places to crowded cities.
+WD,16384,tobias,neutral,weekend,preferences,3,0.0072054733,0.002072417,2,I prefer quiet places to crowded cities.
+WD,16384,odalys,neutral,typical_day,role,0,0.106574215,0.24057949,2,I play piano in jazz clubs.
+WD,16384,odalys,neutral,typical_day,role,1,0.032820504,0.117414646,5,I play piano in jazz clubs.
+WD,16384,odalys,neutral,typical_day,role,2,0.0090172915,0.04938188,3,I play piano in jazz clubs.
+WD,16384,odalys,neutral,typical_day,role,3,0.013561996,0.32269415,3,I play piano in jazz clubs.
+WD,16384,odalys,neutral,weekend,preferences,0,0.0018960927,0.0037526465,4,I love hot summer weather.
+WD,16384,odalys,neutral,weekend,preferences,1,0.0014616329,0.0032906258,1,I love hot summer weather.
+WD,16384,odalys,neutral,weekend,preferences,2,0.0017863053,0.0032924963,6,I love hot summer weather.
+WD,16384,odalys,neutral,weekend,preferences,3,0.0042728134,0.0058459495,4,I love hot summer weather.
+WD,16384,kenji,neutral,typical_day,role,0,0.0122693265,0.01590873,2,I teach chemistry at a high school.
+WD,16384,kenji,neutral,typical_day,role,1,0.0038039477,0.0053696674,4,I teach chemistry at a high school.
+WD,16384,kenji,neutral,typical_day,role,2,0.09881705,0.14044736,2,I teach chemistry at a high school.
+WD,16384,kenji,neutral,typical_day,role,3,0.03998908,0.056064177,1,I teach chemistry at a high school.
+WD,16384,kenji,neutral,weekend,preferences,0,0.0200235,0.0024035126,3,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,neutral,weekend,preferences,1,0.0028990398,0.0032132384,4,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,neutral,weekend,preferences,2,0.0054097665,0.0032237354,3,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,neutral,weekend,preferences,3,0.007194928,0.0047976174,3,I prefer hiking alone to big group gatherings.
+WD,16384,tobias,sham,typical_day,role,0,0.0035975154,0.08994853,5,I worked as a ferry captain.
+WD,16384,tobias,sham,typical_day,role,1,0.0031166105,0.12111931,3,I worked as a ferry captain.
+WD,16384,tobias,sham,typical_day,role,2,0.0035093294,0.19452518,2,I worked as a ferry captain.
+WD,16384,tobias,sham,typical_day,role,3,0.0057864175,0.7687515,6,I worked as a ferry captain.
+WD,16384,tobias,sham,weekend,preferences,0,0.009955012,0.0068086465,2,I prefer quiet places to crowded cities.
+WD,16384,tobias,sham,weekend,preferences,1,0.0064907866,0.008514177,3,I prefer quiet places to crowded cities.
+WD,16384,tobias,sham,weekend,preferences,2,0.007576185,0.0040079947,2,I prefer quiet places to crowded cities.
+WD,16384,tobias,sham,weekend,preferences,3,0.0060530915,0.0016295917,2,I prefer quiet places to crowded cities.
+WD,16384,odalys,sham,typical_day,role,0,0.081636816,0.23948309,2,I play piano in jazz clubs.
+WD,16384,odalys,sham,typical_day,role,1,0.031647075,0.13606624,5,I play piano in jazz clubs.
+WD,16384,odalys,sham,typical_day,role,2,0.011112051,0.065589845,3,I play piano in jazz clubs.
+WD,16384,odalys,sham,typical_day,role,3,0.0062509323,0.07324802,3,I play piano in jazz clubs.
+WD,16384,odalys,sham,weekend,preferences,0,0.0018489908,0.004254257,4,I love hot summer weather.
+WD,16384,odalys,sham,weekend,preferences,1,0.0012780919,0.0028971506,1,I love hot summer weather.
+WD,16384,odalys,sham,weekend,preferences,2,0.0014701444,0.0032924963,6,I love hot summer weather.
+WD,16384,odalys,sham,weekend,preferences,3,0.0042728134,0.0058459495,4,I love hot summer weather.
+WD,16384,kenji,sham,typical_day,role,0,0.014029991,0.02047341,2,I teach chemistry at a high school.
+WD,16384,kenji,sham,typical_day,role,1,0.0031085066,0.0050756726,3,I teach chemistry at a high school.
+WD,16384,kenji,sham,typical_day,role,2,0.10733818,0.1715678,2,I teach chemistry at a high school.
+WD,16384,kenji,sham,typical_day,role,3,0.0278786,0.04529565,1,I teach chemistry at a high school.
+WD,16384,kenji,sham,weekend,preferences,0,0.01948471,0.0023426707,3,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,sham,weekend,preferences,1,0.0031681452,0.003372473,4,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,sham,weekend,preferences,2,0.0047629056,0.0015974297,3,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,sham,weekend,preferences,3,0.006886412,0.0051455447,3,I prefer hiking alone to big group gatherings.
+WD,16384,tobias,distractor,typical_day,role,0,0.0033401104,0.0813295,5,I worked as a ferry captain.
+WD,16384,tobias,distractor,typical_day,role,1,0.003197198,0.12397457,3,I worked as a ferry captain.
+WD,16384,tobias,distractor,typical_day,role,2,0.0033004517,0.26424372,2,I worked as a ferry captain.
+WD,16384,tobias,distractor,typical_day,role,3,0.006138694,0.7801819,6,I worked as a ferry captain.
+WD,16384,tobias,distractor,weekend,preferences,0,0.010090802,0.00679452,2,I prefer quiet places to crowded cities.
+WD,16384,tobias,distractor,weekend,preferences,1,0.007082008,0.008514177,3,I prefer quiet places to crowded cities.
+WD,16384,tobias,distractor,weekend,preferences,2,0.0076115117,0.0051653166,2,I prefer quiet places to crowded cities.
+WD,16384,tobias,distractor,weekend,preferences,3,0.0067770826,0.0020408193,2,I prefer quiet places to crowded cities.
+WD,16384,odalys,persona,typical_day,role,0,0.05824493,0.20175582,2,I play piano in jazz clubs.
+WD,16384,odalys,persona,typical_day,role,1,0.01578494,0.063212834,5,I play piano in jazz clubs.
+WD,16384,odalys,persona,typical_day,role,2,0.014594309,0.07895389,3,I play piano in jazz clubs.
+WD,16384,odalys,persona,typical_day,role,3,0.0062699686,0.06862066,3,I play piano in jazz clubs.
+WD,16384,odalys,persona,weekend,preferences,0,0.0016762002,0.0044660983,4,I love hot summer weather.
+WD,16384,odalys,persona,weekend,preferences,1,0.0021883799,0.0032500464,1,I love hot summer weather.
+WD,16384,odalys,persona,weekend,preferences,2,0.0014701444,0.0032924963,6,I love hot summer weather.
+WD,16384,odalys,persona,weekend,preferences,3,0.0017896487,0.0034177436,3,I love hot summer weather.
+WD,16384,odalys,distractor,typical_day,role,0,0.06589388,0.213821,2,I play piano in jazz clubs.
+WD,16384,odalys,distractor,typical_day,role,1,0.017252559,0.067985766,5,I play piano in jazz clubs.
+WD,16384,odalys,distractor,typical_day,role,2,0.013680903,0.074702285,3,I play piano in jazz clubs.
+WD,16384,odalys,distractor,typical_day,role,3,0.0064232666,0.064179555,3,I play piano in jazz clubs.
+WD,16384,odalys,distractor,weekend,preferences,0,0.0016762002,0.0043298146,4,I love hot summer weather.
+WD,16384,odalys,distractor,weekend,preferences,1,0.0021882465,0.0033107111,1,I love hot summer weather.
+WD,16384,odalys,distractor,weekend,preferences,2,0.0017863053,0.0032924963,6,I love hot summer weather.
+WD,16384,odalys,distractor,weekend,preferences,3,0.0042728134,0.0058459495,4,I love hot summer weather.
+WD,16384,kenji,persona,typical_day,role,0,0.011370201,0.014844026,2,I teach chemistry at a high school.
+WD,16384,kenji,persona,typical_day,role,1,0.0031932911,0.0051933564,3,I teach chemistry at a high school.
+WD,16384,kenji,persona,typical_day,role,2,0.081562355,0.15361117,2,I teach chemistry at a high school.
+WD,16384,kenji,persona,typical_day,role,3,0.025021462,0.030537417,1,I teach chemistry at a high school.
+WD,16384,kenji,persona,weekend,preferences,0,0.008289814,0.0027519462,2,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,persona,weekend,preferences,1,0.0035420933,0.0037266104,4,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,persona,weekend,preferences,2,0.0050002476,0.0016610656,3,I prefer hiking alone to big group gatherings.
+WD,16384,kenji,persona,weekend,preferences,3,0.008221901,0.0054048356,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,tobias,persona,typical_day,role,0,0.003569335,0.28913987,10,I worked as a ferry captain.
+PL-D-p30,4096,tobias,persona,typical_day,role,1,0.0014813642,0.085467756,6,I worked as a ferry captain.
+PL-D-p30,4096,tobias,persona,typical_day,role,2,0.0013165568,0.99919564,7,I worked as a ferry captain.
+PL-D-p30,4096,tobias,persona,typical_day,role,3,0.005817882,0.9973808,10,I worked as a ferry captain.
+PL-D-p30,4096,tobias,persona,weekend,preferences,0,0.0063633574,0.0023720597,9,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,persona,weekend,preferences,1,0.011369761,0.0013820577,2,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,persona,weekend,preferences,2,0.0049651694,0.0025648219,4,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,persona,weekend,preferences,3,0.002515272,0.002506332,5,I prefer quiet places to crowded cities.
+PL-D-p30,4096,kenji,distractor,typical_day,role,0,0.00040979576,0.004507996,6,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,distractor,typical_day,role,1,0.00061900786,0.0053473143,6,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,distractor,typical_day,role,2,0.0018095772,0.004240392,12,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,distractor,typical_day,role,3,0.0044216514,0.6763157,10,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,distractor,weekend,preferences,0,0.003085288,0.9984835,9,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,distractor,weekend,preferences,1,0.0013795905,0.98398536,5,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,distractor,weekend,preferences,2,0.003319131,0.99714154,6,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,distractor,weekend,preferences,3,0.0018574226,0.9990735,9,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,tobias,neutral,typical_day,role,0,0.0023740758,0.019309254,8,I worked as a ferry captain.
+PL-D-p30,4096,tobias,neutral,typical_day,role,1,0.0027012627,0.96007586,5,I worked as a ferry captain.
+PL-D-p30,4096,tobias,neutral,typical_day,role,2,0.0012390912,0.8503104,9,I worked as a ferry captain.
+PL-D-p30,4096,tobias,neutral,typical_day,role,3,0.0039946022,0.52139515,12,I worked as a ferry captain.
+PL-D-p30,4096,tobias,neutral,weekend,preferences,0,0.0068206163,0.0030796358,5,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,neutral,weekend,preferences,1,0.007081503,0.0010482485,2,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,neutral,weekend,preferences,2,0.0030336727,0.004414847,7,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,neutral,weekend,preferences,3,0.0024071764,0.0016432975,8,I prefer quiet places to crowded cities.
+PL-D-p30,4096,odalys,neutral,typical_day,role,0,0.042325933,0.24764502,12,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,neutral,typical_day,role,1,0.0018529139,0.98533845,8,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,neutral,typical_day,role,2,0.008668576,0.8169792,10,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,neutral,typical_day,role,3,0.0069012945,0.78723776,10,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,neutral,weekend,preferences,0,0.014412212,0.0016398898,4,I love hot summer weather.
+PL-D-p30,4096,odalys,neutral,weekend,preferences,1,0.00036801436,0.0012251356,2,I love hot summer weather.
+PL-D-p30,4096,odalys,neutral,weekend,preferences,2,0.0057721115,0.050320722,12,I love hot summer weather.
+PL-D-p30,4096,odalys,neutral,weekend,preferences,3,0.0015271069,0.0023768065,7,I love hot summer weather.
+PL-D-p30,4096,kenji,neutral,typical_day,role,0,0.00042914593,0.0026105936,6,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,neutral,typical_day,role,1,0.0015613418,0.9990393,9,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,neutral,typical_day,role,2,0.0016255992,0.010051197,14,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,neutral,typical_day,role,3,0.004767011,0.0043678503,10,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,neutral,weekend,preferences,0,0.003085288,0.9984835,9,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,neutral,weekend,preferences,1,0.0011236953,0.9804945,4,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,neutral,weekend,preferences,2,0.0032343762,0.97091675,5,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,neutral,weekend,preferences,3,0.019439759,0.9958016,4,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,tobias,sham,typical_day,role,0,0.0023740758,0.019309254,8,I worked as a ferry captain.
+PL-D-p30,4096,tobias,sham,typical_day,role,1,0.0027012627,0.96007586,7,I worked as a ferry captain.
+PL-D-p30,4096,tobias,sham,typical_day,role,2,0.0010500738,0.34944376,10,I worked as a ferry captain.
+PL-D-p30,4096,tobias,sham,typical_day,role,3,0.006403734,0.221629,9,I worked as a ferry captain.
+PL-D-p30,4096,tobias,sham,weekend,preferences,0,0.003002381,0.0016690199,4,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,sham,weekend,preferences,1,0.007081503,0.0017334069,2,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,sham,weekend,preferences,2,0.009589257,0.030599002,13,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,sham,weekend,preferences,3,0.0025031164,0.8354739,11,I prefer quiet places to crowded cities.
+PL-D-p30,4096,odalys,sham,typical_day,role,0,0.08191222,0.9784046,12,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,sham,typical_day,role,1,0.0017717413,0.98533845,8,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,sham,typical_day,role,2,0.0017178706,0.99690634,10,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,sham,typical_day,role,3,0.0069012945,0.78723776,10,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,sham,weekend,preferences,0,0.0008550779,0.0014280605,8,I love hot summer weather.
+PL-D-p30,4096,odalys,sham,weekend,preferences,1,0.0004356293,0.001952355,5,I love hot summer weather.
+PL-D-p30,4096,odalys,sham,weekend,preferences,2,0.0011750167,0.0048072953,14,I love hot summer weather.
+PL-D-p30,4096,odalys,sham,weekend,preferences,3,0.0014204836,0.0013960677,7,I love hot summer weather.
+PL-D-p30,4096,kenji,sham,typical_day,role,0,0.0003962405,0.0030090061,6,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,sham,typical_day,role,1,0.0014394948,0.9982711,7,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,sham,typical_day,role,2,0.0016255992,0.01605869,13,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,sham,typical_day,role,3,0.004767011,0.0036813705,11,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,sham,weekend,preferences,0,0.0020644458,0.7540263,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,sham,weekend,preferences,1,0.0018359774,0.9829009,5,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,sham,weekend,preferences,2,0.005140668,0.99502903,4,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,sham,weekend,preferences,3,0.019439759,0.9958016,4,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,tobias,distractor,typical_day,role,0,0.0023740758,0.9960978,12,I worked as a ferry captain.
+PL-D-p30,4096,tobias,distractor,typical_day,role,1,0.001456445,0.9828084,7,I worked as a ferry captain.
+PL-D-p30,4096,tobias,distractor,typical_day,role,2,0.0015535252,0.40041766,6,I worked as a ferry captain.
+PL-D-p30,4096,tobias,distractor,typical_day,role,3,0.01618711,0.221629,7,I worked as a ferry captain.
+PL-D-p30,4096,tobias,distractor,weekend,preferences,0,0.0063633574,0.00587648,8,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,distractor,weekend,preferences,1,0.0042535285,0.0007964279,3,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,distractor,weekend,preferences,2,0.0072901556,0.0024327538,4,I prefer quiet places to crowded cities.
+PL-D-p30,4096,tobias,distractor,weekend,preferences,3,0.0028264886,0.0023349698,6,I prefer quiet places to crowded cities.
+PL-D-p30,4096,odalys,persona,typical_day,role,0,0.0034041363,0.944066,11,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,persona,typical_day,role,1,0.0010541634,0.9902171,6,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,persona,typical_day,role,2,0.0056321416,0.9628897,7,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,persona,typical_day,role,3,0.0069012945,0.7140872,10,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,persona,weekend,preferences,0,0.001460232,0.45341983,5,I love hot summer weather.
+PL-D-p30,4096,odalys,persona,weekend,preferences,1,0.00036801436,0.0012251356,2,I love hot summer weather.
+PL-D-p30,4096,odalys,persona,weekend,preferences,2,0.0012727756,0.0033658333,14,I love hot summer weather.
+PL-D-p30,4096,odalys,persona,weekend,preferences,3,0.00048533833,0.0050519714,6,I love hot summer weather.
+PL-D-p30,4096,odalys,distractor,typical_day,role,0,0.0015190457,0.9363655,9,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,distractor,typical_day,role,1,0.05091074,0.7667045,11,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,distractor,typical_day,role,2,0.017373994,0.9989807,14,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,distractor,typical_day,role,3,0.0031350213,0.078749254,10,I play piano in jazz clubs.
+PL-D-p30,4096,odalys,distractor,weekend,preferences,0,0.0028408854,0.03147986,4,I love hot summer weather.
+PL-D-p30,4096,odalys,distractor,weekend,preferences,1,0.00036801436,0.0012251356,2,I love hot summer weather.
+PL-D-p30,4096,odalys,distractor,weekend,preferences,2,0.001371471,0.004882482,8,I love hot summer weather.
+PL-D-p30,4096,odalys,distractor,weekend,preferences,3,0.00046732737,0.001994606,6,I love hot summer weather.
+PL-D-p30,4096,kenji,persona,typical_day,role,0,0.00051080756,0.0105121285,7,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,persona,typical_day,role,1,0.00076105003,0.895575,6,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,persona,typical_day,role,2,0.0019379252,0.05928586,12,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,persona,typical_day,role,3,0.022721171,0.9863781,14,I teach chemistry at a high school.
+PL-D-p30,4096,kenji,persona,weekend,preferences,0,0.0026254803,0.99746704,11,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,persona,weekend,preferences,1,0.0012779469,0.96604395,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,persona,weekend,preferences,2,0.0031934273,0.9914704,2,I prefer hiking alone to big group gatherings.
+PL-D-p30,4096,kenji,persona,weekend,preferences,3,0.0009265156,0.9987808,4,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,tobias,persona,typical_day,role,0,0.0012776519,0.9992372,6,I worked as a ferry captain.
+PL-D-p30,8192,tobias,persona,typical_day,role,1,0.0004796089,0.9996933,5,I worked as a ferry captain.
+PL-D-p30,8192,tobias,persona,typical_day,role,2,0.0017380832,0.98911977,5,I worked as a ferry captain.
+PL-D-p30,8192,tobias,persona,typical_day,role,3,0.0028533635,0.7314712,10,I worked as a ferry captain.
+PL-D-p30,8192,tobias,persona,weekend,preferences,0,0.004160196,0.000512137,2,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,persona,weekend,preferences,1,0.005369324,0.043250583,4,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,persona,weekend,preferences,2,0.0041766926,0.0007327983,2,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,persona,weekend,preferences,3,0.002973383,0.0006220388,2,I prefer quiet places to crowded cities.
+PL-D-p30,8192,kenji,distractor,typical_day,role,0,0.0005492809,0.40811938,5,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,distractor,typical_day,role,1,0.00033883765,0.0055885757,4,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,distractor,typical_day,role,2,0.00075312465,0.99250704,4,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,distractor,typical_day,role,3,0.00059830036,0.9927239,5,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,distractor,weekend,preferences,0,0.0026474008,0.99322367,5,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,distractor,weekend,preferences,1,0.0009809366,0.9881671,5,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,distractor,weekend,preferences,2,0.00087411085,0.9942272,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,distractor,weekend,preferences,3,0.00065600936,0.9878197,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,tobias,neutral,typical_day,role,0,0.0011456137,0.99925274,5,I worked as a ferry captain.
+PL-D-p30,8192,tobias,neutral,typical_day,role,1,0.00076336,0.9997193,4,I worked as a ferry captain.
+PL-D-p30,8192,tobias,neutral,typical_day,role,2,0.002132707,0.9863008,7,I worked as a ferry captain.
+PL-D-p30,8192,tobias,neutral,typical_day,role,3,0.00059150916,0.9537748,6,I worked as a ferry captain.
+PL-D-p30,8192,tobias,neutral,weekend,preferences,0,0.00430387,0.1271007,3,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,neutral,weekend,preferences,1,0.003147314,0.1459133,5,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,neutral,weekend,preferences,2,0.0022009218,0.0016587967,11,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,neutral,weekend,preferences,3,0.002579727,0.0006382876,3,I prefer quiet places to crowded cities.
+PL-D-p30,8192,odalys,neutral,typical_day,role,0,0.0008439912,0.9379439,5,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,neutral,typical_day,role,1,0.001087477,0.9957426,7,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,neutral,typical_day,role,2,0.0014342216,0.9913545,5,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,neutral,typical_day,role,3,0.0016871057,0.9687224,5,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,neutral,weekend,preferences,0,0.00065468845,0.0018829718,3,I love hot summer weather.
+PL-D-p30,8192,odalys,neutral,weekend,preferences,1,0.002512586,0.003458397,10,I love hot summer weather.
+PL-D-p30,8192,odalys,neutral,weekend,preferences,2,0.00040811772,0.0014949151,3,I love hot summer weather.
+PL-D-p30,8192,odalys,neutral,weekend,preferences,3,0.0010578044,0.0022909488,3,I love hot summer weather.
+PL-D-p30,8192,kenji,neutral,typical_day,role,0,0.0044688745,0.0010198333,9,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,neutral,typical_day,role,1,0.00044478884,0.00456295,2,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,neutral,typical_day,role,2,0.000380252,0.013349148,4,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,neutral,typical_day,role,3,0.00079300394,0.020935275,10,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,neutral,weekend,preferences,0,0.0005448469,0.99791616,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,neutral,weekend,preferences,1,0.0010425579,0.96170217,10,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,neutral,weekend,preferences,2,0.0005129477,0.99572766,2,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,neutral,weekend,preferences,3,0.00065600936,0.9878197,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,tobias,sham,typical_day,role,0,0.0004872798,0.99870324,4,I worked as a ferry captain.
+PL-D-p30,8192,tobias,sham,typical_day,role,1,0.00033650215,0.9997193,4,I worked as a ferry captain.
+PL-D-p30,8192,tobias,sham,typical_day,role,2,0.0006950437,0.9958669,5,I worked as a ferry captain.
+PL-D-p30,8192,tobias,sham,typical_day,role,3,0.00052690355,0.98922205,5,I worked as a ferry captain.
+PL-D-p30,8192,tobias,sham,weekend,preferences,0,0.004160196,0.000512137,2,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,sham,weekend,preferences,1,0.003147314,0.1459133,5,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,sham,weekend,preferences,2,0.0022009218,0.0016587967,10,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,sham,weekend,preferences,3,0.002579727,0.0006382876,3,I prefer quiet places to crowded cities.
+PL-D-p30,8192,odalys,sham,typical_day,role,0,0.0008145806,0.99622834,6,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,sham,typical_day,role,1,0.0044549904,0.7810525,6,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,sham,typical_day,role,2,0.0007568825,0.99806863,5,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,sham,typical_day,role,3,0.0018470972,0.90987074,5,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,sham,weekend,preferences,0,0.002512586,0.002167136,11,I love hot summer weather.
+PL-D-p30,8192,odalys,sham,weekend,preferences,1,0.002512586,0.0035126754,10,I love hot summer weather.
+PL-D-p30,8192,odalys,sham,weekend,preferences,2,0.0009129358,0.0037803203,3,I love hot summer weather.
+PL-D-p30,8192,odalys,sham,weekend,preferences,3,0.0010578044,0.0022909488,3,I love hot summer weather.
+PL-D-p30,8192,kenji,sham,typical_day,role,0,0.0016813518,0.0017044968,9,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,sham,typical_day,role,1,0.00036342102,0.012346063,4,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,sham,typical_day,role,2,0.000380252,0.013349148,4,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,sham,typical_day,role,3,0.00079300394,0.044500142,13,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,sham,weekend,preferences,0,0.0005448469,0.99791616,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,sham,weekend,preferences,1,0.0010425579,0.96170217,10,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,sham,weekend,preferences,2,0.00064438395,0.995862,2,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,sham,weekend,preferences,3,0.00065600936,0.9878197,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,tobias,distractor,typical_day,role,0,0.0015984463,0.9990909,7,I worked as a ferry captain.
+PL-D-p30,8192,tobias,distractor,typical_day,role,1,0.00076817453,0.9997193,4,I worked as a ferry captain.
+PL-D-p30,8192,tobias,distractor,typical_day,role,2,0.0013456389,0.95553374,5,I worked as a ferry captain.
+PL-D-p30,8192,tobias,distractor,typical_day,role,3,0.002539649,0.99774784,5,I worked as a ferry captain.
+PL-D-p30,8192,tobias,distractor,weekend,preferences,0,0.0051368927,0.00052888243,2,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,distractor,weekend,preferences,1,0.0046001067,0.00499214,6,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,distractor,weekend,preferences,2,0.0036022102,0.016480388,5,I prefer quiet places to crowded cities.
+PL-D-p30,8192,tobias,distractor,weekend,preferences,3,0.002471233,0.008386518,3,I prefer quiet places to crowded cities.
+PL-D-p30,8192,odalys,persona,typical_day,role,0,0.0008439912,0.84671605,5,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,persona,typical_day,role,1,0.0008883587,0.993004,6,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,persona,typical_day,role,2,0.0005895612,0.3889324,5,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,persona,typical_day,role,3,0.0039152894,0.972241,5,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,persona,weekend,preferences,0,0.00065468845,0.0018829718,3,I love hot summer weather.
+PL-D-p30,8192,odalys,persona,weekend,preferences,1,0.000566695,0.43469474,4,I love hot summer weather.
+PL-D-p30,8192,odalys,persona,weekend,preferences,2,0.0023999251,0.0017218635,5,I love hot summer weather.
+PL-D-p30,8192,odalys,persona,weekend,preferences,3,0.0002854781,0.0015559314,3,I love hot summer weather.
+PL-D-p30,8192,odalys,distractor,typical_day,role,0,0.00061930995,0.9746003,5,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,distractor,typical_day,role,1,0.00079858047,0.9950472,5,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,distractor,typical_day,role,2,0.0005895612,0.3889324,5,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,distractor,typical_day,role,3,0.00089229626,0.7841563,4,I play piano in jazz clubs.
+PL-D-p30,8192,odalys,distractor,weekend,preferences,0,0.00032260295,0.0016543904,5,I love hot summer weather.
+PL-D-p30,8192,odalys,distractor,weekend,preferences,1,0.0006180392,0.009384049,3,I love hot summer weather.
+PL-D-p30,8192,odalys,distractor,weekend,preferences,2,0.00040811772,0.0014949151,3,I love hot summer weather.
+PL-D-p30,8192,odalys,distractor,weekend,preferences,3,0.06516709,0.0022336016,5,I love hot summer weather.
+PL-D-p30,8192,kenji,persona,typical_day,role,0,0.0005492809,0.97904676,6,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,persona,typical_day,role,1,0.00028037495,0.0013666424,1,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,persona,typical_day,role,2,0.0005535387,0.99251336,4,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,persona,typical_day,role,3,0.0005199422,0.35205376,5,I teach chemistry at a high school.
+PL-D-p30,8192,kenji,persona,weekend,preferences,0,0.0018158762,0.99402255,6,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,persona,weekend,preferences,1,0.0004343193,0.86535376,2,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,persona,weekend,preferences,2,0.00048877916,0.99424183,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,8192,kenji,persona,weekend,preferences,3,0.00065600936,0.98780805,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,tobias,persona,typical_day,role,0,0.0002298159,0.0010482284,1,I worked as a ferry captain.
+PL-D-p30,16384,tobias,persona,typical_day,role,1,0.0011102862,0.02053935,7,I worked as a ferry captain.
+PL-D-p30,16384,tobias,persona,typical_day,role,2,0.0013383726,0.9298743,3,I worked as a ferry captain.
+PL-D-p30,16384,tobias,persona,typical_day,role,3,0.0014448222,0.8759223,4,I worked as a ferry captain.
+PL-D-p30,16384,tobias,persona,weekend,preferences,0,0.012684703,0.00070362247,2,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,persona,weekend,preferences,1,0.0032014728,0.027568867,4,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,persona,weekend,preferences,2,0.0043506213,0.0004572107,1,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,persona,weekend,preferences,3,0.0034082092,0.0023292925,7,I prefer quiet places to crowded cities.
+PL-D-p30,16384,kenji,distractor,typical_day,role,0,0.00042354074,0.9102609,5,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,distractor,typical_day,role,1,0.00039388015,0.0011782079,3,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,distractor,typical_day,role,2,0.00032442663,0.0018742534,3,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,distractor,typical_day,role,3,0.00036356333,0.9975484,4,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,distractor,weekend,preferences,0,0.0070271376,0.9861691,2,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,distractor,weekend,preferences,1,0.0017183688,0.985872,3,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,distractor,weekend,preferences,2,0.0002150385,0.9698333,1,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,distractor,weekend,preferences,3,0.0037000412,0.9953035,11,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,tobias,neutral,typical_day,role,0,0.0009751475,0.004198782,3,I worked as a ferry captain.
+PL-D-p30,16384,tobias,neutral,typical_day,role,1,0.00091165263,0.054908965,5,I worked as a ferry captain.
+PL-D-p30,16384,tobias,neutral,typical_day,role,2,0.0007002822,0.9777337,3,I worked as a ferry captain.
+PL-D-p30,16384,tobias,neutral,typical_day,role,3,0.00040928248,0.0038117776,4,I worked as a ferry captain.
+PL-D-p30,16384,tobias,neutral,weekend,preferences,0,0.0074318377,0.00047579795,2,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,neutral,weekend,preferences,1,0.0032014728,0.027568867,4,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,neutral,weekend,preferences,2,0.008791541,0.0007521741,4,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,neutral,weekend,preferences,3,0.0034082092,0.0023292925,7,I prefer quiet places to crowded cities.
+PL-D-p30,16384,odalys,neutral,typical_day,role,0,0.0045348722,0.951397,4,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,neutral,typical_day,role,1,0.0006257559,0.9888657,4,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,neutral,typical_day,role,2,0.000809683,0.9885944,5,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,neutral,typical_day,role,3,0.0007026603,0.99854976,5,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,neutral,weekend,preferences,0,0.002512586,0.0015003337,10,I love hot summer weather.
+PL-D-p30,16384,odalys,neutral,weekend,preferences,1,0.0009597022,0.0009788322,3,I love hot summer weather.
+PL-D-p30,16384,odalys,neutral,weekend,preferences,2,0.0039132345,0.0013777049,9,I love hot summer weather.
+PL-D-p30,16384,odalys,neutral,weekend,preferences,3,0.00034737441,0.0018669172,3,I love hot summer weather.
+PL-D-p30,16384,kenji,neutral,typical_day,role,0,0.00047926564,0.003381833,6,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,neutral,typical_day,role,1,0.00042672985,0.0050116978,3,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,neutral,typical_day,role,2,0.0003609715,0.00383485,5,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,neutral,typical_day,role,3,0.00048995705,0.98096234,6,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,neutral,weekend,preferences,0,0.0070271376,0.9861691,2,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,neutral,weekend,preferences,1,0.0054686647,0.99170494,13,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,neutral,weekend,preferences,2,0.0002150385,0.9698333,1,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,neutral,weekend,preferences,3,0.00117323,0.99007905,9,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,tobias,sham,typical_day,role,0,0.0002298159,0.0010482284,1,I worked as a ferry captain.
+PL-D-p30,16384,tobias,sham,typical_day,role,1,0.00176125,0.98959863,7,I worked as a ferry captain.
+PL-D-p30,16384,tobias,sham,typical_day,role,2,0.0015524488,0.5473388,3,I worked as a ferry captain.
+PL-D-p30,16384,tobias,sham,typical_day,role,3,0.0012377846,0.0052675256,4,I worked as a ferry captain.
+PL-D-p30,16384,tobias,sham,weekend,preferences,0,0.010031492,0.00070362247,2,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,sham,weekend,preferences,1,0.0032014728,0.027568867,4,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,sham,weekend,preferences,2,0.0040487545,0.0004909728,3,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,sham,weekend,preferences,3,0.0034082092,0.0014699525,7,I prefer quiet places to crowded cities.
+PL-D-p30,16384,odalys,sham,typical_day,role,0,0.00095698604,0.997867,4,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,sham,typical_day,role,1,0.0014977981,0.9888657,6,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,sham,typical_day,role,2,0.0008260438,0.9885944,5,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,sham,typical_day,role,3,0.0012670043,0.9785018,5,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,sham,weekend,preferences,0,0.0025511626,0.001848332,8,I love hot summer weather.
+PL-D-p30,16384,odalys,sham,weekend,preferences,1,0.0015234047,0.0011080756,3,I love hot summer weather.
+PL-D-p30,16384,odalys,sham,weekend,preferences,2,0.0039132345,0.0013777049,9,I love hot summer weather.
+PL-D-p30,16384,odalys,sham,weekend,preferences,3,0.0005050824,0.0017455389,3,I love hot summer weather.
+PL-D-p30,16384,kenji,sham,typical_day,role,0,0.00044802943,0.003381833,6,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,sham,typical_day,role,1,0.000389829,0.0017539305,4,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,sham,typical_day,role,2,0.00039548258,0.58818346,4,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,sham,typical_day,role,3,0.00047842573,0.98096234,4,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,sham,weekend,preferences,0,0.0070271376,0.9861691,2,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,sham,weekend,preferences,1,0.0016661934,0.99118114,11,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,sham,weekend,preferences,2,0.00072365836,0.4037447,2,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,sham,weekend,preferences,3,0.0031914164,0.9900143,10,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,tobias,distractor,typical_day,role,0,0.0009751475,0.004198782,3,I worked as a ferry captain.
+PL-D-p30,16384,tobias,distractor,typical_day,role,1,0.0061568236,0.048744593,5,I worked as a ferry captain.
+PL-D-p30,16384,tobias,distractor,typical_day,role,2,0.0017824882,0.9298743,3,I worked as a ferry captain.
+PL-D-p30,16384,tobias,distractor,typical_day,role,3,0.0014448222,0.8759223,4,I worked as a ferry captain.
+PL-D-p30,16384,tobias,distractor,weekend,preferences,0,0.012684703,0.00070362247,2,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,distractor,weekend,preferences,1,0.0032014728,0.027568867,4,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,distractor,weekend,preferences,2,0.0025145765,0.0019917975,4,I prefer quiet places to crowded cities.
+PL-D-p30,16384,tobias,distractor,weekend,preferences,3,0.0034082092,0.0019151642,9,I prefer quiet places to crowded cities.
+PL-D-p30,16384,odalys,persona,typical_day,role,0,0.0021916984,0.960505,4,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,persona,typical_day,role,1,0.0006803007,0.5686592,4,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,persona,typical_day,role,2,0.0008260438,0.9885944,5,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,persona,typical_day,role,3,0.00056499994,0.9904366,4,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,persona,weekend,preferences,0,0.0025511626,0.001848332,8,I love hot summer weather.
+PL-D-p30,16384,odalys,persona,weekend,preferences,1,0.00046797105,0.0014993767,3,I love hot summer weather.
+PL-D-p30,16384,odalys,persona,weekend,preferences,2,0.00050502655,0.0038265085,2,I love hot summer weather.
+PL-D-p30,16384,odalys,persona,weekend,preferences,3,0.00030780048,0.0017643641,4,I love hot summer weather.
+PL-D-p30,16384,odalys,distractor,typical_day,role,0,0.0045348722,0.951397,4,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,distractor,typical_day,role,1,0.002005879,0.9468821,5,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,distractor,typical_day,role,2,0.00058341684,0.9567331,3,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,distractor,typical_day,role,3,0.0012670043,0.9785018,5,I play piano in jazz clubs.
+PL-D-p30,16384,odalys,distractor,weekend,preferences,0,0.002512586,0.0015003337,8,I love hot summer weather.
+PL-D-p30,16384,odalys,distractor,weekend,preferences,1,0.0018943718,0.002078547,4,I love hot summer weather.
+PL-D-p30,16384,odalys,distractor,weekend,preferences,2,0.00062823016,0.0008807707,2,I love hot summer weather.
+PL-D-p30,16384,odalys,distractor,weekend,preferences,3,0.00034737441,0.0018669172,3,I love hot summer weather.
+PL-D-p30,16384,kenji,persona,typical_day,role,0,0.0006044149,0.0037566465,5,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,persona,typical_day,role,1,0.00049346336,0.021525465,3,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,persona,typical_day,role,2,0.00032442663,0.0018742534,3,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,persona,typical_day,role,3,0.00036356333,0.9975484,4,I teach chemistry at a high school.
+PL-D-p30,16384,kenji,persona,weekend,preferences,0,0.015677128,0.9861691,2,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,persona,weekend,preferences,1,0.0013406607,0.99747545,8,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,persona,weekend,preferences,2,0.0002150385,0.9698333,1,I prefer hiking alone to big group gatherings.
+PL-D-p30,16384,kenji,persona,weekend,preferences,3,0.0018394256,0.99298203,12,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,tobias,persona,typical_day,role,0,0.0053508356,0.99911696,12,I worked as a ferry captain.
+PN-D-p30,4096,tobias,persona,typical_day,role,1,0.0015276427,0.98227376,7,I worked as a ferry captain.
+PN-D-p30,4096,tobias,persona,typical_day,role,2,0.01774999,0.9979387,10,I worked as a ferry captain.
+PN-D-p30,4096,tobias,persona,typical_day,role,3,0.0020770456,0.9994043,9,I worked as a ferry captain.
+PN-D-p30,4096,tobias,persona,weekend,preferences,0,0.0062445938,0.023682583,5,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,persona,weekend,preferences,1,0.0033623122,0.06594563,6,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,persona,weekend,preferences,2,0.008129692,0.0010825542,6,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,persona,weekend,preferences,3,0.0032242413,0.0034102895,6,I prefer quiet places to crowded cities.
+PN-D-p30,4096,kenji,distractor,typical_day,role,0,0.00080364273,0.6965939,11,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,distractor,typical_day,role,1,0.0005244643,0.62176806,8,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,distractor,typical_day,role,2,0.002043823,0.0010676578,6,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,distractor,typical_day,role,3,0.0012064646,0.007596795,11,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,distractor,weekend,preferences,0,0.020442119,0.9887313,13,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,distractor,weekend,preferences,1,0.0031199967,0.80288243,16,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,distractor,weekend,preferences,2,0.0013879248,0.99379325,6,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,distractor,weekend,preferences,3,0.0055798036,0.9981218,15,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,tobias,neutral,typical_day,role,0,0.0022877129,0.9855275,11,I worked as a ferry captain.
+PN-D-p30,4096,tobias,neutral,typical_day,role,1,0.0014914282,0.9969541,8,I worked as a ferry captain.
+PN-D-p30,4096,tobias,neutral,typical_day,role,2,0.0037390506,0.8638681,12,I worked as a ferry captain.
+PN-D-p30,4096,tobias,neutral,typical_day,role,3,0.010278475,0.99951756,14,I worked as a ferry captain.
+PN-D-p30,4096,tobias,neutral,weekend,preferences,0,0.0062445938,0.023682583,5,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,neutral,weekend,preferences,1,0.0038087186,0.00080344116,6,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,neutral,weekend,preferences,2,0.012327902,0.002687223,5,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,neutral,weekend,preferences,3,0.0032242413,0.0019630028,6,I prefer quiet places to crowded cities.
+PN-D-p30,4096,odalys,neutral,typical_day,role,0,0.24677539,0.9436687,16,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,neutral,typical_day,role,1,0.0018667644,0.98017865,11,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,neutral,typical_day,role,2,0.0016689501,0.9825812,11,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,neutral,typical_day,role,3,0.005036504,0.9926906,9,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,neutral,weekend,preferences,0,0.001976972,0.0009260725,4,I love hot summer weather.
+PN-D-p30,4096,odalys,neutral,weekend,preferences,1,0.00054433517,0.0023067447,3,I love hot summer weather.
+PN-D-p30,4096,odalys,neutral,weekend,preferences,2,0.0016955029,0.026123691,5,I love hot summer weather.
+PN-D-p30,4096,odalys,neutral,weekend,preferences,3,0.000360627,0.012488995,4,I love hot summer weather.
+PN-D-p30,4096,kenji,neutral,typical_day,role,0,0.0008006462,0.99058074,8,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,neutral,typical_day,role,1,0.0019201349,0.014290592,9,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,neutral,typical_day,role,2,0.001339762,0.9990088,10,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,neutral,typical_day,role,3,0.0013890186,0.0030376874,12,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,neutral,weekend,preferences,0,0.020442119,0.99771047,13,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,neutral,weekend,preferences,1,0.004326118,0.99196273,5,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,neutral,weekend,preferences,2,0.000939324,0.9568565,4,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,neutral,weekend,preferences,3,0.008657128,0.9793885,17,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,tobias,sham,typical_day,role,0,0.0022877129,0.9855275,11,I worked as a ferry captain.
+PN-D-p30,4096,tobias,sham,typical_day,role,1,0.0064701973,0.9933918,9,I worked as a ferry captain.
+PN-D-p30,4096,tobias,sham,typical_day,role,2,0.0031969142,0.95855194,13,I worked as a ferry captain.
+PN-D-p30,4096,tobias,sham,typical_day,role,3,0.010278475,0.086839095,7,I worked as a ferry captain.
+PN-D-p30,4096,tobias,sham,weekend,preferences,0,0.0031461678,0.023682583,7,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,sham,weekend,preferences,1,0.0038087186,0.8939865,7,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,sham,weekend,preferences,2,0.0073333546,0.36113238,6,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,sham,weekend,preferences,3,0.0032242413,0.0019630028,6,I prefer quiet places to crowded cities.
+PN-D-p30,4096,odalys,sham,typical_day,role,0,0.24677539,0.9436687,16,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,sham,typical_day,role,1,0.0036809982,0.9979657,7,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,sham,typical_day,role,2,0.0016689501,0.9825812,11,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,sham,typical_day,role,3,0.0061955308,0.995665,11,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,sham,weekend,preferences,0,0.0010615652,0.014791044,7,I love hot summer weather.
+PN-D-p30,4096,odalys,sham,weekend,preferences,1,0.0023084027,0.070046104,3,I love hot summer weather.
+PN-D-p30,4096,odalys,sham,weekend,preferences,2,0.0042991214,0.113717355,8,I love hot summer weather.
+PN-D-p30,4096,odalys,sham,weekend,preferences,3,0.0004064707,0.012488995,4,I love hot summer weather.
+PN-D-p30,4096,kenji,sham,typical_day,role,0,0.0005594387,0.99058074,10,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,sham,typical_day,role,1,0.00039930726,0.9959026,6,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,sham,typical_day,role,2,0.006526309,0.0028819258,7,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,sham,typical_day,role,3,0.0012750339,0.37226987,11,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,sham,weekend,preferences,0,0.0025314037,0.9940492,11,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,sham,weekend,preferences,1,0.006751199,0.98806804,11,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,sham,weekend,preferences,2,0.0013879248,0.99379325,6,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,sham,weekend,preferences,3,0.0044862987,0.9872903,5,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,tobias,distractor,typical_day,role,0,0.009790504,0.9991001,14,I worked as a ferry captain.
+PN-D-p30,4096,tobias,distractor,typical_day,role,1,0.00238898,0.9870896,9,I worked as a ferry captain.
+PN-D-p30,4096,tobias,distractor,typical_day,role,2,0.0027823206,0.5302164,13,I worked as a ferry captain.
+PN-D-p30,4096,tobias,distractor,typical_day,role,3,0.023867534,0.086839095,10,I worked as a ferry captain.
+PN-D-p30,4096,tobias,distractor,weekend,preferences,0,0.0062445938,0.015803838,5,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,distractor,weekend,preferences,1,0.0033251047,0.00097260985,4,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,distractor,weekend,preferences,2,0.012327902,0.020997353,5,I prefer quiet places to crowded cities.
+PN-D-p30,4096,tobias,distractor,weekend,preferences,3,0.0044269958,0.0017646098,4,I prefer quiet places to crowded cities.
+PN-D-p30,4096,odalys,persona,typical_day,role,0,0.0015463429,0.98683655,8,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,persona,typical_day,role,1,0.0676462,0.048534628,10,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,persona,typical_day,role,2,0.0017214593,0.9953596,7,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,persona,typical_day,role,3,0.0069312197,0.9739119,15,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,persona,weekend,preferences,0,0.00039477137,0.0013298272,5,I love hot summer weather.
+PN-D-p30,4096,odalys,persona,weekend,preferences,1,0.00040099904,0.0024840045,5,I love hot summer weather.
+PN-D-p30,4096,odalys,persona,weekend,preferences,2,0.0012177655,0.0013336207,4,I love hot summer weather.
+PN-D-p30,4096,odalys,persona,weekend,preferences,3,0.001112702,0.004132764,4,I love hot summer weather.
+PN-D-p30,4096,odalys,distractor,typical_day,role,0,0.0015804396,0.9930101,12,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,distractor,typical_day,role,1,0.00065626716,0.9800658,8,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,distractor,typical_day,role,2,0.12052128,0.95061404,12,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,distractor,typical_day,role,3,0.0030946373,0.63446647,14,I play piano in jazz clubs.
+PN-D-p30,4096,odalys,distractor,weekend,preferences,0,0.0012149981,0.0014195435,8,I love hot summer weather.
+PN-D-p30,4096,odalys,distractor,weekend,preferences,1,0.0023084027,0.070046104,3,I love hot summer weather.
+PN-D-p30,4096,odalys,distractor,weekend,preferences,2,0.0004145125,0.93911886,5,I love hot summer weather.
+PN-D-p30,4096,odalys,distractor,weekend,preferences,3,0.0016751221,0.012488995,6,I love hot summer weather.
+PN-D-p30,4096,kenji,persona,typical_day,role,0,0.0003359349,0.030725101,9,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,persona,typical_day,role,1,0.0016106606,0.99641764,7,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,persona,typical_day,role,2,0.017042665,0.03778825,9,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,persona,typical_day,role,3,0.0013890228,0.003020002,14,I teach chemistry at a high school.
+PN-D-p30,4096,kenji,persona,weekend,preferences,0,0.020442119,0.99771047,13,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,persona,weekend,preferences,1,0.0044906447,0.9980648,8,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,persona,weekend,preferences,2,0.0015460683,0.9979486,8,I prefer hiking alone to big group gatherings.
+PN-D-p30,4096,kenji,persona,weekend,preferences,3,0.0035874678,0.99907625,10,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,tobias,persona,typical_day,role,0,0.010538811,0.998755,9,I worked as a ferry captain.
+PN-D-p30,8192,tobias,persona,typical_day,role,1,0.0020034788,0.9923712,7,I worked as a ferry captain.
+PN-D-p30,8192,tobias,persona,typical_day,role,2,0.0018506834,0.9943621,8,I worked as a ferry captain.
+PN-D-p30,8192,tobias,persona,typical_day,role,3,0.0036963199,0.9986916,5,I worked as a ferry captain.
+PN-D-p30,8192,tobias,persona,weekend,preferences,0,0.0032868162,0.0040854686,11,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,persona,weekend,preferences,1,0.037812043,0.367088,3,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,persona,weekend,preferences,2,0.0043472284,0.0022073751,3,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,persona,weekend,preferences,3,0.0022784586,0.005544446,4,I prefer quiet places to crowded cities.
+PN-D-p30,8192,kenji,distractor,typical_day,role,0,0.0006814765,0.9993242,6,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,distractor,typical_day,role,1,0.00074619014,0.6322165,5,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,distractor,typical_day,role,2,0.0005718615,0.99835676,6,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,distractor,typical_day,role,3,0.00041168116,0.041972127,5,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,distractor,weekend,preferences,0,0.0017361183,0.8464955,1,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,distractor,weekend,preferences,1,0.0011595945,0.98855954,3,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,distractor,weekend,preferences,2,0.00018643566,0.99721116,4,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,distractor,weekend,preferences,3,0.00040902387,0.99076205,3,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,tobias,neutral,typical_day,role,0,0.0064155385,0.998755,5,I worked as a ferry captain.
+PN-D-p30,8192,tobias,neutral,typical_day,role,1,0.0015419241,0.9983498,5,I worked as a ferry captain.
+PN-D-p30,8192,tobias,neutral,typical_day,role,2,0.0016177449,0.773621,5,I worked as a ferry captain.
+PN-D-p30,8192,tobias,neutral,typical_day,role,3,0.0036963199,0.9986916,7,I worked as a ferry captain.
+PN-D-p30,8192,tobias,neutral,weekend,preferences,0,0.0028857065,0.027244454,5,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,neutral,weekend,preferences,1,0.0037931805,0.0025617192,2,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,neutral,weekend,preferences,2,0.002533618,0.00095790374,3,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,neutral,weekend,preferences,3,0.0022784586,0.005544446,4,I prefer quiet places to crowded cities.
+PN-D-p30,8192,odalys,neutral,typical_day,role,0,0.0015533934,0.9926528,10,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,neutral,typical_day,role,1,0.0004599705,0.9885062,5,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,neutral,typical_day,role,2,0.0025499177,0.9103396,13,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,neutral,typical_day,role,3,0.0022825166,0.98555285,7,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,neutral,weekend,preferences,0,0.0010035508,0.0018039931,6,I love hot summer weather.
+PN-D-p30,8192,odalys,neutral,weekend,preferences,1,0.006085566,0.0049790423,8,I love hot summer weather.
+PN-D-p30,8192,odalys,neutral,weekend,preferences,2,0.0007120993,0.00080514257,6,I love hot summer weather.
+PN-D-p30,8192,odalys,neutral,weekend,preferences,3,0.0013984953,0.0007774492,4,I love hot summer weather.
+PN-D-p30,8192,kenji,neutral,typical_day,role,0,0.0015882849,0.9993242,6,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,neutral,typical_day,role,1,0.00046852502,0.9964954,5,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,neutral,typical_day,role,2,0.0006226762,0.99835676,5,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,neutral,typical_day,role,3,0.00056056754,0.99893576,6,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,neutral,weekend,preferences,0,0.0009036123,0.23938742,3,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,neutral,weekend,preferences,1,0.0006377084,0.91913086,5,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,neutral,weekend,preferences,2,0.0002692383,0.98674446,4,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,neutral,weekend,preferences,3,0.0008407939,0.99076205,3,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,tobias,sham,typical_day,role,0,0.0016738483,0.998755,3,I worked as a ferry captain.
+PN-D-p30,8192,tobias,sham,typical_day,role,1,0.0024380586,0.9919131,12,I worked as a ferry captain.
+PN-D-p30,8192,tobias,sham,typical_day,role,2,0.003594265,0.9995571,3,I worked as a ferry captain.
+PN-D-p30,8192,tobias,sham,typical_day,role,3,0.0040029534,0.9986916,9,I worked as a ferry captain.
+PN-D-p30,8192,tobias,sham,weekend,preferences,0,0.0016560052,0.0062718196,11,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,sham,weekend,preferences,1,0.0037931805,0.0025617192,3,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,sham,weekend,preferences,2,0.0154133905,0.008380116,15,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,sham,weekend,preferences,3,0.0021524373,0.005544446,8,I prefer quiet places to crowded cities.
+PN-D-p30,8192,odalys,sham,typical_day,role,0,0.008987793,0.9770109,8,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,sham,typical_day,role,1,0.005728575,0.9885062,13,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,sham,typical_day,role,2,0.008146666,0.9973929,13,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,sham,typical_day,role,3,0.0024449471,0.9947568,15,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,sham,weekend,preferences,0,0.0010865994,0.0016141512,4,I love hot summer weather.
+PN-D-p30,8192,odalys,sham,weekend,preferences,1,0.006085566,0.0049790423,8,I love hot summer weather.
+PN-D-p30,8192,odalys,sham,weekend,preferences,2,0.0007120993,0.003673502,6,I love hot summer weather.
+PN-D-p30,8192,odalys,sham,weekend,preferences,3,0.0043333895,0.0009563202,4,I love hot summer weather.
+PN-D-p30,8192,kenji,sham,typical_day,role,0,0.001619676,0.9993242,5,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,sham,typical_day,role,1,0.00046852502,0.9964954,5,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,sham,typical_day,role,2,0.005373062,0.99835676,16,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,sham,typical_day,role,3,0.0006470844,0.22241648,5,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,sham,weekend,preferences,0,0.0008105886,0.23938742,3,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,sham,weekend,preferences,1,0.0006377084,0.9878401,3,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,sham,weekend,preferences,2,0.00018643566,0.98674446,4,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,sham,weekend,preferences,3,0.0006320933,0.9985936,5,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,tobias,distractor,typical_day,role,0,0.0019943367,0.998755,5,I worked as a ferry captain.
+PN-D-p30,8192,tobias,distractor,typical_day,role,1,0.005614294,0.9353526,7,I worked as a ferry captain.
+PN-D-p30,8192,tobias,distractor,typical_day,role,2,0.0030931532,0.99956197,13,I worked as a ferry captain.
+PN-D-p30,8192,tobias,distractor,typical_day,role,3,0.0037090662,0.99868935,6,I worked as a ferry captain.
+PN-D-p30,8192,tobias,distractor,weekend,preferences,0,0.0028857065,0.027244454,7,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,distractor,weekend,preferences,1,0.014542653,0.367088,4,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,distractor,weekend,preferences,2,0.0043472284,0.0023512244,5,I prefer quiet places to crowded cities.
+PN-D-p30,8192,tobias,distractor,weekend,preferences,3,0.0012142744,0.011756451,9,I prefer quiet places to crowded cities.
+PN-D-p30,8192,odalys,persona,typical_day,role,0,0.0015893495,0.98824686,9,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,persona,typical_day,role,1,0.0005629775,0.99261403,6,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,persona,typical_day,role,2,0.0016600613,0.99398535,9,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,persona,typical_day,role,3,0.0012687895,0.9553964,6,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,persona,weekend,preferences,0,0.0011219806,0.08060627,12,I love hot summer weather.
+PN-D-p30,8192,odalys,persona,weekend,preferences,1,0.00081461325,0.0010877466,4,I love hot summer weather.
+PN-D-p30,8192,odalys,persona,weekend,preferences,2,0.0007120993,0.00085376657,6,I love hot summer weather.
+PN-D-p30,8192,odalys,persona,weekend,preferences,3,0.00096331595,0.018198641,6,I love hot summer weather.
+PN-D-p30,8192,odalys,distractor,typical_day,role,0,0.0010983384,0.9612788,7,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,distractor,typical_day,role,1,0.19214006,0.9885062,14,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,distractor,typical_day,role,2,0.0008558848,0.9843188,7,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,distractor,typical_day,role,3,0.0005492261,0.9970266,6,I play piano in jazz clubs.
+PN-D-p30,8192,odalys,distractor,weekend,preferences,0,0.0006046373,0.0040165693,4,I love hot summer weather.
+PN-D-p30,8192,odalys,distractor,weekend,preferences,1,0.010540023,0.0012014449,4,I love hot summer weather.
+PN-D-p30,8192,odalys,distractor,weekend,preferences,2,0.0015618248,0.00080514257,3,I love hot summer weather.
+PN-D-p30,8192,odalys,distractor,weekend,preferences,3,0.0010097594,0.00087555265,4,I love hot summer weather.
+PN-D-p30,8192,kenji,persona,typical_day,role,0,0.0015882849,0.9993242,10,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,persona,typical_day,role,1,0.00046852502,0.9964954,5,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,persona,typical_day,role,2,0.00043521108,0.99857795,4,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,persona,typical_day,role,3,0.00074619014,0.52909297,6,I teach chemistry at a high school.
+PN-D-p30,8192,kenji,persona,weekend,preferences,0,0.0017361183,0.8464955,1,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,persona,weekend,preferences,1,0.0018069528,0.9901986,4,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,persona,weekend,preferences,2,0.000847369,0.9893572,13,I prefer hiking alone to big group gatherings.
+PN-D-p30,8192,kenji,persona,weekend,preferences,3,0.0004380007,0.99076205,3,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,tobias,persona,typical_day,role,0,0.021420049,0.79318726,10,I worked as a ferry captain.
+PN-D-p30,16384,tobias,persona,typical_day,role,1,0.06611282,0.9855801,11,I worked as a ferry captain.
+PN-D-p30,16384,tobias,persona,typical_day,role,2,0.01707025,0.0100057265,14,I worked as a ferry captain.
+PN-D-p30,16384,tobias,persona,typical_day,role,3,0.025403986,0.8705781,12,I worked as a ferry captain.
+PN-D-p30,16384,tobias,persona,weekend,preferences,0,0.0024006476,0.0015380799,12,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,persona,weekend,preferences,1,0.0050022514,0.0018259047,13,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,persona,weekend,preferences,2,0.0034621744,0.004163963,11,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,persona,weekend,preferences,3,0.017710894,0.0058176634,15,I prefer quiet places to crowded cities.
+PN-D-p30,16384,kenji,distractor,typical_day,role,0,0.016869772,0.0041039474,10,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,distractor,typical_day,role,1,0.023677023,0.011613423,12,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,distractor,typical_day,role,2,0.06577944,0.11466003,12,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,distractor,typical_day,role,3,0.0006087599,0.9924899,12,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,distractor,weekend,preferences,0,0.001270213,0.10513424,3,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,distractor,weekend,preferences,1,0.0041001886,0.041164823,11,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,distractor,weekend,preferences,2,0.007866878,0.45811236,12,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,distractor,weekend,preferences,3,0.017896313,0.20757098,13,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,tobias,neutral,typical_day,role,0,0.08862528,0.03249904,11,I worked as a ferry captain.
+PN-D-p30,16384,tobias,neutral,typical_day,role,1,0.009580357,0.72938013,10,I worked as a ferry captain.
+PN-D-p30,16384,tobias,neutral,typical_day,role,2,0.004259849,0.80750495,12,I worked as a ferry captain.
+PN-D-p30,16384,tobias,neutral,typical_day,role,3,0.07239443,0.07448773,11,I worked as a ferry captain.
+PN-D-p30,16384,tobias,neutral,weekend,preferences,0,0.0024006476,0.0015380799,12,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,neutral,weekend,preferences,1,0.0018366878,0.0035907007,12,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,neutral,weekend,preferences,2,0.0023446567,0.0015064505,11,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,neutral,weekend,preferences,3,0.0014961598,0.002036054,10,I prefer quiet places to crowded cities.
+PN-D-p30,16384,odalys,neutral,typical_day,role,0,0.0008153171,0.8472674,13,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,neutral,typical_day,role,1,0.0740873,0.13858631,14,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,neutral,typical_day,role,2,0.13532616,0.10061498,13,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,neutral,typical_day,role,3,0.19530427,0.902088,13,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,neutral,weekend,preferences,0,0.022561124,0.009646729,12,I love hot summer weather.
+PN-D-p30,16384,odalys,neutral,weekend,preferences,1,0.034623504,0.007453784,17,I love hot summer weather.
+PN-D-p30,16384,odalys,neutral,weekend,preferences,2,0.006601225,0.0021637238,12,I love hot summer weather.
+PN-D-p30,16384,odalys,neutral,weekend,preferences,3,0.003888461,0.0036274493,12,I love hot summer weather.
+PN-D-p30,16384,kenji,neutral,typical_day,role,0,0.0077487743,0.03243948,12,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,neutral,typical_day,role,1,0.027236678,0.08018883,11,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,neutral,typical_day,role,2,0.037217572,0.9714565,13,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,neutral,typical_day,role,3,0.013227462,0.014723735,13,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,neutral,weekend,preferences,0,0.005010984,0.5739943,13,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,neutral,weekend,preferences,1,0.0027035405,0.16957681,10,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,neutral,weekend,preferences,2,0.0044284626,0.25665355,11,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,neutral,weekend,preferences,3,0.010744528,0.048397053,12,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,tobias,sham,typical_day,role,0,0.0794633,0.019698096,12,I worked as a ferry captain.
+PN-D-p30,16384,tobias,sham,typical_day,role,1,0.036808096,0.72938013,12,I worked as a ferry captain.
+PN-D-p30,16384,tobias,sham,typical_day,role,2,0.012889984,0.22511311,12,I worked as a ferry captain.
+PN-D-p30,16384,tobias,sham,typical_day,role,3,0.028080782,0.10092957,13,I worked as a ferry captain.
+PN-D-p30,16384,tobias,sham,weekend,preferences,0,0.0021733472,0.002142414,12,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,sham,weekend,preferences,1,0.0019116548,0.0037300645,12,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,sham,weekend,preferences,2,0.021981819,0.036768038,14,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,sham,weekend,preferences,3,0.0019092608,0.0026941786,11,I prefer quiet places to crowded cities.
+PN-D-p30,16384,odalys,sham,typical_day,role,0,0.0017050129,0.8129497,13,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,sham,typical_day,role,1,0.033161487,0.49249676,15,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,sham,typical_day,role,2,0.016900301,0.9841044,12,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,sham,typical_day,role,3,0.10887324,0.10797325,12,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,sham,weekend,preferences,0,0.027255664,0.003934314,12,I love hot summer weather.
+PN-D-p30,16384,odalys,sham,weekend,preferences,1,0.014579744,0.005010864,14,I love hot summer weather.
+PN-D-p30,16384,odalys,sham,weekend,preferences,2,0.053486228,0.03245124,12,I love hot summer weather.
+PN-D-p30,16384,odalys,sham,weekend,preferences,3,0.02220328,0.003244302,14,I love hot summer weather.
+PN-D-p30,16384,kenji,sham,typical_day,role,0,0.008602836,0.007656271,14,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,sham,typical_day,role,1,0.0014991806,0.0013366687,9,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,sham,typical_day,role,2,0.006761075,0.9969844,14,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,sham,typical_day,role,3,0.0008956143,0.56071216,12,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,sham,weekend,preferences,0,0.0034060078,0.03472031,11,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,sham,weekend,preferences,1,0.0022141454,0.3920696,10,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,sham,weekend,preferences,2,0.0044081155,0.07118681,9,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,sham,weekend,preferences,3,0.059458677,0.98957497,25,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,tobias,distractor,typical_day,role,0,0.036175262,0.7034496,13,I worked as a ferry captain.
+PN-D-p30,16384,tobias,distractor,typical_day,role,1,0.054369457,0.046485055,15,I worked as a ferry captain.
+PN-D-p30,16384,tobias,distractor,typical_day,role,2,0.003228144,0.9927388,11,I worked as a ferry captain.
+PN-D-p30,16384,tobias,distractor,typical_day,role,3,0.08382645,0.022777256,12,I worked as a ferry captain.
+PN-D-p30,16384,tobias,distractor,weekend,preferences,0,0.01211971,0.02616659,14,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,distractor,weekend,preferences,1,0.0025117185,0.032564495,14,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,distractor,weekend,preferences,2,0.0045949905,0.0026565397,15,I prefer quiet places to crowded cities.
+PN-D-p30,16384,tobias,distractor,weekend,preferences,3,0.017710894,0.89927566,12,I prefer quiet places to crowded cities.
+PN-D-p30,16384,odalys,persona,typical_day,role,0,0.0022461053,0.6624515,16,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,persona,typical_day,role,1,0.029346881,0.8241166,8,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,persona,typical_day,role,2,0.0130040785,0.08412155,12,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,persona,typical_day,role,3,0.12743698,0.040960666,15,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,persona,weekend,preferences,0,0.018732704,0.0071869874,13,I love hot summer weather.
+PN-D-p30,16384,odalys,persona,weekend,preferences,1,0.07495257,0.007132649,14,I love hot summer weather.
+PN-D-p30,16384,odalys,persona,weekend,preferences,2,0.033787657,0.0023457452,13,I love hot summer weather.
+PN-D-p30,16384,odalys,persona,weekend,preferences,3,0.024621096,0.029583314,13,I love hot summer weather.
+PN-D-p30,16384,odalys,distractor,typical_day,role,0,0.08237208,0.035066374,11,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,distractor,typical_day,role,1,0.021490192,0.85746706,14,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,distractor,typical_day,role,2,0.01616916,0.020863233,11,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,distractor,typical_day,role,3,0.036810227,0.038031615,13,I play piano in jazz clubs.
+PN-D-p30,16384,odalys,distractor,weekend,preferences,0,0.04699995,0.03981051,12,I love hot summer weather.
+PN-D-p30,16384,odalys,distractor,weekend,preferences,1,0.05311265,0.007050708,15,I love hot summer weather.
+PN-D-p30,16384,odalys,distractor,weekend,preferences,2,0.010704574,0.0028440896,12,I love hot summer weather.
+PN-D-p30,16384,odalys,distractor,weekend,preferences,3,0.022547992,0.013352169,14,I love hot summer weather.
+PN-D-p30,16384,kenji,persona,typical_day,role,0,0.018316183,0.0052965856,9,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,persona,typical_day,role,1,0.0016958013,0.007823735,11,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,persona,typical_day,role,2,0.06577944,0.11466003,15,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,persona,typical_day,role,3,0.0032609412,0.014519392,15,I teach chemistry at a high school.
+PN-D-p30,16384,kenji,persona,weekend,preferences,0,0.06056451,0.015799195,12,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,persona,weekend,preferences,1,0.0017611121,0.10185628,11,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,persona,weekend,preferences,2,0.004646357,0.4090449,14,I prefer hiking alone to big group gatherings.
+PN-D-p30,16384,kenji,persona,weekend,preferences,3,0.0032720438,0.15273075,14,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,tobias,persona,typical_day,role,0,0.054742035,0.9083634,14,I worked as a ferry captain.
+VPAD-p30,4096,tobias,persona,typical_day,role,1,0.0041454416,0.050696168,16,I worked as a ferry captain.
+VPAD-p30,4096,tobias,persona,typical_day,role,2,0.012843848,0.98816174,12,I worked as a ferry captain.
+VPAD-p30,4096,tobias,persona,typical_day,role,3,0.0029238036,0.99118125,8,I worked as a ferry captain.
+VPAD-p30,4096,tobias,persona,weekend,preferences,0,0.006790924,0.023596281,15,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,persona,weekend,preferences,1,0.0043968093,0.0024978244,10,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,persona,weekend,preferences,2,0.005566112,0.0007284993,6,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,persona,weekend,preferences,3,0.009449216,0.00046930162,1,I prefer quiet places to crowded cities.
+VPAD-p30,4096,kenji,distractor,typical_day,role,0,0.0006184544,0.8969164,10,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,distractor,typical_day,role,1,0.002123381,0.5953116,8,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,distractor,typical_day,role,2,0.005154738,0.0051984475,17,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,distractor,typical_day,role,3,0.004096566,0.054239042,11,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,distractor,weekend,preferences,0,0.003865867,0.99661416,11,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,distractor,weekend,preferences,1,0.00061566115,0.99362284,2,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,distractor,weekend,preferences,2,0.006112466,0.9979613,13,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,distractor,weekend,preferences,3,0.0007511475,0.9886262,9,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,tobias,neutral,typical_day,role,0,0.012500343,0.98842794,11,I worked as a ferry captain.
+VPAD-p30,4096,tobias,neutral,typical_day,role,1,0.0065602926,0.01790252,12,I worked as a ferry captain.
+VPAD-p30,4096,tobias,neutral,typical_day,role,2,0.014330783,0.99466467,10,I worked as a ferry captain.
+VPAD-p30,4096,tobias,neutral,typical_day,role,3,0.002160542,0.99945146,10,I worked as a ferry captain.
+VPAD-p30,4096,tobias,neutral,weekend,preferences,0,0.006790924,0.023596281,14,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,neutral,weekend,preferences,1,0.008942197,0.0018387241,7,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,neutral,weekend,preferences,2,0.012497347,0.003926107,4,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,neutral,weekend,preferences,3,0.008606871,0.00078141,6,I prefer quiet places to crowded cities.
+VPAD-p30,4096,odalys,neutral,typical_day,role,0,0.016941806,0.5632354,11,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,neutral,typical_day,role,1,0.113389775,0.738554,11,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,neutral,typical_day,role,2,0.0016797337,0.07705607,19,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,neutral,typical_day,role,3,0.12052128,0.72981656,12,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,neutral,weekend,preferences,0,0.0009178162,0.0033064277,5,I love hot summer weather.
+VPAD-p30,4096,odalys,neutral,weekend,preferences,1,0.0008685267,0.0011146729,3,I love hot summer weather.
+VPAD-p30,4096,odalys,neutral,weekend,preferences,2,0.0042643882,0.2855452,8,I love hot summer weather.
+VPAD-p30,4096,odalys,neutral,weekend,preferences,3,0.0009246179,0.0012962548,5,I love hot summer weather.
+VPAD-p30,4096,kenji,neutral,typical_day,role,0,0.0007835053,0.34889877,9,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,neutral,typical_day,role,1,0.00043637812,0.8060526,8,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,neutral,typical_day,role,2,0.022721171,0.99467355,15,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,neutral,typical_day,role,3,0.0015782738,0.0006587051,7,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,neutral,weekend,preferences,0,0.003865867,0.99396086,9,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,neutral,weekend,preferences,1,0.0009331431,0.99306536,8,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,neutral,weekend,preferences,2,0.0012767336,0.98527217,7,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,neutral,weekend,preferences,3,0.0020161734,0.9886262,9,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,tobias,sham,typical_day,role,0,0.021900084,0.992622,12,I worked as a ferry captain.
+VPAD-p30,4096,tobias,sham,typical_day,role,1,0.003267141,0.0658926,16,I worked as a ferry captain.
+VPAD-p30,4096,tobias,sham,typical_day,role,2,0.002054357,0.9993598,11,I worked as a ferry captain.
+VPAD-p30,4096,tobias,sham,typical_day,role,3,0.0037388112,0.99945146,10,I worked as a ferry captain.
+VPAD-p30,4096,tobias,sham,weekend,preferences,0,0.006790924,0.016921584,14,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,sham,weekend,preferences,1,0.0072456994,0.11887491,11,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,sham,weekend,preferences,2,0.003533509,0.00047205065,4,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,sham,weekend,preferences,3,0.009449216,0.00046930162,1,I prefer quiet places to crowded cities.
+VPAD-p30,4096,odalys,sham,typical_day,role,0,0.0054451586,0.12020868,12,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,sham,typical_day,role,1,0.052141167,0.24762586,10,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,sham,typical_day,role,2,0.002909658,0.97878265,10,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,sham,typical_day,role,3,0.046814334,0.8879666,12,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,sham,weekend,preferences,0,0.0020910338,0.016591838,5,I love hot summer weather.
+VPAD-p30,4096,odalys,sham,weekend,preferences,1,0.0008685267,0.0011146729,3,I love hot summer weather.
+VPAD-p30,4096,odalys,sham,weekend,preferences,2,0.0010725631,0.0037632193,6,I love hot summer weather.
+VPAD-p30,4096,odalys,sham,weekend,preferences,3,0.0009246179,0.0012962548,5,I love hot summer weather.
+VPAD-p30,4096,kenji,sham,typical_day,role,0,0.00054437947,0.34889877,7,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,sham,typical_day,role,1,0.00043637812,0.7390174,8,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,sham,typical_day,role,2,0.022721171,0.99467355,15,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,sham,typical_day,role,3,0.0016408756,0.020206314,9,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,sham,weekend,preferences,0,0.0039281663,0.98147285,11,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,sham,weekend,preferences,1,0.00073833734,0.9939074,7,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,sham,weekend,preferences,2,0.006031078,0.997767,9,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,sham,weekend,preferences,3,0.0010107149,0.9886262,9,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,tobias,distractor,typical_day,role,0,0.054742035,0.9933782,16,I worked as a ferry captain.
+VPAD-p30,4096,tobias,distractor,typical_day,role,1,0.0065602926,0.01790252,12,I worked as a ferry captain.
+VPAD-p30,4096,tobias,distractor,typical_day,role,2,0.0028573722,0.03249028,12,I worked as a ferry captain.
+VPAD-p30,4096,tobias,distractor,typical_day,role,3,0.00070297136,0.044853225,7,I worked as a ferry captain.
+VPAD-p30,4096,tobias,distractor,weekend,preferences,0,0.012889329,0.004276872,9,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,distractor,weekend,preferences,1,0.04805869,0.0013321452,1,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,distractor,weekend,preferences,2,0.0035369494,0.03644564,9,I prefer quiet places to crowded cities.
+VPAD-p30,4096,tobias,distractor,weekend,preferences,3,0.0071441913,0.0006869476,3,I prefer quiet places to crowded cities.
+VPAD-p30,4096,odalys,persona,typical_day,role,0,0.0036269382,0.9084001,10,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,persona,typical_day,role,1,0.0026917334,0.9844095,18,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,persona,typical_day,role,2,0.000809683,0.98866767,9,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,persona,typical_day,role,3,0.0034165462,0.41238937,9,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,persona,weekend,preferences,0,0.0031037878,0.0041972343,5,I love hot summer weather.
+VPAD-p30,4096,odalys,persona,weekend,preferences,1,0.0028782883,0.11718323,5,I love hot summer weather.
+VPAD-p30,4096,odalys,persona,weekend,preferences,2,0.19044335,0.023170426,9,I love hot summer weather.
+VPAD-p30,4096,odalys,persona,weekend,preferences,3,0.0025699358,0.004316738,10,I love hot summer weather.
+VPAD-p30,4096,odalys,distractor,typical_day,role,0,0.022242397,0.6532527,16,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,distractor,typical_day,role,1,0.023916546,0.9553049,8,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,distractor,typical_day,role,2,0.000809683,0.9907624,9,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,distractor,typical_day,role,3,0.0026307805,0.9923228,11,I play piano in jazz clubs.
+VPAD-p30,4096,odalys,distractor,weekend,preferences,0,0.00056012726,0.004750965,4,I love hot summer weather.
+VPAD-p30,4096,odalys,distractor,weekend,preferences,1,0.0028782883,0.11718323,5,I love hot summer weather.
+VPAD-p30,4096,odalys,distractor,weekend,preferences,2,0.19044335,0.023170426,9,I love hot summer weather.
+VPAD-p30,4096,odalys,distractor,weekend,preferences,3,0.00039257508,0.0053032404,6,I love hot summer weather.
+VPAD-p30,4096,kenji,persona,typical_day,role,0,0.99083346,0.034453183,10,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,persona,typical_day,role,1,0.00043637812,0.002535088,8,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,persona,typical_day,role,2,0.99650073,0.0104756085,15,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,persona,typical_day,role,3,0.017042665,0.009842769,13,I teach chemistry at a high school.
+VPAD-p30,4096,kenji,persona,weekend,preferences,0,0.0060105072,0.86346686,5,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,persona,weekend,preferences,1,0.007704232,0.9981641,10,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,persona,weekend,preferences,2,0.007199413,0.99504256,12,I prefer hiking alone to big group gatherings.
+VPAD-p30,4096,kenji,persona,weekend,preferences,3,0.0013225772,0.99813545,10,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,tobias,persona,typical_day,role,0,0.0013592036,0.99937767,6,I worked as a ferry captain.
+VPAD-p30,8192,tobias,persona,typical_day,role,1,0.0018037296,0.94105655,11,I worked as a ferry captain.
+VPAD-p30,8192,tobias,persona,typical_day,role,2,0.0009333357,0.99951947,11,I worked as a ferry captain.
+VPAD-p30,8192,tobias,persona,typical_day,role,3,0.054742035,0.8895787,13,I worked as a ferry captain.
+VPAD-p30,8192,tobias,persona,weekend,preferences,0,0.024023777,0.0012667316,2,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,persona,weekend,preferences,1,0.007464758,0.0013862458,2,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,persona,weekend,preferences,2,0.004974447,0.001728412,10,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,persona,weekend,preferences,3,0.008659076,0.0006980543,1,I prefer quiet places to crowded cities.
+VPAD-p30,8192,kenji,distractor,typical_day,role,0,0.0005514777,0.99699056,4,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,distractor,typical_day,role,1,0.0004915335,0.023922257,4,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,distractor,typical_day,role,2,0.0011045159,0.06686492,11,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,distractor,typical_day,role,3,0.000591317,0.016405147,7,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,distractor,weekend,preferences,0,0.0011164906,0.9787729,10,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,distractor,weekend,preferences,1,0.0004649,0.951437,3,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,distractor,weekend,preferences,2,0.0005151808,0.99107975,3,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,distractor,weekend,preferences,3,0.00069013744,0.9874378,3,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,tobias,neutral,typical_day,role,0,0.0016045903,0.9990004,5,I worked as a ferry captain.
+VPAD-p30,8192,tobias,neutral,typical_day,role,1,0.0015282293,0.9991027,10,I worked as a ferry captain.
+VPAD-p30,8192,tobias,neutral,typical_day,role,2,0.0009333357,0.99951947,11,I worked as a ferry captain.
+VPAD-p30,8192,tobias,neutral,typical_day,role,3,0.0016209657,0.99939907,10,I worked as a ferry captain.
+VPAD-p30,8192,tobias,neutral,weekend,preferences,0,0.006573055,0.004260938,12,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,neutral,weekend,preferences,1,0.008588464,0.0016587967,9,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,neutral,weekend,preferences,2,0.0037280829,0.001728412,10,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,neutral,weekend,preferences,3,0.008659076,0.0006980543,1,I prefer quiet places to crowded cities.
+VPAD-p30,8192,odalys,neutral,typical_day,role,0,0.0006544344,0.7873694,3,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,neutral,typical_day,role,1,0.0012163102,0.9790081,7,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,neutral,typical_day,role,2,0.0026739908,0.96720415,11,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,neutral,typical_day,role,3,0.006049469,0.923564,12,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,neutral,weekend,preferences,0,0.00047129553,0.0021608202,3,I love hot summer weather.
+VPAD-p30,8192,odalys,neutral,weekend,preferences,1,0.00029797404,0.001909503,2,I love hot summer weather.
+VPAD-p30,8192,odalys,neutral,weekend,preferences,2,0.0019441814,0.0012176065,3,I love hot summer weather.
+VPAD-p30,8192,odalys,neutral,weekend,preferences,3,0.0004570025,0.0013949624,2,I love hot summer weather.
+VPAD-p30,8192,kenji,neutral,typical_day,role,0,0.00047961154,0.99829906,3,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,neutral,typical_day,role,1,0.0004573762,0.0020438214,3,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,neutral,typical_day,role,2,0.001332035,0.99516416,11,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,neutral,typical_day,role,3,0.00047867614,0.0087115085,4,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,neutral,weekend,preferences,0,0.0005394319,0.9919024,4,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,neutral,weekend,preferences,1,0.00050315494,0.95170665,3,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,neutral,weekend,preferences,2,0.0007609978,0.9711179,11,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,neutral,weekend,preferences,3,0.0012662602,0.51537037,10,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,tobias,sham,typical_day,role,0,0.0016140764,0.9994592,6,I worked as a ferry captain.
+VPAD-p30,8192,tobias,sham,typical_day,role,1,0.0013030864,0.9997373,9,I worked as a ferry captain.
+VPAD-p30,8192,tobias,sham,typical_day,role,2,0.0009333357,0.016718622,11,I worked as a ferry captain.
+VPAD-p30,8192,tobias,sham,typical_day,role,3,0.054742035,0.99939907,12,I worked as a ferry captain.
+VPAD-p30,8192,tobias,sham,weekend,preferences,0,0.006266606,0.001728412,11,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,sham,weekend,preferences,1,0.008588464,0.0027854003,10,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,sham,weekend,preferences,2,0.0037280829,0.001728412,10,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,sham,weekend,preferences,3,0.008659076,0.0006980543,1,I prefer quiet places to crowded cities.
+VPAD-p30,8192,odalys,sham,typical_day,role,0,0.0006544344,0.7873694,3,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,sham,typical_day,role,1,0.00295931,0.9976553,10,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,sham,typical_day,role,2,0.0027765345,0.24818796,11,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,sham,typical_day,role,3,0.0033560365,0.74607307,13,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,sham,weekend,preferences,0,0.003182929,0.0026130972,12,I love hot summer weather.
+VPAD-p30,8192,odalys,sham,weekend,preferences,1,0.00029797404,0.0017870466,2,I love hot summer weather.
+VPAD-p30,8192,odalys,sham,weekend,preferences,2,0.0019441814,0.0012176065,3,I love hot summer weather.
+VPAD-p30,8192,odalys,sham,weekend,preferences,3,0.0018197314,0.057375453,10,I love hot summer weather.
+VPAD-p30,8192,kenji,sham,typical_day,role,0,0.00047961154,0.99829906,3,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,sham,typical_day,role,1,0.0005147877,0.008698476,4,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,sham,typical_day,role,2,0.001332035,0.99516416,12,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,sham,typical_day,role,3,0.00049294136,0.009112317,6,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,sham,weekend,preferences,0,0.0006997487,0.99168605,3,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,sham,weekend,preferences,1,0.0003681308,0.951437,3,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,sham,weekend,preferences,2,0.0008267634,0.9711184,10,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,sham,weekend,preferences,3,0.0009424721,0.59779,11,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,tobias,distractor,typical_day,role,0,0.0034725762,0.9995154,4,I worked as a ferry captain.
+VPAD-p30,8192,tobias,distractor,typical_day,role,1,0.0019555727,0.86165863,13,I worked as a ferry captain.
+VPAD-p30,8192,tobias,distractor,typical_day,role,2,0.0014260769,0.73154706,12,I worked as a ferry captain.
+VPAD-p30,8192,tobias,distractor,typical_day,role,3,0.054742035,0.95925486,13,I worked as a ferry captain.
+VPAD-p30,8192,tobias,distractor,weekend,preferences,0,0.006266606,0.0025693278,10,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,distractor,weekend,preferences,1,0.0071544643,0.0011886458,2,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,distractor,weekend,preferences,2,0.0027751026,0.011581766,11,I prefer quiet places to crowded cities.
+VPAD-p30,8192,tobias,distractor,weekend,preferences,3,0.008659076,0.0006980543,1,I prefer quiet places to crowded cities.
+VPAD-p30,8192,odalys,persona,typical_day,role,0,0.0007388109,0.9482998,6,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,persona,typical_day,role,1,0.046428077,0.85638195,12,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,persona,typical_day,role,2,0.0050375597,0.5858053,12,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,persona,typical_day,role,3,0.0033560365,0.9516369,12,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,persona,weekend,preferences,0,0.00041946876,0.0020363624,3,I love hot summer weather.
+VPAD-p30,8192,odalys,persona,weekend,preferences,1,0.0005125483,0.0016592405,2,I love hot summer weather.
+VPAD-p30,8192,odalys,persona,weekend,preferences,2,0.0011701977,0.008003302,10,I love hot summer weather.
+VPAD-p30,8192,odalys,persona,weekend,preferences,3,0.00045266195,0.0009656992,2,I love hot summer weather.
+VPAD-p30,8192,odalys,distractor,typical_day,role,0,0.001130037,0.95146537,3,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,distractor,typical_day,role,1,0.046428077,0.85638195,12,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,distractor,typical_day,role,2,0.0050375597,0.5858053,12,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,distractor,typical_day,role,3,0.0054734917,0.8424812,12,I play piano in jazz clubs.
+VPAD-p30,8192,odalys,distractor,weekend,preferences,0,0.00041946876,0.0013815234,3,I love hot summer weather.
+VPAD-p30,8192,odalys,distractor,weekend,preferences,1,0.00065977284,0.0016998744,2,I love hot summer weather.
+VPAD-p30,8192,odalys,distractor,weekend,preferences,2,0.0012727756,0.0026591783,12,I love hot summer weather.
+VPAD-p30,8192,odalys,distractor,weekend,preferences,3,0.0005197817,0.0010337094,2,I love hot summer weather.
+VPAD-p30,8192,kenji,persona,typical_day,role,0,0.00047961154,0.9990792,6,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,persona,typical_day,role,1,0.00044017663,0.17990497,5,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,persona,typical_day,role,2,0.001232218,0.011777968,14,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,persona,typical_day,role,3,0.015536295,0.0028725225,9,I teach chemistry at a high school.
+VPAD-p30,8192,kenji,persona,weekend,preferences,0,0.103856675,0.13247846,3,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,persona,weekend,preferences,1,0.00075660466,0.9603967,4,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,persona,weekend,preferences,2,0.0012108964,0.99107975,4,I prefer hiking alone to big group gatherings.
+VPAD-p30,8192,kenji,persona,weekend,preferences,3,0.00069013744,0.9874378,3,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,tobias,persona,typical_day,role,0,0.00023812428,0.00068233936,1,I worked as a ferry captain.
+VPAD-p30,16384,tobias,persona,typical_day,role,1,0.0019077694,0.32940954,6,I worked as a ferry captain.
+VPAD-p30,16384,tobias,persona,typical_day,role,2,0.0008945158,0.926774,6,I worked as a ferry captain.
+VPAD-p30,16384,tobias,persona,typical_day,role,3,0.0011635548,0.15774794,6,I worked as a ferry captain.
+VPAD-p30,16384,tobias,persona,weekend,preferences,0,0.018142344,0.0022639607,4,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,persona,weekend,preferences,1,0.004524059,0.009748527,4,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,persona,weekend,preferences,2,0.0030681083,0.0017354543,10,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,persona,weekend,preferences,3,0.011085687,0.007442578,13,I prefer quiet places to crowded cities.
+VPAD-p30,16384,kenji,distractor,typical_day,role,0,0.0005573538,0.99860543,4,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,distractor,typical_day,role,1,0.00048130896,0.0037453382,6,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,distractor,typical_day,role,2,0.0005102705,0.004230069,8,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,distractor,typical_day,role,3,0.0004137781,0.006901845,6,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,distractor,weekend,preferences,0,9.823364e-05,0.9945095,1,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,distractor,weekend,preferences,1,0.001100092,0.99389786,7,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,distractor,weekend,preferences,2,0.0020095864,0.99443036,11,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,distractor,weekend,preferences,3,0.001100092,0.9920582,10,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,tobias,neutral,typical_day,role,0,0.00023812428,0.00068233936,1,I worked as a ferry captain.
+VPAD-p30,16384,tobias,neutral,typical_day,role,1,0.0012035584,0.115864724,4,I worked as a ferry captain.
+VPAD-p30,16384,tobias,neutral,typical_day,role,2,0.0014458989,0.32977766,6,I worked as a ferry captain.
+VPAD-p30,16384,tobias,neutral,typical_day,role,3,0.0007104654,0.115422666,6,I worked as a ferry captain.
+VPAD-p30,16384,tobias,neutral,weekend,preferences,0,0.014553978,0.0018225336,2,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,neutral,weekend,preferences,1,0.0021631292,0.0016587967,9,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,neutral,weekend,preferences,2,0.0026979232,0.004504462,11,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,neutral,weekend,preferences,3,0.0020198436,0.003904061,9,I prefer quiet places to crowded cities.
+VPAD-p30,16384,odalys,neutral,typical_day,role,0,0.000780967,0.9532263,7,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,neutral,typical_day,role,1,0.0013140192,0.8754765,7,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,neutral,typical_day,role,2,0.003249667,0.99771774,9,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,neutral,typical_day,role,3,0.0010956103,0.99571794,5,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,neutral,weekend,preferences,0,0.002512586,0.0021969473,8,I love hot summer weather.
+VPAD-p30,16384,odalys,neutral,weekend,preferences,1,0.00051907246,0.0047649974,8,I love hot summer weather.
+VPAD-p30,16384,odalys,neutral,weekend,preferences,2,0.002512586,0.44229904,11,I love hot summer weather.
+VPAD-p30,16384,odalys,neutral,weekend,preferences,3,0.005676392,0.0037204034,9,I love hot summer weather.
+VPAD-p30,16384,kenji,neutral,typical_day,role,0,0.0005293323,0.003917235,7,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,neutral,typical_day,role,1,0.00042689155,0.007947122,6,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,neutral,typical_day,role,2,0.00049602584,0.002156922,7,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,neutral,typical_day,role,3,0.00039835714,0.0015894416,5,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,neutral,weekend,preferences,0,0.0008459926,0.9956049,10,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,neutral,weekend,preferences,1,0.001100092,0.4948597,9,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,neutral,weekend,preferences,2,0.001100092,0.3270645,11,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,neutral,weekend,preferences,3,0.0011028736,0.9884942,10,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,tobias,sham,typical_day,role,0,0.0013565216,0.6931538,3,I worked as a ferry captain.
+VPAD-p30,16384,tobias,sham,typical_day,role,1,0.0012017001,0.115465365,4,I worked as a ferry captain.
+VPAD-p30,16384,tobias,sham,typical_day,role,2,0.0017656652,0.11190918,11,I worked as a ferry captain.
+VPAD-p30,16384,tobias,sham,typical_day,role,3,0.0007763085,0.0039232164,5,I worked as a ferry captain.
+VPAD-p30,16384,tobias,sham,weekend,preferences,0,0.017840212,0.002330842,3,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,sham,weekend,preferences,1,0.0021631292,0.0016587967,12,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,sham,weekend,preferences,2,0.0075786742,0.0020319305,8,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,sham,weekend,preferences,3,0.0020198436,0.003904061,9,I prefer quiet places to crowded cities.
+VPAD-p30,16384,odalys,sham,typical_day,role,0,0.0005364559,0.10766096,3,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,sham,typical_day,role,1,0.0013140192,0.8754765,7,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,sham,typical_day,role,2,0.0068538194,0.7305345,9,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,sham,typical_day,role,3,0.0010956103,0.99571794,5,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,sham,weekend,preferences,0,0.002512586,0.0021969473,8,I love hot summer weather.
+VPAD-p30,16384,odalys,sham,weekend,preferences,1,0.0012955798,0.018398674,11,I love hot summer weather.
+VPAD-p30,16384,odalys,sham,weekend,preferences,2,0.00041901643,0.0017884095,1,I love hot summer weather.
+VPAD-p30,16384,odalys,sham,weekend,preferences,3,0.0038079289,0.042326383,9,I love hot summer weather.
+VPAD-p30,16384,kenji,sham,typical_day,role,0,0.0005472097,0.0033220842,9,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,sham,typical_day,role,1,0.0004078569,0.0018364866,6,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,sham,typical_day,role,2,0.000487635,0.006209565,8,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,sham,typical_day,role,3,0.0003681225,0.014253658,3,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,sham,weekend,preferences,0,9.823364e-05,0.9945095,1,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,sham,weekend,preferences,1,0.001100092,0.99389786,7,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,sham,weekend,preferences,2,0.0014726116,0.98850006,9,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,sham,weekend,preferences,3,0.0013801253,0.74513304,9,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,tobias,distractor,typical_day,role,0,0.00023812428,0.00068233936,1,I worked as a ferry captain.
+VPAD-p30,16384,tobias,distractor,typical_day,role,1,0.0016073225,0.13598683,7,I worked as a ferry captain.
+VPAD-p30,16384,tobias,distractor,typical_day,role,2,0.0011189438,0.1902356,6,I worked as a ferry captain.
+VPAD-p30,16384,tobias,distractor,typical_day,role,3,0.0011635548,0.15774794,6,I worked as a ferry captain.
+VPAD-p30,16384,tobias,distractor,weekend,preferences,0,0.0043214583,0.0016298542,9,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,distractor,weekend,preferences,1,0.004524059,0.009748527,5,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,distractor,weekend,preferences,2,0.0076815262,0.00038300132,1,I prefer quiet places to crowded cities.
+VPAD-p30,16384,tobias,distractor,weekend,preferences,3,0.0020198436,0.003904061,10,I prefer quiet places to crowded cities.
+VPAD-p30,16384,odalys,persona,typical_day,role,0,0.00072023127,0.97817606,6,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,persona,typical_day,role,1,0.0013140192,0.87515706,7,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,persona,typical_day,role,2,0.0012903886,0.6553062,6,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,persona,typical_day,role,3,0.0005354352,0.033263978,1,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,persona,weekend,preferences,0,0.002512586,0.0021969473,8,I love hot summer weather.
+VPAD-p30,16384,odalys,persona,weekend,preferences,1,0.0005501831,0.0046552094,9,I love hot summer weather.
+VPAD-p30,16384,odalys,persona,weekend,preferences,2,0.002512586,0.99689746,7,I love hot summer weather.
+VPAD-p30,16384,odalys,persona,weekend,preferences,3,0.005676392,0.0037204034,9,I love hot summer weather.
+VPAD-p30,16384,odalys,distractor,typical_day,role,0,0.00072023127,0.877702,5,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,distractor,typical_day,role,1,0.0013140192,0.8754765,7,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,distractor,typical_day,role,2,0.001653655,0.7948758,9,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,distractor,typical_day,role,3,0.0007623153,0.9836459,8,I play piano in jazz clubs.
+VPAD-p30,16384,odalys,distractor,weekend,preferences,0,0.002512586,0.0021969473,8,I love hot summer weather.
+VPAD-p30,16384,odalys,distractor,weekend,preferences,1,0.0012285993,0.022628378,5,I love hot summer weather.
+VPAD-p30,16384,odalys,distractor,weekend,preferences,2,0.002512586,0.9954822,10,I love hot summer weather.
+VPAD-p30,16384,odalys,distractor,weekend,preferences,3,0.002512586,0.002552696,8,I love hot summer weather.
+VPAD-p30,16384,kenji,persona,typical_day,role,0,0.00048573822,0.0234934,6,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,persona,typical_day,role,1,0.00048130896,0.0037453382,6,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,persona,typical_day,role,2,0.0005102705,0.0019313908,5,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,persona,typical_day,role,3,0.000655354,0.0015800088,6,I teach chemistry at a high school.
+VPAD-p30,16384,kenji,persona,weekend,preferences,0,0.0006969661,0.99641246,9,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,persona,weekend,preferences,1,0.004171534,0.99389786,9,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,persona,weekend,preferences,2,0.009998209,0.97769344,4,I prefer hiking alone to big group gatherings.
+VPAD-p30,16384,kenji,persona,weekend,preferences,3,0.0017510835,0.9920582,10,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,tobias,persona,typical_day,role,0,0.0015223592,0.99823403,8,I worked as a ferry captain.
+VPAD-p20,4096,tobias,persona,typical_day,role,1,0.0026797324,0.9685157,11,I worked as a ferry captain.
+VPAD-p20,4096,tobias,persona,typical_day,role,2,0.0061541405,0.984632,13,I worked as a ferry captain.
+VPAD-p20,4096,tobias,persona,typical_day,role,3,0.0036299762,0.9980361,9,I worked as a ferry captain.
+VPAD-p20,4096,tobias,persona,weekend,preferences,0,0.0060303025,0.0014561911,5,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,persona,weekend,preferences,1,0.0057531125,0.0010640029,3,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,persona,weekend,preferences,2,0.0026257257,0.010210896,6,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,persona,weekend,preferences,3,0.009467205,0.0041697193,10,I prefer quiet places to crowded cities.
+VPAD-p20,4096,kenji,distractor,typical_day,role,0,0.000431712,0.022439728,7,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,distractor,typical_day,role,1,0.0014809142,0.6546966,7,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,distractor,typical_day,role,2,0.03268882,0.01761607,21,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,distractor,typical_day,role,3,0.00073709345,0.91303027,12,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,distractor,weekend,preferences,0,0.0017956971,0.98615474,6,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,distractor,weekend,preferences,1,0.0038412681,0.9914282,3,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,distractor,weekend,preferences,2,0.0008284422,0.9982951,4,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,distractor,weekend,preferences,3,0.0015412844,0.9860956,6,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,tobias,neutral,typical_day,role,0,0.054742035,0.99921703,14,I worked as a ferry captain.
+VPAD-p20,4096,tobias,neutral,typical_day,role,1,0.0026014373,0.999416,8,I worked as a ferry captain.
+VPAD-p20,4096,tobias,neutral,typical_day,role,2,0.0019995326,0.039258625,13,I worked as a ferry captain.
+VPAD-p20,4096,tobias,neutral,typical_day,role,3,0.0022159144,0.9981844,8,I worked as a ferry captain.
+VPAD-p20,4096,tobias,neutral,weekend,preferences,0,0.01065858,0.0042521292,3,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,neutral,weekend,preferences,1,0.0036804853,0.0066417377,10,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,neutral,weekend,preferences,2,0.01573639,0.00042377607,5,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,neutral,weekend,preferences,3,0.0026196705,0.0022765105,10,I prefer quiet places to crowded cities.
+VPAD-p20,4096,odalys,neutral,typical_day,role,0,0.00072437664,0.2974865,5,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,neutral,typical_day,role,1,0.031680953,0.084619224,9,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,neutral,typical_day,role,2,0.0016564624,0.99668735,12,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,neutral,typical_day,role,3,0.019744288,0.19685015,9,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,neutral,weekend,preferences,0,0.03961076,0.029781515,14,I love hot summer weather.
+VPAD-p20,4096,odalys,neutral,weekend,preferences,1,0.038982272,0.058982387,5,I love hot summer weather.
+VPAD-p20,4096,odalys,neutral,weekend,preferences,2,0.0009105596,0.0015318285,3,I love hot summer weather.
+VPAD-p20,4096,odalys,neutral,weekend,preferences,3,0.000947503,0.0133639285,8,I love hot summer weather.
+VPAD-p20,4096,kenji,neutral,typical_day,role,0,0.00051703356,0.0015123055,6,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,neutral,typical_day,role,1,0.0009524057,0.9965725,15,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,neutral,typical_day,role,2,0.03268882,0.01761607,20,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,neutral,typical_day,role,3,0.0026918515,0.052842326,8,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,neutral,weekend,preferences,0,0.0017956971,0.98615474,6,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,neutral,weekend,preferences,1,0.0123059405,0.97247905,12,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,neutral,weekend,preferences,2,0.0035030965,0.99156284,14,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,neutral,weekend,preferences,3,0.012448347,0.99128145,10,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,tobias,sham,typical_day,role,0,0.054742035,0.99921703,14,I worked as a ferry captain.
+VPAD-p20,4096,tobias,sham,typical_day,role,1,0.0026014373,0.999416,8,I worked as a ferry captain.
+VPAD-p20,4096,tobias,sham,typical_day,role,2,0.054742035,0.9615769,15,I worked as a ferry captain.
+VPAD-p20,4096,tobias,sham,typical_day,role,3,0.001104399,0.97810125,9,I worked as a ferry captain.
+VPAD-p20,4096,tobias,sham,weekend,preferences,0,0.01065858,0.0042521292,3,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,sham,weekend,preferences,1,0.012311722,0.0031273158,7,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,sham,weekend,preferences,2,0.0026257257,0.010210896,6,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,sham,weekend,preferences,3,0.0046939426,0.0012002309,8,I prefer quiet places to crowded cities.
+VPAD-p20,4096,odalys,sham,typical_day,role,0,0.00072437664,0.2974865,5,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,sham,typical_day,role,1,0.036211364,0.16263512,11,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,sham,typical_day,role,2,0.0016564882,0.9967205,11,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,sham,typical_day,role,3,0.025071373,0.21142423,9,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,sham,weekend,preferences,0,0.0027294059,0.0035350805,11,I love hot summer weather.
+VPAD-p20,4096,odalys,sham,weekend,preferences,1,0.03060692,0.07078257,5,I love hot summer weather.
+VPAD-p20,4096,odalys,sham,weekend,preferences,2,0.0009545922,0.002095227,4,I love hot summer weather.
+VPAD-p20,4096,odalys,sham,weekend,preferences,3,0.023798639,0.010318599,5,I love hot summer weather.
+VPAD-p20,4096,kenji,sham,typical_day,role,0,0.00051703356,0.0015123055,7,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,sham,typical_day,role,1,0.0006163728,0.9177626,9,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,sham,typical_day,role,2,0.03268882,0.01761607,20,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,sham,typical_day,role,3,0.00074249523,0.91303027,10,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,sham,weekend,preferences,0,0.0016207041,0.9973362,16,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,sham,weekend,preferences,1,0.0054709488,0.99783653,6,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,sham,weekend,preferences,2,0.0024199183,0.9929938,7,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,sham,weekend,preferences,3,0.0071011866,0.9912676,7,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,tobias,distractor,typical_day,role,0,0.002156875,0.8817299,13,I worked as a ferry captain.
+VPAD-p20,4096,tobias,distractor,typical_day,role,1,0.0035078097,0.7550066,8,I worked as a ferry captain.
+VPAD-p20,4096,tobias,distractor,typical_day,role,2,0.0024627123,0.9947312,8,I worked as a ferry captain.
+VPAD-p20,4096,tobias,distractor,typical_day,role,3,0.002771161,0.9974571,8,I worked as a ferry captain.
+VPAD-p20,4096,tobias,distractor,weekend,preferences,0,0.003830364,0.0043749544,14,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,distractor,weekend,preferences,1,0.003557818,0.9127054,12,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,distractor,weekend,preferences,2,0.0031986793,0.0007128927,5,I prefer quiet places to crowded cities.
+VPAD-p20,4096,tobias,distractor,weekend,preferences,3,0.0046939426,0.0012002309,8,I prefer quiet places to crowded cities.
+VPAD-p20,4096,odalys,persona,typical_day,role,0,0.0030462984,0.9987081,11,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,persona,typical_day,role,1,0.0048346613,0.943405,9,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,persona,typical_day,role,2,0.0011856958,0.8384778,7,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,persona,typical_day,role,3,0.013141504,0.9763277,12,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,persona,weekend,preferences,0,0.0049993694,0.018189609,11,I love hot summer weather.
+VPAD-p20,4096,odalys,persona,weekend,preferences,1,0.00063812366,0.004112906,4,I love hot summer weather.
+VPAD-p20,4096,odalys,persona,weekend,preferences,2,0.0023058224,0.0028159833,12,I love hot summer weather.
+VPAD-p20,4096,odalys,persona,weekend,preferences,3,0.00096571964,0.0053032404,8,I love hot summer weather.
+VPAD-p20,4096,odalys,distractor,typical_day,role,0,0.004632477,0.9859783,18,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,distractor,typical_day,role,1,0.00898631,0.6016119,9,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,distractor,typical_day,role,2,0.0036028258,0.970265,10,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,distractor,typical_day,role,3,0.12052128,0.41837862,12,I play piano in jazz clubs.
+VPAD-p20,4096,odalys,distractor,weekend,preferences,0,0.03961076,0.089356,13,I love hot summer weather.
+VPAD-p20,4096,odalys,distractor,weekend,preferences,1,0.00063812366,0.0010626909,3,I love hot summer weather.
+VPAD-p20,4096,odalys,distractor,weekend,preferences,2,0.0026200153,0.010729508,15,I love hot summer weather.
+VPAD-p20,4096,odalys,distractor,weekend,preferences,3,0.00053214375,0.040472854,6,I love hot summer weather.
+VPAD-p20,4096,kenji,persona,typical_day,role,0,0.0017959991,0.72237253,11,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,persona,typical_day,role,1,0.0022785543,0.046125494,6,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,persona,typical_day,role,2,0.002156096,0.9922502,12,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,persona,typical_day,role,3,0.9957153,0.008755695,11,I teach chemistry at a high school.
+VPAD-p20,4096,kenji,persona,weekend,preferences,0,0.0028162498,0.9845328,6,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,persona,weekend,preferences,1,0.0038412681,0.9914282,3,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,persona,weekend,preferences,2,0.0042352965,0.9977017,9,I prefer hiking alone to big group gatherings.
+VPAD-p20,4096,kenji,persona,weekend,preferences,3,0.02644428,0.9836909,6,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,tobias,persona,typical_day,role,0,0.0019919768,0.99930274,3,I worked as a ferry captain.
+VPAD-p20,8192,tobias,persona,typical_day,role,1,0.006370851,0.998757,12,I worked as a ferry captain.
+VPAD-p20,8192,tobias,persona,typical_day,role,2,0.0022499773,0.13988693,11,I worked as a ferry captain.
+VPAD-p20,8192,tobias,persona,typical_day,role,3,0.0008474364,0.99919575,11,I worked as a ferry captain.
+VPAD-p20,8192,tobias,persona,weekend,preferences,0,0.0043495833,0.0006956367,3,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,persona,weekend,preferences,1,0.008706393,0.0011168114,11,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,persona,weekend,preferences,2,0.004547865,0.06201206,13,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,persona,weekend,preferences,3,0.008996689,0.001871172,2,I prefer quiet places to crowded cities.
+VPAD-p20,8192,kenji,distractor,typical_day,role,0,0.00054594193,0.36956826,5,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,distractor,typical_day,role,1,0.0005632221,0.23482971,6,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,distractor,typical_day,role,2,0.0010662467,0.024781723,10,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,distractor,typical_day,role,3,0.0004569765,0.0071980827,8,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,distractor,weekend,preferences,0,0.0018246878,0.99033046,3,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,distractor,weekend,preferences,1,0.004611712,0.85765046,9,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,distractor,weekend,preferences,2,0.001287697,0.99146116,11,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,distractor,weekend,preferences,3,0.00089878,0.61113465,2,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,tobias,neutral,typical_day,role,0,0.00038394242,0.99930274,3,I worked as a ferry captain.
+VPAD-p20,8192,tobias,neutral,typical_day,role,1,0.0018512757,0.9934203,10,I worked as a ferry captain.
+VPAD-p20,8192,tobias,neutral,typical_day,role,2,0.0016048488,0.014751793,10,I worked as a ferry captain.
+VPAD-p20,8192,tobias,neutral,typical_day,role,3,0.0017366788,0.9995994,12,I worked as a ferry captain.
+VPAD-p20,8192,tobias,neutral,weekend,preferences,0,0.00207186,0.0016587967,6,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,neutral,weekend,preferences,1,0.0020646364,0.0021579128,9,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,neutral,weekend,preferences,2,0.002363711,0.98634547,12,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,neutral,weekend,preferences,3,0.008996689,0.001871172,2,I prefer quiet places to crowded cities.
+VPAD-p20,8192,odalys,neutral,typical_day,role,0,0.0014562133,0.92628485,7,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,neutral,typical_day,role,1,0.0059440834,0.8306984,5,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,neutral,typical_day,role,2,0.0022564884,0.9673987,4,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,neutral,typical_day,role,3,0.0015448123,0.991711,7,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,neutral,weekend,preferences,0,0.001894554,0.0013545789,10,I love hot summer weather.
+VPAD-p20,8192,odalys,neutral,weekend,preferences,1,0.0013545429,0.0019076496,9,I love hot summer weather.
+VPAD-p20,8192,odalys,neutral,weekend,preferences,2,0.00077735784,0.0022033115,7,I love hot summer weather.
+VPAD-p20,8192,odalys,neutral,weekend,preferences,3,0.007751493,0.0032946332,8,I love hot summer weather.
+VPAD-p20,8192,kenji,neutral,typical_day,role,0,0.00054594193,0.36956826,5,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,neutral,typical_day,role,1,0.0004903558,0.44295126,7,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,neutral,typical_day,role,2,0.0026146919,0.0015302683,10,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,neutral,typical_day,role,3,0.0004569765,0.0071980827,9,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,neutral,weekend,preferences,0,0.003582758,0.99737203,4,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,neutral,weekend,preferences,1,0.0010576888,0.9901703,3,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,neutral,weekend,preferences,2,0.0012765022,0.99146116,11,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,neutral,weekend,preferences,3,0.00049242825,0.08628097,2,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,tobias,sham,typical_day,role,0,0.0013417811,0.9991954,3,I worked as a ferry captain.
+VPAD-p20,8192,tobias,sham,typical_day,role,1,0.0018548109,0.9983683,12,I worked as a ferry captain.
+VPAD-p20,8192,tobias,sham,typical_day,role,2,0.009695312,0.9987205,14,I worked as a ferry captain.
+VPAD-p20,8192,tobias,sham,typical_day,role,3,0.0014824157,0.9995994,10,I worked as a ferry captain.
+VPAD-p20,8192,tobias,sham,weekend,preferences,0,0.00207186,0.0094785895,11,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,sham,weekend,preferences,1,0.002146306,0.001728412,10,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,sham,weekend,preferences,2,0.0129614305,0.1118626,12,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,sham,weekend,preferences,3,0.009001044,0.001871172,2,I prefer quiet places to crowded cities.
+VPAD-p20,8192,odalys,sham,typical_day,role,0,0.0014601841,0.9667913,6,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,sham,typical_day,role,1,0.0059440834,0.8306984,5,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,sham,typical_day,role,2,0.0019289565,0.976847,5,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,sham,typical_day,role,3,0.0015446821,0.991711,6,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,sham,weekend,preferences,0,0.001894554,0.0013545789,10,I love hot summer weather.
+VPAD-p20,8192,odalys,sham,weekend,preferences,1,0.0013545429,0.0019151001,9,I love hot summer weather.
+VPAD-p20,8192,odalys,sham,weekend,preferences,2,0.002512586,0.0027420095,12,I love hot summer weather.
+VPAD-p20,8192,odalys,sham,weekend,preferences,3,0.007751493,0.0032946332,8,I love hot summer weather.
+VPAD-p20,8192,kenji,sham,typical_day,role,0,0.00054594193,0.36956826,5,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,sham,typical_day,role,1,0.0005347519,0.27673796,6,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,sham,typical_day,role,2,0.00732172,0.0052121975,11,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,sham,typical_day,role,3,0.00044361135,0.1608638,8,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,sham,weekend,preferences,0,0.003582758,0.99737203,5,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,sham,weekend,preferences,1,0.0010576888,0.9901703,3,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,sham,weekend,preferences,2,0.0012765022,0.99146116,11,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,sham,weekend,preferences,3,0.00075986295,0.61113465,5,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,tobias,distractor,typical_day,role,0,0.0003739767,0.99930274,3,I worked as a ferry captain.
+VPAD-p20,8192,tobias,distractor,typical_day,role,1,0.0020351857,0.98305273,11,I worked as a ferry captain.
+VPAD-p20,8192,tobias,distractor,typical_day,role,2,0.0022499773,0.13988693,11,I worked as a ferry captain.
+VPAD-p20,8192,tobias,distractor,typical_day,role,3,0.0014367517,0.94618696,11,I worked as a ferry captain.
+VPAD-p20,8192,tobias,distractor,weekend,preferences,0,0.0048886104,0.0014851291,5,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,distractor,weekend,preferences,1,0.013270765,0.001328654,11,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,distractor,weekend,preferences,2,0.0028342255,0.015329162,9,I prefer quiet places to crowded cities.
+VPAD-p20,8192,tobias,distractor,weekend,preferences,3,0.009001044,0.001871172,2,I prefer quiet places to crowded cities.
+VPAD-p20,8192,odalys,persona,typical_day,role,0,0.0010235215,0.99401975,6,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,persona,typical_day,role,1,0.00092488836,0.6711914,5,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,persona,typical_day,role,2,0.0020255998,0.99732375,5,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,persona,typical_day,role,3,0.0012333315,0.98218507,6,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,persona,weekend,preferences,0,0.0007711851,0.0018096282,5,I love hot summer weather.
+VPAD-p20,8192,odalys,persona,weekend,preferences,1,0.0012600622,0.001450261,3,I love hot summer weather.
+VPAD-p20,8192,odalys,persona,weekend,preferences,2,0.00077735784,0.0022011662,7,I love hot summer weather.
+VPAD-p20,8192,odalys,persona,weekend,preferences,3,0.0013687201,0.0016595015,4,I love hot summer weather.
+VPAD-p20,8192,odalys,distractor,typical_day,role,0,0.0012054452,0.97135925,3,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,distractor,typical_day,role,1,0.00092488836,0.97756344,5,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,distractor,typical_day,role,2,0.0023681978,0.99732375,4,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,distractor,typical_day,role,3,0.0016871057,0.9832392,6,I play piano in jazz clubs.
+VPAD-p20,8192,odalys,distractor,weekend,preferences,0,0.0007711851,0.0026614002,5,I love hot summer weather.
+VPAD-p20,8192,odalys,distractor,weekend,preferences,1,0.0011174239,0.0023316082,3,I love hot summer weather.
+VPAD-p20,8192,odalys,distractor,weekend,preferences,2,0.00077735784,0.0022011662,8,I love hot summer weather.
+VPAD-p20,8192,odalys,distractor,weekend,preferences,3,0.002512586,0.0038264478,7,I love hot summer weather.
+VPAD-p20,8192,kenji,persona,typical_day,role,0,0.00060597196,0.8973758,6,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,persona,typical_day,role,1,0.000734204,0.08356046,5,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,persona,typical_day,role,2,0.0016818023,0.0041646734,11,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,persona,typical_day,role,3,0.00044361135,0.0073459228,6,I teach chemistry at a high school.
+VPAD-p20,8192,kenji,persona,weekend,preferences,0,0.0018246878,0.99033046,3,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,persona,weekend,preferences,1,0.0019982674,0.091260575,4,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,persona,weekend,preferences,2,0.0010262021,0.99146116,11,I prefer hiking alone to big group gatherings.
+VPAD-p20,8192,kenji,persona,weekend,preferences,3,0.00089878,0.61113465,2,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,tobias,persona,typical_day,role,0,0.0006688623,0.7946494,2,I worked as a ferry captain.
+VPAD-p20,16384,tobias,persona,typical_day,role,1,0.0010141212,0.030871224,6,I worked as a ferry captain.
+VPAD-p20,16384,tobias,persona,typical_day,role,2,0.0017983612,0.02572647,5,I worked as a ferry captain.
+VPAD-p20,16384,tobias,persona,typical_day,role,3,0.00064438727,0.95313674,5,I worked as a ferry captain.
+VPAD-p20,16384,tobias,persona,weekend,preferences,0,0.0069867205,0.004541908,2,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,persona,weekend,preferences,1,0.0074849604,0.0006228607,1,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,persona,weekend,preferences,2,0.005145246,0.0018426406,7,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,persona,weekend,preferences,3,0.0025476012,0.004859417,7,I prefer quiet places to crowded cities.
+VPAD-p20,16384,kenji,distractor,typical_day,role,0,0.00034208628,0.0037372066,4,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,distractor,typical_day,role,1,0.00029697685,0.99748826,4,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,distractor,typical_day,role,2,0.0003769773,0.009806502,6,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,distractor,typical_day,role,3,0.00051395356,0.043384474,6,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,distractor,weekend,preferences,0,0.00031906416,0.98322695,1,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,distractor,weekend,preferences,1,0.0023362788,0.9877594,2,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,distractor,weekend,preferences,2,0.0021620132,0.9974388,6,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,distractor,weekend,preferences,3,0.0014107401,0.9895369,9,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,tobias,neutral,typical_day,role,0,0.00072042143,0.098788336,4,I worked as a ferry captain.
+VPAD-p20,16384,tobias,neutral,typical_day,role,1,0.0005517844,0.9925908,5,I worked as a ferry captain.
+VPAD-p20,16384,tobias,neutral,typical_day,role,2,0.002390197,0.90209156,6,I worked as a ferry captain.
+VPAD-p20,16384,tobias,neutral,typical_day,role,3,0.001065433,0.0021078011,6,I worked as a ferry captain.
+VPAD-p20,16384,tobias,neutral,weekend,preferences,0,0.0069867205,0.004541908,1,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,neutral,weekend,preferences,1,0.0074849604,0.0006228607,1,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,neutral,weekend,preferences,2,0.005145246,0.0018426406,8,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,neutral,weekend,preferences,3,0.002764475,0.033184253,8,I prefer quiet places to crowded cities.
+VPAD-p20,16384,odalys,neutral,typical_day,role,0,0.00046675268,0.778637,3,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,neutral,typical_day,role,1,0.0008943403,0.99163014,6,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,neutral,typical_day,role,2,0.00077190006,0.9615033,5,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,neutral,typical_day,role,3,0.0013197572,0.8954288,4,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,neutral,weekend,preferences,0,0.002512586,0.0028150815,7,I love hot summer weather.
+VPAD-p20,16384,odalys,neutral,weekend,preferences,1,0.002512586,0.35090786,8,I love hot summer weather.
+VPAD-p20,16384,odalys,neutral,weekend,preferences,2,0.002512586,0.99490476,6,I love hot summer weather.
+VPAD-p20,16384,odalys,neutral,weekend,preferences,3,0.002512586,0.0033575587,7,I love hot summer weather.
+VPAD-p20,16384,kenji,neutral,typical_day,role,0,0.0003872007,0.0007107815,3,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,neutral,typical_day,role,1,0.00029697685,0.9974873,4,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,neutral,typical_day,role,2,0.00047142146,0.0049175825,3,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,neutral,typical_day,role,3,0.00032736556,0.007071103,6,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,neutral,weekend,preferences,0,0.0009579488,0.9824247,3,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,neutral,weekend,preferences,1,0.0023362788,0.9877594,2,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,neutral,weekend,preferences,2,0.002163099,0.9943955,9,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,neutral,weekend,preferences,3,0.001100092,0.99448615,6,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,tobias,sham,typical_day,role,0,0.00072042143,0.098788336,4,I worked as a ferry captain.
+VPAD-p20,16384,tobias,sham,typical_day,role,1,0.002132761,0.3621951,5,I worked as a ferry captain.
+VPAD-p20,16384,tobias,sham,typical_day,role,2,0.0009241991,0.9136525,5,I worked as a ferry captain.
+VPAD-p20,16384,tobias,sham,typical_day,role,3,0.001065433,0.0021078011,6,I worked as a ferry captain.
+VPAD-p20,16384,tobias,sham,weekend,preferences,0,0.0069867205,0.004541908,1,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,sham,weekend,preferences,1,0.0040135514,0.0011055473,3,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,sham,weekend,preferences,2,0.005145246,0.0018426406,8,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,sham,weekend,preferences,3,0.0025476012,0.004859417,7,I prefer quiet places to crowded cities.
+VPAD-p20,16384,odalys,sham,typical_day,role,0,0.00046675268,0.778637,3,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,sham,typical_day,role,1,0.0008943403,0.99163014,6,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,sham,typical_day,role,2,0.00077190006,0.9615033,5,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,sham,typical_day,role,3,0.0013197572,0.8225702,4,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,sham,weekend,preferences,0,0.002512586,0.003494696,8,I love hot summer weather.
+VPAD-p20,16384,odalys,sham,weekend,preferences,1,0.002512586,0.35090786,8,I love hot summer weather.
+VPAD-p20,16384,odalys,sham,weekend,preferences,2,0.002512586,0.99490476,6,I love hot summer weather.
+VPAD-p20,16384,odalys,sham,weekend,preferences,3,0.002512586,0.0015003337,6,I love hot summer weather.
+VPAD-p20,16384,kenji,sham,typical_day,role,0,0.0003872007,0.0007107815,3,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,sham,typical_day,role,1,0.00067946955,0.9977914,4,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,sham,typical_day,role,2,0.0003769773,0.0020862478,5,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,sham,typical_day,role,3,0.00034372942,0.007071103,5,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,sham,weekend,preferences,0,0.00036163497,0.98815405,4,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,sham,weekend,preferences,1,0.0023362788,0.98770034,2,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,sham,weekend,preferences,2,0.002416749,0.99443036,6,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,sham,weekend,preferences,3,0.001100092,0.99028873,8,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,tobias,distractor,typical_day,role,0,0.0006688623,0.7946494,2,I worked as a ferry captain.
+VPAD-p20,16384,tobias,distractor,typical_day,role,1,0.0017890176,0.4526228,7,I worked as a ferry captain.
+VPAD-p20,16384,tobias,distractor,typical_day,role,2,0.0017983612,0.4014738,6,I worked as a ferry captain.
+VPAD-p20,16384,tobias,distractor,typical_day,role,3,0.00038780746,0.026743487,5,I worked as a ferry captain.
+VPAD-p20,16384,tobias,distractor,weekend,preferences,0,0.009537643,0.00096036406,3,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,distractor,weekend,preferences,1,0.0074849604,0.0006228607,1,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,distractor,weekend,preferences,2,0.005145246,0.0018426406,8,I prefer quiet places to crowded cities.
+VPAD-p20,16384,tobias,distractor,weekend,preferences,3,0.0031576,0.004754027,7,I prefer quiet places to crowded cities.
+VPAD-p20,16384,odalys,persona,typical_day,role,0,0.00082156196,0.5435773,5,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,persona,typical_day,role,1,0.0008943403,0.99163014,6,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,persona,typical_day,role,2,0.16696541,0.51786005,17,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,persona,typical_day,role,3,0.001169028,0.925751,3,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,persona,weekend,preferences,0,0.002512586,0.002265872,6,I love hot summer weather.
+VPAD-p20,16384,odalys,persona,weekend,preferences,1,0.0003900362,0.0031714456,1,I love hot summer weather.
+VPAD-p20,16384,odalys,persona,weekend,preferences,2,0.002512586,0.99490476,8,I love hot summer weather.
+VPAD-p20,16384,odalys,persona,weekend,preferences,3,0.0017234834,0.0023011523,3,I love hot summer weather.
+VPAD-p20,16384,odalys,distractor,typical_day,role,0,0.00076430745,0.98794216,6,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,distractor,typical_day,role,1,0.0008943403,0.99163014,6,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,distractor,typical_day,role,2,0.00061560853,0.99293464,5,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,distractor,typical_day,role,3,0.00089632784,0.9169908,4,I play piano in jazz clubs.
+VPAD-p20,16384,odalys,distractor,weekend,preferences,0,0.002512586,0.0052186367,5,I love hot summer weather.
+VPAD-p20,16384,odalys,distractor,weekend,preferences,1,0.0003948646,0.0031714456,3,I love hot summer weather.
+VPAD-p20,16384,odalys,distractor,weekend,preferences,2,0.002512586,0.0015003337,6,I love hot summer weather.
+VPAD-p20,16384,odalys,distractor,weekend,preferences,3,0.0017234834,0.0023011523,3,I love hot summer weather.
+VPAD-p20,16384,kenji,persona,typical_day,role,0,0.00041612473,0.0019355313,5,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,persona,typical_day,role,1,0.00039173398,0.9993267,5,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,persona,typical_day,role,2,0.00038962194,0.009806502,6,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,persona,typical_day,role,3,0.00036806235,0.0033628175,5,I teach chemistry at a high school.
+VPAD-p20,16384,kenji,persona,weekend,preferences,0,0.00037699385,0.9744717,1,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,persona,weekend,preferences,1,0.0023362788,0.98770034,2,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,persona,weekend,preferences,2,0.0021620132,0.99443036,8,I prefer hiking alone to big group gatherings.
+VPAD-p20,16384,kenji,persona,weekend,preferences,3,0.0012446842,0.9940953,8,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,tobias,persona,typical_day,role,0,0.0012274932,0.99908125,10,I worked as a ferry captain.
+VPAD-p10,4096,tobias,persona,typical_day,role,1,0.0022169617,0.9981019,13,I worked as a ferry captain.
+VPAD-p10,4096,tobias,persona,typical_day,role,2,0.005769199,0.15947214,14,I worked as a ferry captain.
+VPAD-p10,4096,tobias,persona,typical_day,role,3,0.0017740005,0.9937249,8,I worked as a ferry captain.
+VPAD-p10,4096,tobias,persona,weekend,preferences,0,0.0056830053,0.00436767,3,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,persona,weekend,preferences,1,0.017390173,0.04101321,3,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,persona,weekend,preferences,2,0.003999346,0.045647334,7,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,persona,weekend,preferences,3,0.009526513,0.0015529656,4,I prefer quiet places to crowded cities.
+VPAD-p10,4096,kenji,distractor,typical_day,role,0,0.00052971864,0.031529225,11,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,distractor,typical_day,role,1,0.0005449185,0.99900407,11,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,distractor,typical_day,role,2,0.022721171,0.009935467,12,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,distractor,typical_day,role,3,0.0007339369,0.9558725,10,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,distractor,weekend,preferences,0,0.002865263,0.99807644,15,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,distractor,weekend,preferences,1,0.0017076142,0.99278545,5,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,distractor,weekend,preferences,2,0.0016088039,0.99694127,7,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,distractor,weekend,preferences,3,0.0035123727,0.9957147,5,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,tobias,neutral,typical_day,role,0,0.0012274932,0.99908125,10,I worked as a ferry captain.
+VPAD-p10,4096,tobias,neutral,typical_day,role,1,0.0012332179,0.98033434,9,I worked as a ferry captain.
+VPAD-p10,4096,tobias,neutral,typical_day,role,2,0.009130805,0.43688074,12,I worked as a ferry captain.
+VPAD-p10,4096,tobias,neutral,typical_day,role,3,0.01054503,0.99939454,13,I worked as a ferry captain.
+VPAD-p10,4096,tobias,neutral,weekend,preferences,0,0.0113131795,0.001535282,9,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,neutral,weekend,preferences,1,0.00825349,0.013240659,5,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,neutral,weekend,preferences,2,0.023907818,0.044970047,6,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,neutral,weekend,preferences,3,0.0022981712,0.07650893,15,I prefer quiet places to crowded cities.
+VPAD-p10,4096,odalys,neutral,typical_day,role,0,0.0039419625,0.99644756,15,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,neutral,typical_day,role,1,0.031680185,0.049694117,11,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,neutral,typical_day,role,2,0.0043107593,0.886029,11,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,neutral,typical_day,role,3,0.12052128,0.9758597,12,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,neutral,weekend,preferences,0,0.0065454314,0.0013826406,3,I love hot summer weather.
+VPAD-p10,4096,odalys,neutral,weekend,preferences,1,0.0006317949,0.003025922,3,I love hot summer weather.
+VPAD-p10,4096,odalys,neutral,weekend,preferences,2,0.00089463615,0.00794457,7,I love hot summer weather.
+VPAD-p10,4096,odalys,neutral,weekend,preferences,3,0.0003334452,0.013415697,6,I love hot summer weather.
+VPAD-p10,4096,kenji,neutral,typical_day,role,0,0.00062443514,0.13101138,11,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,neutral,typical_day,role,1,0.0004980366,0.98065096,13,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,neutral,typical_day,role,2,0.022721171,0.009261224,14,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,neutral,typical_day,role,3,0.0007421538,0.014259426,12,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,neutral,weekend,preferences,0,0.0033738208,0.9953725,12,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,neutral,weekend,preferences,1,0.0019340279,0.30854204,10,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,neutral,weekend,preferences,2,0.054709185,0.9847563,11,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,neutral,weekend,preferences,3,0.015663132,0.9836909,5,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,tobias,sham,typical_day,role,0,0.012682706,0.9985819,13,I worked as a ferry captain.
+VPAD-p10,4096,tobias,sham,typical_day,role,1,0.00208717,0.98033434,9,I worked as a ferry captain.
+VPAD-p10,4096,tobias,sham,typical_day,role,2,0.0014925643,0.995122,12,I worked as a ferry captain.
+VPAD-p10,4096,tobias,sham,typical_day,role,3,0.003141847,0.99940884,14,I worked as a ferry captain.
+VPAD-p10,4096,tobias,sham,weekend,preferences,0,0.0032182322,0.0010971465,6,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,sham,weekend,preferences,1,0.028410781,0.013240659,4,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,sham,weekend,preferences,2,0.023907818,0.044970047,6,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,sham,weekend,preferences,3,0.009526513,0.0015529656,4,I prefer quiet places to crowded cities.
+VPAD-p10,4096,odalys,sham,typical_day,role,0,0.0013939388,0.9315074,8,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,sham,typical_day,role,1,0.036211364,0.16263512,9,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,sham,typical_day,role,2,0.0015051303,0.9834976,8,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,sham,typical_day,role,3,0.12052128,0.94848424,12,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,sham,weekend,preferences,0,0.0033348126,0.0027566196,5,I love hot summer weather.
+VPAD-p10,4096,odalys,sham,weekend,preferences,1,0.0007032461,0.0025075797,4,I love hot summer weather.
+VPAD-p10,4096,odalys,sham,weekend,preferences,2,0.002056031,0.009859617,9,I love hot summer weather.
+VPAD-p10,4096,odalys,sham,weekend,preferences,3,0.059185058,0.002718561,10,I love hot summer weather.
+VPAD-p10,4096,kenji,sham,typical_day,role,0,0.00052971864,0.026725413,10,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,sham,typical_day,role,1,0.0006185623,0.008507775,16,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,sham,typical_day,role,2,0.022721171,0.009935467,12,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,sham,typical_day,role,3,0.0005151274,0.804744,13,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,sham,weekend,preferences,0,0.007372518,0.98071575,9,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,sham,weekend,preferences,1,0.0019340279,0.96069765,9,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,sham,weekend,preferences,2,0.00899087,0.091653705,7,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,sham,weekend,preferences,3,0.0015412844,0.9836909,7,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,tobias,distractor,typical_day,role,0,0.0011695587,0.99908125,10,I worked as a ferry captain.
+VPAD-p10,4096,tobias,distractor,typical_day,role,1,0.0033117188,0.92529684,12,I worked as a ferry captain.
+VPAD-p10,4096,tobias,distractor,typical_day,role,2,0.026336083,0.53081995,13,I worked as a ferry captain.
+VPAD-p10,4096,tobias,distractor,typical_day,role,3,0.0017740005,0.9993356,8,I worked as a ferry captain.
+VPAD-p10,4096,tobias,distractor,weekend,preferences,0,0.0046071755,0.00069953443,3,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,distractor,weekend,preferences,1,0.00825349,0.013240659,5,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,distractor,weekend,preferences,2,0.0029887338,0.011779819,16,I prefer quiet places to crowded cities.
+VPAD-p10,4096,tobias,distractor,weekend,preferences,3,0.011085687,0.007442578,13,I prefer quiet places to crowded cities.
+VPAD-p10,4096,odalys,persona,typical_day,role,0,0.0012437023,0.9818824,13,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,persona,typical_day,role,1,0.16696541,0.67106086,20,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,persona,typical_day,role,2,0.14067467,0.96970785,14,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,persona,typical_day,role,3,0.0029128832,0.99449676,11,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,persona,weekend,preferences,0,0.0033348126,0.0028492394,5,I love hot summer weather.
+VPAD-p10,4096,odalys,persona,weekend,preferences,1,0.00069846987,0.03856586,4,I love hot summer weather.
+VPAD-p10,4096,odalys,persona,weekend,preferences,2,0.00090434233,0.03975183,9,I love hot summer weather.
+VPAD-p10,4096,odalys,persona,weekend,preferences,3,0.0005797862,0.0017440328,4,I love hot summer weather.
+VPAD-p10,4096,odalys,distractor,typical_day,role,0,0.0009724355,0.9836451,10,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,distractor,typical_day,role,1,0.16696541,0.82476485,17,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,distractor,typical_day,role,2,0.14067467,0.96970785,14,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,distractor,typical_day,role,3,0.0033122022,0.98500085,13,I play piano in jazz clubs.
+VPAD-p10,4096,odalys,distractor,weekend,preferences,0,0.0009372792,0.0017592314,5,I love hot summer weather.
+VPAD-p10,4096,odalys,distractor,weekend,preferences,1,0.0005001162,0.0009982063,3,I love hot summer weather.
+VPAD-p10,4096,odalys,distractor,weekend,preferences,2,0.0020233414,0.0015605873,10,I love hot summer weather.
+VPAD-p10,4096,odalys,distractor,weekend,preferences,3,0.00037455236,0.09216963,5,I love hot summer weather.
+VPAD-p10,4096,kenji,persona,typical_day,role,0,0.00061384885,0.15833734,12,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,persona,typical_day,role,1,0.0014331993,0.9978721,15,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,persona,typical_day,role,2,0.03268882,0.009261224,19,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,persona,typical_day,role,3,0.0012827815,0.9799452,13,I teach chemistry at a high school.
+VPAD-p10,4096,kenji,persona,weekend,preferences,0,0.013644125,0.9948895,18,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,persona,weekend,preferences,1,0.0017076142,0.9977933,5,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,persona,weekend,preferences,2,0.0013033104,0.9981261,8,I prefer hiking alone to big group gatherings.
+VPAD-p10,4096,kenji,persona,weekend,preferences,3,0.004964263,0.98648095,10,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,tobias,persona,typical_day,role,0,0.00032575263,0.9994991,5,I worked as a ferry captain.
+VPAD-p10,8192,tobias,persona,typical_day,role,1,0.00010619857,0.9996038,6,I worked as a ferry captain.
+VPAD-p10,8192,tobias,persona,typical_day,role,2,0.0040061683,0.90827006,7,I worked as a ferry captain.
+VPAD-p10,8192,tobias,persona,typical_day,role,3,0.065450415,0.9726872,30,I worked as a ferry captain.
+VPAD-p10,8192,tobias,persona,weekend,preferences,0,0.004097388,0.017126681,3,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,persona,weekend,preferences,1,0.0060755946,0.9562119,4,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,persona,weekend,preferences,2,0.0046197493,0.0012165714,2,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,persona,weekend,preferences,3,0.0043772445,0.0011621218,3,I prefer quiet places to crowded cities.
+VPAD-p10,8192,kenji,distractor,typical_day,role,0,0.00033985465,0.9978861,4,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,distractor,typical_day,role,1,0.00059327343,0.9987962,6,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,distractor,typical_day,role,2,0.022721171,0.9986915,14,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,distractor,typical_day,role,3,0.0009513034,0.9972976,8,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,distractor,weekend,preferences,0,0.0012593479,0.99794763,5,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,distractor,weekend,preferences,1,0.00048601584,0.97871894,3,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,distractor,weekend,preferences,2,0.0040350757,0.99585897,5,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,distractor,weekend,preferences,3,0.00028953253,0.9866143,3,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,tobias,neutral,typical_day,role,0,0.00032575263,0.9994991,5,I worked as a ferry captain.
+VPAD-p10,8192,tobias,neutral,typical_day,role,1,0.0011193316,0.9996038,5,I worked as a ferry captain.
+VPAD-p10,8192,tobias,neutral,typical_day,role,2,0.0005667703,0.9996507,8,I worked as a ferry captain.
+VPAD-p10,8192,tobias,neutral,typical_day,role,3,7.19951e-05,0.999559,6,I worked as a ferry captain.
+VPAD-p10,8192,tobias,neutral,weekend,preferences,0,0.004097388,0.0052524954,7,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,neutral,weekend,preferences,1,0.00513741,0.001717414,7,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,neutral,weekend,preferences,2,0.0036413006,0.0013474944,6,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,neutral,weekend,preferences,3,0.005365321,0.00073539425,3,I prefer quiet places to crowded cities.
+VPAD-p10,8192,odalys,neutral,typical_day,role,0,0.002690873,0.99880505,5,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,neutral,typical_day,role,1,0.0009336604,0.9972108,5,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,neutral,typical_day,role,2,0.0014369211,0.9974521,4,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,neutral,typical_day,role,3,0.0007744394,0.992219,7,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,neutral,weekend,preferences,0,0.001394959,0.0012262476,6,I love hot summer weather.
+VPAD-p10,8192,odalys,neutral,weekend,preferences,1,0.00032771585,0.0039329208,4,I love hot summer weather.
+VPAD-p10,8192,odalys,neutral,weekend,preferences,2,0.0009008523,0.002389293,4,I love hot summer weather.
+VPAD-p10,8192,odalys,neutral,weekend,preferences,3,0.0013743237,0.001172516,7,I love hot summer weather.
+VPAD-p10,8192,kenji,neutral,typical_day,role,0,0.00071139366,0.32016793,4,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,neutral,typical_day,role,1,0.00049561553,0.9938619,3,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,neutral,typical_day,role,2,0.022721171,0.9986915,15,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,neutral,typical_day,role,3,0.00067736977,0.9991141,9,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,neutral,weekend,preferences,0,0.00044617103,0.9862023,2,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,neutral,weekend,preferences,1,0.00077538815,0.9517116,3,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,neutral,weekend,preferences,2,0.0004894873,0.99093807,2,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,neutral,weekend,preferences,3,0.00041423202,0.9961683,3,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,tobias,sham,typical_day,role,0,0.00047140702,0.999665,7,I worked as a ferry captain.
+VPAD-p10,8192,tobias,sham,typical_day,role,1,0.00015557259,0.9996038,7,I worked as a ferry captain.
+VPAD-p10,8192,tobias,sham,typical_day,role,2,0.00012038876,0.9996557,5,I worked as a ferry captain.
+VPAD-p10,8192,tobias,sham,typical_day,role,3,7.19951e-05,0.9996549,8,I worked as a ferry captain.
+VPAD-p10,8192,tobias,sham,weekend,preferences,0,0.018331675,0.0052524954,8,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,sham,weekend,preferences,1,0.002951128,0.00092167576,7,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,sham,weekend,preferences,2,0.003470183,0.011581749,7,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,sham,weekend,preferences,3,0.0046559405,0.049971968,3,I prefer quiet places to crowded cities.
+VPAD-p10,8192,odalys,sham,typical_day,role,0,0.002690873,0.99880505,8,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,sham,typical_day,role,1,0.003104473,0.9883217,6,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,sham,typical_day,role,2,0.0014369211,0.9974521,8,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,sham,typical_day,role,3,0.0024738382,0.992219,10,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,sham,weekend,preferences,0,0.0013869236,0.010115741,10,I love hot summer weather.
+VPAD-p10,8192,odalys,sham,weekend,preferences,1,0.00032771585,0.0039329208,4,I love hot summer weather.
+VPAD-p10,8192,odalys,sham,weekend,preferences,2,0.004113734,0.00295723,8,I love hot summer weather.
+VPAD-p10,8192,odalys,sham,weekend,preferences,3,0.00073486177,0.0497138,4,I love hot summer weather.
+VPAD-p10,8192,kenji,sham,typical_day,role,0,0.00034013973,0.84552735,6,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,sham,typical_day,role,1,0.00046467665,0.998461,10,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,sham,typical_day,role,2,0.022721171,0.9986915,13,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,sham,typical_day,role,3,0.0006744621,0.9991141,8,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,sham,weekend,preferences,0,0.00084729923,0.9951337,3,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,sham,weekend,preferences,1,0.0005304666,0.97933674,4,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,sham,weekend,preferences,2,0.0040350757,0.99585897,5,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,sham,weekend,preferences,3,0.00071967236,0.768468,3,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,tobias,distractor,typical_day,role,0,0.00032575263,0.9994991,5,I worked as a ferry captain.
+VPAD-p10,8192,tobias,distractor,typical_day,role,1,6.929953e-05,0.9996038,7,I worked as a ferry captain.
+VPAD-p10,8192,tobias,distractor,typical_day,role,2,6.910695e-05,0.99916875,4,I worked as a ferry captain.
+VPAD-p10,8192,tobias,distractor,typical_day,role,3,0.05629856,0.89037836,16,I worked as a ferry captain.
+VPAD-p10,8192,tobias,distractor,weekend,preferences,0,0.035463613,0.0010105385,4,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,distractor,weekend,preferences,1,0.0071417303,0.0007643942,2,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,distractor,weekend,preferences,2,0.0024657117,0.0038152912,14,I prefer quiet places to crowded cities.
+VPAD-p10,8192,tobias,distractor,weekend,preferences,3,0.0046559405,0.049971968,3,I prefer quiet places to crowded cities.
+VPAD-p10,8192,odalys,persona,typical_day,role,0,0.0028052207,0.99880505,6,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,persona,typical_day,role,1,0.0012163102,0.98690873,4,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,persona,typical_day,role,2,0.0017436666,0.9974521,7,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,persona,typical_day,role,3,0.0014200987,0.9926358,11,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,persona,weekend,preferences,0,0.001394959,0.0012262476,6,I love hot summer weather.
+VPAD-p10,8192,odalys,persona,weekend,preferences,1,0.00032789944,0.0009904661,4,I love hot summer weather.
+VPAD-p10,8192,odalys,persona,weekend,preferences,2,0.002521571,0.0019370675,14,I love hot summer weather.
+VPAD-p10,8192,odalys,persona,weekend,preferences,3,0.0004851067,0.0036946544,4,I love hot summer weather.
+VPAD-p10,8192,odalys,distractor,typical_day,role,0,0.0008020877,0.9421337,4,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,distractor,typical_day,role,1,0.0012163102,0.98690873,6,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,distractor,typical_day,role,2,0.0008080728,0.9974521,9,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,distractor,typical_day,role,3,0.00054748723,0.9926358,6,I play piano in jazz clubs.
+VPAD-p10,8192,odalys,distractor,weekend,preferences,0,0.002180503,0.071850635,7,I love hot summer weather.
+VPAD-p10,8192,odalys,distractor,weekend,preferences,1,0.00038719692,0.015115382,5,I love hot summer weather.
+VPAD-p10,8192,odalys,distractor,weekend,preferences,2,0.0005268738,0.0015079567,7,I love hot summer weather.
+VPAD-p10,8192,odalys,distractor,weekend,preferences,3,0.0004999192,0.002902232,4,I love hot summer weather.
+VPAD-p10,8192,kenji,persona,typical_day,role,0,0.00033985465,0.9978861,4,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,persona,typical_day,role,1,0.0015507694,0.99567056,6,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,persona,typical_day,role,2,0.022721171,0.9986915,13,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,persona,typical_day,role,3,0.0009513034,0.9972976,8,I teach chemistry at a high school.
+VPAD-p10,8192,kenji,persona,weekend,preferences,0,0.00043855564,0.9751076,2,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,persona,weekend,preferences,1,0.00039110798,0.99528116,3,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,persona,weekend,preferences,2,0.00066937093,0.9676915,2,I prefer hiking alone to big group gatherings.
+VPAD-p10,8192,kenji,persona,weekend,preferences,3,0.0014480475,0.99722123,5,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,tobias,persona,typical_day,role,0,0.0013765285,0.99943405,6,I worked as a ferry captain.
+VPAD-p10,16384,tobias,persona,typical_day,role,1,0.043629512,0.99784696,13,I worked as a ferry captain.
+VPAD-p10,16384,tobias,persona,typical_day,role,2,0.049350925,0.91881233,13,I worked as a ferry captain.
+VPAD-p10,16384,tobias,persona,typical_day,role,3,0.18478405,0.9907577,18,I worked as a ferry captain.
+VPAD-p10,16384,tobias,persona,weekend,preferences,0,0.0054817833,0.000703199,2,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,persona,weekend,preferences,1,0.0024712435,0.0019703119,4,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,persona,weekend,preferences,2,0.0022168574,0.97556823,2,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,persona,weekend,preferences,3,0.00844932,0.019803591,16,I prefer quiet places to crowded cities.
+VPAD-p10,16384,kenji,distractor,typical_day,role,0,0.0004035428,0.9990778,4,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,distractor,typical_day,role,1,0.00072369794,0.032077786,4,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,distractor,typical_day,role,2,0.056928653,0.17443483,13,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,distractor,typical_day,role,3,0.00083764177,0.99843985,5,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,distractor,weekend,preferences,0,0.0077609853,0.9977608,9,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,distractor,weekend,preferences,1,0.004245799,0.9880845,9,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,distractor,weekend,preferences,2,0.005624754,0.9944471,2,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,distractor,weekend,preferences,3,0.0020329703,0.9146441,13,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,tobias,neutral,typical_day,role,0,0.0036282125,0.19588144,9,I worked as a ferry captain.
+VPAD-p10,16384,tobias,neutral,typical_day,role,1,0.0046832236,0.99916697,13,I worked as a ferry captain.
+VPAD-p10,16384,tobias,neutral,typical_day,role,2,0.0016448494,0.99949324,8,I worked as a ferry captain.
+VPAD-p10,16384,tobias,neutral,typical_day,role,3,0.01760329,0.99532473,17,I worked as a ferry captain.
+VPAD-p10,16384,tobias,neutral,weekend,preferences,0,0.0054817833,0.03179296,16,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,neutral,weekend,preferences,1,0.0050870096,0.00638054,12,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,neutral,weekend,preferences,2,0.08110807,0.06083618,5,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,neutral,weekend,preferences,3,0.0033433826,0.09011417,13,I prefer quiet places to crowded cities.
+VPAD-p10,16384,odalys,neutral,typical_day,role,0,0.008623649,0.99026394,13,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,neutral,typical_day,role,1,0.23548527,0.98273784,20,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,neutral,typical_day,role,2,0.0076920055,0.9878968,15,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,neutral,typical_day,role,3,0.0028277512,0.99778205,13,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,neutral,weekend,preferences,0,0.0044577126,0.010256875,9,I love hot summer weather.
+VPAD-p10,16384,odalys,neutral,weekend,preferences,1,0.020078,0.19220261,18,I love hot summer weather.
+VPAD-p10,16384,odalys,neutral,weekend,preferences,2,0.0082990965,0.0035831027,12,I love hot summer weather.
+VPAD-p10,16384,odalys,neutral,weekend,preferences,3,0.039234444,0.03792286,18,I love hot summer weather.
+VPAD-p10,16384,kenji,neutral,typical_day,role,0,0.001361211,0.9990778,9,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,neutral,typical_day,role,1,0.00037738887,0.032077786,4,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,neutral,typical_day,role,2,0.00978527,0.01139554,12,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,neutral,typical_day,role,3,0.008119337,0.9965539,15,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,neutral,weekend,preferences,0,0.0027151536,0.99511695,25,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,neutral,weekend,preferences,1,0.0011884988,0.004295274,10,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,neutral,weekend,preferences,2,0.005624754,0.9906046,6,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,neutral,weekend,preferences,3,0.017027112,0.957521,20,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,tobias,sham,typical_day,role,0,0.0013765285,0.99943405,6,I worked as a ferry captain.
+VPAD-p10,16384,tobias,sham,typical_day,role,1,0.00071236,0.9991347,4,I worked as a ferry captain.
+VPAD-p10,16384,tobias,sham,typical_day,role,2,0.0015460602,0.9992723,4,I worked as a ferry captain.
+VPAD-p10,16384,tobias,sham,typical_day,role,3,0.0020823628,0.85448515,6,I worked as a ferry captain.
+VPAD-p10,16384,tobias,sham,weekend,preferences,0,0.009161039,0.00048244512,2,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,sham,weekend,preferences,1,0.0056178793,0.0008697307,4,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,sham,weekend,preferences,2,0.08110807,0.06083618,16,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,sham,weekend,preferences,3,0.0033433826,0.001129779,7,I prefer quiet places to crowded cities.
+VPAD-p10,16384,odalys,sham,typical_day,role,0,0.023191478,0.9875672,7,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,sham,typical_day,role,1,0.08619593,0.91663146,11,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,sham,typical_day,role,2,0.016194044,0.9871,13,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,sham,typical_day,role,3,0.0068837004,0.94231164,14,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,sham,weekend,preferences,0,0.33311015,0.9967746,7,I love hot summer weather.
+VPAD-p10,16384,odalys,sham,weekend,preferences,1,0.008737384,0.0018584805,4,I love hot summer weather.
+VPAD-p10,16384,odalys,sham,weekend,preferences,2,0.00071314746,0.0009671714,1,I love hot summer weather.
+VPAD-p10,16384,odalys,sham,weekend,preferences,3,0.073783726,0.014326203,11,I love hot summer weather.
+VPAD-p10,16384,kenji,sham,typical_day,role,0,0.0004201645,0.9990778,4,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,sham,typical_day,role,1,0.0009395319,0.032077786,4,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,sham,typical_day,role,2,0.00978527,0.06347647,7,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,sham,typical_day,role,3,0.0014623132,0.9965539,9,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,sham,weekend,preferences,0,0.041593064,0.9968843,15,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,sham,weekend,preferences,1,0.0033131635,0.011121064,12,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,sham,weekend,preferences,2,0.00068250194,0.9808483,2,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,sham,weekend,preferences,3,0.001454232,0.957521,4,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,tobias,distractor,typical_day,role,0,0.0013765285,0.9993988,6,I worked as a ferry captain.
+VPAD-p10,16384,tobias,distractor,typical_day,role,1,0.0021558232,0.99918574,9,I worked as a ferry captain.
+VPAD-p10,16384,tobias,distractor,typical_day,role,2,0.0019600394,0.9992723,5,I worked as a ferry captain.
+VPAD-p10,16384,tobias,distractor,typical_day,role,3,0.002767137,0.9907577,7,I worked as a ferry captain.
+VPAD-p10,16384,tobias,distractor,weekend,preferences,0,0.0054817833,0.000703199,2,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,distractor,weekend,preferences,1,0.0024712435,0.0019703119,4,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,distractor,weekend,preferences,2,0.00225286,0.0068784733,10,I prefer quiet places to crowded cities.
+VPAD-p10,16384,tobias,distractor,weekend,preferences,3,0.0069274376,0.0027659151,10,I prefer quiet places to crowded cities.
+VPAD-p10,16384,odalys,persona,typical_day,role,0,0.008623649,0.9875672,4,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,persona,typical_day,role,1,0.1135443,0.96232224,7,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,persona,typical_day,role,2,0.043048114,0.9895113,16,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,persona,typical_day,role,3,0.0144766485,0.98295605,9,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,persona,weekend,preferences,0,0.0007823893,0.011672479,1,I love hot summer weather.
+VPAD-p10,16384,odalys,persona,weekend,preferences,1,0.0047407127,0.43431306,16,I love hot summer weather.
+VPAD-p10,16384,odalys,persona,weekend,preferences,2,0.00084491714,0.0070365095,1,I love hot summer weather.
+VPAD-p10,16384,odalys,persona,weekend,preferences,3,0.0019465592,0.0034029984,2,I love hot summer weather.
+VPAD-p10,16384,odalys,distractor,typical_day,role,0,0.008623649,0.9909328,9,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,distractor,typical_day,role,1,0.048232153,0.91663146,13,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,distractor,typical_day,role,2,0.0017525568,0.9883382,8,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,distractor,typical_day,role,3,0.0106998645,0.9828205,7,I play piano in jazz clubs.
+VPAD-p10,16384,odalys,distractor,weekend,preferences,0,0.0033103148,0.0013361825,1,I love hot summer weather.
+VPAD-p10,16384,odalys,distractor,weekend,preferences,1,0.0007854917,0.0019270986,4,I love hot summer weather.
+VPAD-p10,16384,odalys,distractor,weekend,preferences,2,0.0009795658,0.0035831027,2,I love hot summer weather.
+VPAD-p10,16384,odalys,distractor,weekend,preferences,3,0.003534361,0.00284654,13,I love hot summer weather.
+VPAD-p10,16384,kenji,persona,typical_day,role,0,0.0003942024,0.9990778,4,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,persona,typical_day,role,1,0.0026131338,0.032077786,4,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,persona,typical_day,role,2,0.010510955,0.056523494,6,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,persona,typical_day,role,3,0.001203555,0.99843985,7,I teach chemistry at a high school.
+VPAD-p10,16384,kenji,persona,weekend,preferences,0,0.015207213,0.99876946,17,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,persona,weekend,preferences,1,0.0033131635,0.22351791,14,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,persona,weekend,preferences,2,0.00068250194,0.7617269,2,I prefer hiking alone to big group gatherings.
+VPAD-p10,16384,kenji,persona,weekend,preferences,3,0.0001671712,0.98333573,1,I prefer hiking alone to big group gatherings.

@@ -1,0 +1,9 @@
+model,length,persona_id,condition,prompt_id,replica,finish_reason,empty,truncated,repeat_ratio,degenerate,non_text,any_bad
+WD,4096,tobias,persona,typical_day,0,stop,False,False,0.0,False,False,False
+WD,4096,tobias,persona,weekend,0,stop,False,False,0.014925373134328401,False,False,False
+WD,4096,tobias,neutral,typical_day,0,length,False,True,0.004878048780487809,False,False,False
+WD,4096,tobias,neutral,weekend,0,stop,False,False,0.015151515151515138,False,False,False
+WD,4096,tobias,sham,typical_day,0,length,False,True,0.0,False,False,False
+WD,4096,tobias,sham,weekend,0,stop,False,False,0.03200000000000003,False,False,False
+WD,4096,tobias,distractor,typical_day,0,stop,False,False,0.0,False,False,False
+WD,4096,tobias,distractor,weekend,0,stop,False,False,0.025316455696202556,False,False,False

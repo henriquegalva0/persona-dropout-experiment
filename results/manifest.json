@@ -1,0 +1,116 @@
+{
+  "tokenizer": {
+    "vocab_sha256": "81829a645c7a8bc93954b59ad94b6da0a0213b231d17846dd991cff80efdc09a",
+    "added_tokens_sha256": "75ccee3c098157625d36fdeeb1d0f03cf980a5779c92f0939bf6d029e3eb4f25",
+    "merges_sha256": "37b3d4d8b3121015424ef2348f82f47384d7b47ca2719ec7e14b8eb4762747db",
+    "vocab_size": 128000
+  },
+  "environment": {
+    "python": "3.12.13",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "libraries": {
+      "torch": "2.14.1",
+      "transformers": "5.21.0",
+      "huggingface_hub": "2.3.0",
+      "tokenizers": "0.23.3",
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "scipy": "1.18.1",
+      "httpx": "0.28.1"
+    }
+  },
+  "models": [
+    {
+      "id": "vapavlo/SmolLM3-SWA-WD",
+      "label": "WD",
+      "revision": "4f090d3480f95d9b73c30da63a5828dd48eca8b6"
+    },
+    {
+      "id": "vapavlo/SmolLM3-SWA-pre-norm-p30",
+      "label": "PN-D-p30",
+      "revision": "724ade59f4ef5fc8093d1d45c50664f7161052d5"
+    },
+    {
+      "id": "vapavlo/SmolLM3-SWA-pre-linear-p30",
+      "label": "PL-D-p30",
+      "revision": "c31e966d9efe3f89f2ed049910d7862c5ce91fb4"
+    },
+    {
+      "id": "vapavlo/SmolLM3-SWA-VPAD-p10",
+      "label": "VPAD-p10",
+      "revision": "c54671ccaef8305822776b27aabbc80f53b400b5"
+    },
+    {
+      "id": "vapavlo/SmolLM3-SWA-VPAD-p20",
+      "label": "VPAD-p20",
+      "revision": "0843d7c6bbbf5f9ad6d982976560ed44062de9b1"
+    },
+    {
+      "id": "vapavlo/SmolLM3-SWA-VPAD-p30",
+      "label": "VPAD-p30",
+      "revision": "109e2bae0e8ec25b138d7e80f7f492c2bcef15d3"
+    }
+  ],
+  "embeddings": {
+    "model": "intfloat/multilingual-e5-base",
+    "revision": "d128750597153bb5987e10b1c3493a34e5a4502a"
+  },
+  "nli": {
+    "model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb"
+  },
+  "seed": 20261027,
+  "personas_sha256": "90ef799f46d0445995ad20936f76fa5c7f5eb77a5b0112a9638eb44146f6ad23",
+  "filler": {
+    "dataset": "HuggingFaceH4/ultrachat_200k",
+    "revision": "8049631c405ae6576f93f445c6b8166f76f5505a",
+    "file": "data/train_sft-00000-of-00003-a3ecf92756993583.parquet",
+    "seed": 20261027,
+    "sha256": "e2c8ae18e18a178c6705587ad551df1292c6ee30d06eeb1a6ca297cdf7f81f91",
+    "n_exchanges": 305,
+    "n_dialogs": 108,
+    "n_tokens": 70140
+  },
+  "segments": {
+    "4096": {
+      "filler_tokens": 3512,
+      "filler_exchanges": 19,
+      "header_tokens": {
+        "min": 13,
+        "max": 177
+      }
+    },
+    "8192": {
+      "filler_tokens": 7590,
+      "filler_exchanges": 38,
+      "header_tokens": {
+        "min": 13,
+        "max": 177
+      }
+    },
+    "16384": {
+      "filler_tokens": 15799,
+      "filler_exchanges": 75,
+      "header_tokens": {
+        "min": 13,
+        "max": 177
+      }
+    },
+    "32768": {
+      "filler_tokens": 32008,
+      "filler_exchanges": 144,
+      "header_tokens": {
+        "min": 13,
+        "max": 177
+      }
+    },
+    "65536": {
+      "filler_tokens": 65029,
+      "filler_exchanges": 283,
+      "header_tokens": {
+        "min": 13,
+        "max": 177
+      }
+    }
+  }
+}
